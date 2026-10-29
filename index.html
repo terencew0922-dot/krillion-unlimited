@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Krillion Unlimited</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: the page is a dive. Left = the game, right = a live depth gauge where every answer sinks to how niche it is. */
+:root {
+  --surface: #0f4c5c;      /* sunlit water */
+  --deep: #061a26;         /* page ground */
+  --abyss: #02080d;        /* hadal floor */
+  --ink: #e6f1f2;          /* main text */
+  --muted: #8fb0b8;        /* secondary text */
+  --line: #1d4250;         /* hairlines */
+  --panel: #0a2532;        /* raised water */
+  --krill: #ff8f7e;        /* accent: krill pink */
+  --glow: #9ef0e1;         /* bioluminescence, used for found-marker glow */
+  --bad: #ff6b6b;
+  --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body {
+  margin: 0;
+  background: var(--deep);
+  background-image: linear-gradient(180deg, var(--surface) 0, var(--deep) 520px, var(--abyss) 100%);
+  background-attachment: fixed;
+  color: var(--ink);
+  font: 16px/1.5 var(--font-body);
+}
+.wrap {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--krill); outline-offset: 2px; }
+
+/* header */
+.top { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.brand { display: flex; flex-direction: column; gap: 2px; cursor: pointer; background: none; border: 0; padding: 0; text-align: left; }
+.brand h1 {
+  margin: 0; font: 800 clamp(40px, 7vw, 76px)/0.9 var(--font-display);
+  letter-spacing: -0.03em; text-wrap: balance;
+}
+.brand h1 em { font-style: normal; color: var(--krill); }
+.brand span { font: 500 12px var(--font-mono); letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+.modes { display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 999px; background: color-mix(in srgb, var(--panel) 70%, transparent); }
+.modes button { border: 0; background: none; padding: 6px 14px; border-radius: 999px; font-size: 14px; color: var(--muted); }
+.modes button[aria-pressed="true"] { background: var(--krill); color: var(--abyss); font-weight: 700; }
+
+.lede { max-width: 62ch; color: var(--muted); margin: 18px 0 0; }
+.lede b { color: var(--ink); }
+
+/* zone legend */
+.zones { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin: 26px 0 30px; border-radius: 10px; overflow: hidden; border: 1px solid var(--line); }
+.zones div { padding: 10px 12px; font-size: 13px; min-width: 0; }
+.zones b { display: block; font: 700 14px var(--font-display); }
+.zones small { font: 400 11px var(--font-mono); color: var(--muted); }
+.z0 { background: #13627a; } .z1 { background: #0e4458; } .z2 { background: #0a2c3c; } .z3 { background: #061a25; } .z4 { background: #030b11; }
+@media (max-width: 620px) { .zones { grid-template-columns: 1fr 1fr; } .zones div:last-child { grid-column: span 2; } }
+
+/* category grid */
+.gridhead { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+.gridhead h2 { margin: 0; font: 700 22px var(--font-display); }
+.btn {
+  border: 1px solid var(--krill); background: var(--krill); color: var(--abyss);
+  padding: 10px 18px; border-radius: 999px; font-weight: 700;
+}
+.btn.ghost { background: transparent; color: var(--krill); }
+.btn:hover { filter: brightness(1.08); }
+.cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
+.cat {
+  text-align: left; background: color-mix(in srgb, var(--panel) 85%, transparent);
+  border: 1px solid var(--line); border-radius: 12px; padding: 14px 14px 12px;
+  display: flex; flex-direction: column; gap: 6px; min-width: 0; transition: border-color .15s, transform .15s;
+}
+.cat:hover { border-color: var(--krill); transform: translateY(-2px); }
+.cat b { font: 700 17px/1.2 var(--font-display); }
+.cat p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.35; }
+.cat .meta { display: flex; justify-content: space-between; font: 400 12px var(--font-mono); color: var(--muted); margin-top: auto; padding-top: 6px; }
+.cat .meta .best { color: var(--glow); }
+
+/* game */
+.game { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 28px; margin-top: 24px; }
+@media (max-width: 820px) { .game { grid-template-columns: minmax(0, 1fr); } }
+.prompt { font: 400 13px var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.catname { font: 800 clamp(30px, 5vw, 48px)/1 var(--font-display); margin: 6px 0 4px; letter-spacing: -0.02em; text-wrap: balance; }
+.hud { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 18px 0; }
+.hud div { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; background: color-mix(in srgb, var(--panel) 80%, transparent); }
+.hud small { display: block; font: 400 11px var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.hud strong { font: 700 26px var(--font-display); font-variant-numeric: tabular-nums; }
+.hud .low strong { color: var(--bad); }
+.entry { position: relative; }
+.entry input {
+  width: 100%; padding: 16px 18px; font-size: 20px; border-radius: 12px;
+  border: 2px solid var(--line); background: var(--abyss); outline: none;
+}
+.entry input:focus { border-color: var(--krill); }
+.entry input.shake { animation: shake .3s; border-color: var(--bad); }
+@keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.toast { min-height: 24px; margin: 8px 2px 0; font-size: 14px; color: var(--muted); }
+.toast.good { color: var(--glow); } .toast.bad { color: var(--bad); }
+.row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+
+.feed { list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.feed li {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 12px; align-items: baseline;
+  padding: 8px 12px; border-radius: 8px; background: color-mix(in srgb, var(--panel) 75%, transparent);
+  border-left: 4px solid var(--zc, var(--line)); animation: drop .35s ease-out;
+}
+.feed li span:first-child { overflow-wrap: anywhere; font-weight: 700; }
+.feed .d { font: 400 13px var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.feed .p { font: 500 13px var(--font-mono); color: var(--krill); font-variant-numeric: tabular-nums; min-width: 4ch; text-align: right; }
+@keyframes drop { from { transform: translateY(-8px); opacity: .3; } }
+
+/* depth gauge */
+.gauge { position: relative; height: 640px; border-radius: 14px; overflow: hidden; border: 1px solid var(--line);
+  background: linear-gradient(180deg, #1a7f95 0%, #13627a 12%, #0e4458 30%, #0a2c3c 52%, #061a25 74%, #02070b 100%); }
+@media (max-width: 820px) { .gauge { height: 420px; } }
+.gauge .zl { position: absolute; left: 0; right: 0; border-top: 1px dashed rgba(230,241,242,.18); font: 400 10px var(--font-mono); color: rgba(230,241,242,.5); padding: 2px 8px; letter-spacing: .08em; text-transform: uppercase; }
+.gauge .mk { position: absolute; left: 50%; width: 8px; height: 8px; margin: -4px 0 0 -4px; border-radius: 50%; background: var(--glow); box-shadow: 0 0 10px var(--glow); animation: sink .8s cubic-bezier(.2,.7,.3,1); }
+.gauge .lb { position: absolute; font: 500 11px/1.1 var(--font-mono); white-space: nowrap; max-width: 46%; overflow: hidden; text-overflow: ellipsis; color: var(--ink); text-shadow: 0 1px 2px #000; }
+.gauge .lb.l { right: calc(50% + 10px); text-align: right; }
+.gauge .lb.r { left: calc(50% + 10px); }
+.gauge .lb.new { color: var(--krill); }
+.gauge .missed { background: transparent; border: 1px solid rgba(230,241,242,.35); box-shadow: none; animation: none; }
+@keyframes sink { from { top: 0; opacity: 0; } }
+.krill { position: absolute; left: 50%; top: 4px; transform: translateX(-50%); font: 400 10px var(--font-mono); color: rgba(255,255,255,.7); }
+
+/* results */
+.verdict { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 20px; align-items: center; margin: 18px 0 8px; padding: 18px; border-radius: 14px; border: 1px solid var(--line); background: color-mix(in srgb, var(--panel) 85%, transparent); }
+@media (max-width: 520px) { .verdict { grid-template-columns: 1fr; } }
+.verdict .big { font: 800 64px/0.9 var(--font-display); color: var(--krill); font-variant-numeric: tabular-nums; }
+.verdict .big small { display: block; font: 400 12px var(--font-mono); color: var(--muted); letter-spacing: .12em; text-transform: uppercase; margin-top: 6px; }
+.verdict h3 { margin: 0 0 4px; font: 700 24px var(--font-display); }
+.verdict p { margin: 0; color: var(--muted); }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 20px; }
+@media (max-width: 620px) { .cols { grid-template-columns: 1fr; } }
+.cols h4 { margin: 0 0 8px; font: 700 15px var(--font-display); }
+.cols h4 small { font: 400 12px var(--font-body); color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); font-size: 13px; background: color-mix(in srgb, var(--panel) 80%, transparent); }
+.chip.got { border-color: var(--glow); color: var(--glow); }
+details.all { margin-top: 22px; border-top: 1px solid var(--line); padding-top: 14px; }
+details.all summary { cursor: pointer; font: 700 15px var(--font-display); }
+.zonelist { margin-top: 12px; display: flex; flex-direction: column; gap: 14px; }
+.zonelist h5 { margin: 0 0 6px; font: 500 11px var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <button class="brand" id="home" aria-label="Back to categories">
+      <h1>Krillion <em>Unlimited</em></h1>
+      <span>How deep does your knowledge go?</span>
+    </button>
+    <div class="modes" role="group" aria-label="Round length">
+      <button id="m60" data-mode="60">60 s</button>
+      <button id="m120" data-mode="120">2 min</button>
+      <button id="m0" data-mode="0">Untimed</button>
+    </div>
+  </header>
+
+  <main id="view"></main>
+</div>
+
+<script>
+/* ---------- data: each list runs from most common answer to most niche. "a|b" = name|alias ---------- */
+const CATS = [
+{ id:"countries", name:"Countries", blurb:"Sovereign states of the world.", items:`United States|usa|us|america|united states of america;China;Canada;Mexico;Brazil;United Kingdom|uk|britain|great britain;France;Germany;Japan;Italy;Spain;India;Russia;Australia;Egypt;Argentina;South Africa;Ireland;Portugal;Greece;Sweden;Norway;Netherlands|holland;Switzerland;Poland;Turkey|turkiye;South Korea|korea;North Korea;Israel;Iran;Iraq;Saudi Arabia;Nigeria;Kenya;Peru;Chile;Colombia;Cuba;Jamaica;Vietnam;Thailand;Philippines;Indonesia;New Zealand;Ukraine;Belgium;Austria;Denmark;Finland;Pakistan;Afghanistan;Venezuela;Morocco;Ethiopia;Iceland;Hungary;Czechia|czech republic;Romania;Ghana;Syria;Ecuador;Bolivia;Uruguay;Paraguay;Bangladesh;Nepal;Malaysia;Singapore;Sri Lanka;Croatia;Serbia;Bulgaria;Haiti;Dominican Republic;Qatar;United Arab Emirates|uae;Kuwait;Jordan;Lebanon;Libya;Algeria;Tunisia;Sudan;Somalia;Uganda;Tanzania;Rwanda;Zimbabwe;Zambia;Madagascar;Mongolia;Kazakhstan;Uzbekistan;Myanmar|burma;Cambodia;Laos;Taiwan;Costa Rica;Panama;Guatemala;Honduras;Nicaragua;El Salvador;Belize;Bahamas;Barbados;Trinidad and Tobago;Luxembourg;Monaco;Liechtenstein;San Marino;Vatican City|vatican|holy see;Andorra;Malta;Cyprus;Estonia;Latvia;Lithuania;Belarus;Moldova;Slovakia;Slovenia;Bosnia and Herzegovina|bosnia;Montenegro;North Macedonia|macedonia;Albania;Kosovo;Georgia;Armenia;Azerbaijan;Turkmenistan;Kyrgyzstan;Tajikistan;Oman;Yemen;Bahrain;Bhutan;Maldives;Brunei;East Timor|timor-leste;Papua New Guinea;Fiji;Samoa;Tonga;Vanuatu;Solomon Islands;Kiribati;Tuvalu;Nauru;Palau;Marshall Islands;Micronesia;Senegal;Mali;Niger;Chad;Cameroon;Ivory Coast|cote d'ivoire;Angola;Mozambique;Namibia;Botswana;Lesotho;Eswatini|swaziland;Malawi;DR Congo|democratic republic of the congo|drc|congo-kinshasa;Republic of the Congo|congo|congo-brazzaville;Gabon;Equatorial Guinea;Central African Republic;South Sudan;Eritrea;Djibouti;Burundi;Liberia;Sierra Leone;Guinea;Guinea-Bissau;Gambia;Mauritania;Burkina Faso;Togo;Benin;Cape Verde|cabo verde;Comoros;Mauritius;Seychelles;Sao Tome and Principe;Guyana;Suriname;Grenada;Saint Lucia;Saint Vincent and the Grenadines;Saint Kitts and Nevis;Antigua and Barbuda;Dominica`,
+  nope:{england:"England is part of the United Kingdom — try that.",scotland:"Scotland is part of the United Kingdom.",wales:"Wales is part of the United Kingdom.",greenland:"Greenland belongs to the Kingdom of Denmark.",puertorico:"Puerto Rico is a U.S. territory.",hongkong:"Hong Kong is part of China.",palestine:"Palestine isn't counted on this list (UN observer state)."} },
+
+{ id:"states", name:"U.S. States", blurb:"All fifty. Some hide better than others.", items:`California;Texas;New York;Florida;Hawaii;Alaska;Washington;Nevada;Arizona;Colorado;Illinois;Georgia;Ohio;Michigan;Massachusetts;Pennsylvania;New Jersey;Oregon;Utah;Louisiana;Tennessee;Virginia;North Carolina;South Carolina;Kentucky;Alabama;Mississippi;Minnesota;Wisconsin;Indiana;Missouri;Oklahoma;Kansas;Iowa;Nebraska;Montana;Idaho;Wyoming;New Mexico;Maine;Vermont;New Hampshire;Connecticut;Rhode Island;Maryland;Delaware;West Virginia;Arkansas;North Dakota;South Dakota`,
+  nope:{puertorico:"Puerto Rico is a territory, not a state.",washingtondc:"D.C. is a federal district, not a state.",dc:"D.C. is a federal district, not a state."} },
+
+{ id:"elements", name:"Chemical Elements", blurb:"All 118 on the periodic table.", items:`Hydrogen;Oxygen;Carbon;Helium;Nitrogen;Gold;Silver;Iron;Copper;Sodium;Chlorine;Calcium;Uranium;Lead;Aluminum|aluminium;Zinc;Neon;Mercury;Potassium;Plutonium;Platinum;Lithium;Magnesium;Sulfur|sulphur;Phosphorus;Tin;Silicon;Nickel;Titanium;Fluorine;Iodine;Argon;Radon;Cobalt;Chromium;Tungsten;Radium;Krypton;Xenon;Boron;Beryllium;Manganese;Arsenic;Bromine;Cesium|caesium;Barium;Strontium;Bismuth;Cadmium;Selenium;Palladium;Thorium;Francium;Polonium;Americium;Einsteinium;Vanadium;Gallium;Germanium;Rubidium;Osmium;Iridium;Rhodium;Antimony;Tellurium;Molybdenum;Zirconium;Scandium;Yttrium;Neodymium;Cerium;Europium;Curium;Nobelium;Mendelevium;Californium;Berkelium;Fermium;Indium;Thallium;Tantalum;Niobium;Hafnium;Rhenium;Ruthenium;Technetium;Astatine;Actinium;Protactinium;Neptunium;Lanthanum;Praseodymium;Promethium;Samarium;Gadolinium;Terbium;Dysprosium;Holmium;Erbium;Thulium;Ytterbium;Lutetium;Lawrencium;Rutherfordium;Dubnium;Seaborgium;Bohrium;Hassium;Meitnerium;Darmstadtium;Roentgenium;Copernicium;Nihonium;Flerovium;Moscovium;Livermorium;Tennessine;Oganesson` },
+
+{ id:"pokemon", name:"Gen 1 Pokémon", blurb:"The original Kanto 151.", items:`Pikachu;Charizard;Bulbasaur;Charmander;Squirtle;Mewtwo;Mew;Eevee;Jigglypuff;Snorlax;Gengar;Psyduck;Meowth;Magikarp;Gyarados;Dragonite;Blastoise;Venusaur;Ditto;Lapras;Onix;Pidgey;Rattata;Caterpie;Butterfree;Charmeleon;Wartortle;Ivysaur;Raichu;Vaporeon;Jolteon;Flareon;Articuno;Zapdos;Moltres;Machamp;Alakazam;Abra;Geodude;Golem;Slowpoke;Vulpix;Ninetales;Growlithe;Arcanine;Cubone;Marowak;Haunter;Gastly;Koffing;Weezing;Ekans;Arbok;Clefairy;Clefable;Staryu;Starmie;Horsea;Seadra;Goldeen;Seaking;Tentacool;Tentacruel;Zubat;Golbat;Oddish;Gloom;Vileplume;Bellsprout;Weepinbell;Victreebel;Diglett;Dugtrio;Mankey;Primeape;Poliwag;Poliwhirl;Poliwrath;Machop;Machoke;Kadabra;Graveler;Ponyta;Rapidash;Slowbro;Magnemite;Magneton;Farfetch'd;Doduo;Dodrio;Seel;Dewgong;Grimer;Muk;Shellder;Cloyster;Drowzee;Hypno;Krabby;Kingler;Voltorb;Electrode;Exeggcute;Exeggutor;Hitmonlee;Hitmonchan;Lickitung;Rhyhorn;Rhydon;Chansey;Tangela;Kangaskhan;Mr. Mime;Scyther;Jynx;Electabuzz;Magmar;Pinsir;Tauros;Porygon;Omanyte;Omastar;Kabuto;Kabutops;Aerodactyl;Dratini;Dragonair;Pidgeotto;Pidgeot;Raticate;Spearow;Fearow;Sandshrew;Sandslash;Nidoran;Nidorina;Nidoqueen;Nidorino;Nidoking;Wigglytuff;Paras;Parasect;Venonat;Venomoth;Metapod;Kakuna;Beedrill;Weedle;Persian;Golduck`,
+  nope:{togepi:"Togepi debuted in Gen 2.",lucario:"Lucario is Gen 4.",pichu:"Pichu is a Gen 2 baby.",umbreon:"Umbreon is Gen 2.",espeon:"Espeon is Gen 2.",greninja:"Greninja is Gen 6."} },
+
+{ id:"dogs", name:"Dog Breeds", blurb:"From the dog park to the kennel-club fringe.", items:`Labrador Retriever|labrador|lab;Golden Retriever|golden;German Shepherd;Poodle;Bulldog|english bulldog;Beagle;Chihuahua;Pug;Siberian Husky|husky;Dachshund|wiener dog|sausage dog;Rottweiler;Boxer;Pit Bull|pitbull|american pit bull terrier;Great Dane;Border Collie;Yorkshire Terrier|yorkie;Shih Tzu;Dalmatian;Corgi|pembroke welsh corgi|welsh corgi;French Bulldog|frenchie;Doberman|doberman pinscher;Pomeranian;Maltese;Saint Bernard;Greyhound;Australian Shepherd|aussie;Bernese Mountain Dog;Cocker Spaniel;Shiba Inu;Akita;Bichon Frise;Basset Hound;Bloodhound;Rough Collie|collie;Schnauzer|miniature schnauzer;Jack Russell Terrier|jack russell;Newfoundland;Mastiff;Samoyed;Alaskan Malamute|malamute;Cavalier King Charles Spaniel|cavalier;Boston Terrier;Whippet;Weimaraner;Vizsla;Afghan Hound;Chow Chow;Shar Pei;Pekingese;Lhasa Apso;Papillon;Bull Terrier;Irish Setter;Irish Wolfhound;Great Pyrenees;Cane Corso;Belgian Malinois|malinois;Rhodesian Ridgeback;Basenji;Borzoi;Saluki;Shetland Sheepdog|sheltie;Old English Sheepdog;West Highland White Terrier|westie;Scottish Terrier|scottie;Airedale Terrier|airedale;English Springer Spaniel|springer spaniel;Brittany;German Shorthaired Pointer|pointer;Havanese;Italian Greyhound;Miniature Pinscher|min pin;Leonberger;Tibetan Mastiff;Xoloitzcuintli|xolo;Komondor;Puli;Bedlington Terrier;Dandie Dinmont Terrier;Lagotto Romagnolo;Norwegian Lundehund;Azawakh;Otterhound;Catahoula Leopard Dog|catahoula;Kooikerhondje;Mudi;Sloughi;Peruvian Inca Orchid;Chinook;Bergamasco;Stabyhoun;Thai Ridgeback;Kai Ken`,
+  nope:{labradoodle:"Labradoodles are a cross, not a recognized breed.",goldendoodle:"Goldendoodles are a cross, not a recognized breed.",cockapoo:"Cockapoos are a cross, not a recognized breed.",wolf:"Wolves are not a dog breed."} },
+
+{ id:"fruits", name:"Fruits", blurb:"Grocery aisle to tropical market stall.", items:`Apple;Banana;Orange;Strawberry;Grape;Watermelon;Pineapple;Mango;Pear;Peach;Cherry;Blueberry;Lemon;Lime;Raspberry;Kiwi|kiwifruit;Coconut;Plum;Cantaloupe;Grapefruit;Avocado;Pomegranate;Papaya;Apricot;Blackberry;Cranberry;Tomato;Fig;Honeydew;Nectarine;Tangerine;Clementine;Date;Passion Fruit;Dragon Fruit|pitaya;Lychee|litchi;Guava;Persimmon;Starfruit|carambola;Gooseberry;Mandarin;Kumquat;Jackfruit;Durian;Elderberry;Mulberry;Boysenberry;Quince;Rambutan;Mangosteen;Plantain;Currant|blackcurrant|redcurrant;Huckleberry;Loquat;Tamarind;Yuzu;Feijoa;Ackee;Cherimoya;Soursop|guanabana;Salak|snake fruit;Longan;Pawpaw;Jabuticaba;Buddha's Hand;Ugli Fruit;Medlar;Cloudberry;Lingonberry;Sapodilla;Miracle Fruit|miracle berry;Kiwano|horned melon;Rambai;Langsat;Marula;Santol;Jujube;Physalis|ground cherry|cape gooseberry;Pitanga|surinam cherry;Bilberry` },
+
+{ id:"marvel", name:"Marvel Characters", blurb:"Heroes, villains and deep-cut oddballs.", items:`Spider-Man|spiderman|peter parker;Iron Man|tony stark;Captain America|steve rogers;Thor;Hulk|bruce banner;Black Widow|natasha romanoff;Wolverine|logan;Thanos;Loki;Deadpool;Black Panther|tchalla;Doctor Strange;Hawkeye;Groot;Rocket Raccoon|rocket;Star-Lord|starlord;Gamora;Scarlet Witch|wanda;Vision;Ant-Man|antman;Captain Marvel|carol danvers;Venom;Magneto;Professor X|charles xavier;Storm;Falcon;Winter Soldier|bucky;Nick Fury;Daredevil;Punisher;Silver Surfer;Drax;Nebula;Mystique;Cyclops;Jean Grey|phoenix;Wasp;Ultron;Green Goblin;Doctor Octopus|doc ock;Galactus;Red Skull;Mantis;Shang-Chi;Moon Knight;Ghost Rider;Gambit;Rogue;Beast;Iceman;Nightcrawler;Jessica Jones;Luke Cage;Iron Fist;She-Hulk;Ms. Marvel|kamala khan;Kang|kang the conqueror;Hela;Valkyrie;Mephisto;Doctor Doom;Mister Fantastic|reed richards;Invisible Woman|sue storm;Human Torch;The Thing;Namor;Blade;Carnage;Kraven;Mysterio;Sandman;Electro;Vulture;Rhino;Lizard;Juggernaut;Colossus;Psylocke;Cable;Domino;Apocalypse;Sabretooth;Elektra;Kingpin;Bullseye;Squirrel Girl;Howard the Duck;Taskmaster;MODOK;Nova;Adam Warlock;Hercules;Morbius;Moon Girl;Devil Dinosaur;Jubilee;Dazzler;Northstar;Sentry;Quasar;Man-Thing;Ego;Beta Ray Bill;Cosmo;Arnim Zola;Batroc;Gwenpool;Speedball;Throg;Jeff the Land Shark;Doop;Paste-Pot Pete;Forbush Man`,
+  nope:{batman:"Batman is DC.",superman:"Superman is DC.",wonderwoman:"Wonder Woman is DC.",joker:"The Joker is DC.",flash:"The Flash is DC.",aquaman:"Aquaman is DC."} },
+
+{ id:"langs", name:"Programming Languages", blurb:"Production stalwarts to esoteric jokes.", items:`Python;JavaScript|js;Java;C;C++|cpp;C#|csharp;SQL;Ruby;PHP;Swift;Go|golang;Rust;Kotlin;TypeScript|ts;R;MATLAB;Perl;Scala;Assembly|asm;Bash|shell;Lua;Haskell;Objective-C;Visual Basic|vb|vba;Dart;Fortran;COBOL;Pascal;Lisp|common lisp;Julia;Elixir;Erlang;Clojure;F#;Groovy;Prolog;Scratch;BASIC;Delphi;Ada;OCaml;Zig;PowerShell;Solidity;Scheme;Racket;Smalltalk;Nim;Crystal;Elm;D;Haxe;Tcl;AWK;Forth;APL;Brainfuck;Logo;Simula;ALGOL;Mojo;V|vlang;Gleam;Odin;Carbon;Raku|perl 6;Idris;Agda;Coq|rocq;Lean;PureScript;Chapel;Pony;J;K;Q;LabVIEW;ABAP;RPG;PL/I;Befunge;Malbolge;Whitespace;LOLCODE;Shakespeare;Piet;INTERCAL;Chef`,
+  nope:{html:"HTML is a markup language, not a programming language.",css:"CSS is a stylesheet language.",json:"JSON is a data format.",markdown:"Markdown is a markup language.",xml:"XML is a markup language."} },
+
+{ id:"nba", name:"NBA Teams", blurb:"Thirty franchises. City optional.", suffix:true, items:`Lakers;Celtics;Bulls;Warriors;Heat;Knicks;Spurs;Cavaliers|cavs;Mavericks|mavs;Rockets;Nets;76ers|sixers;Raptors;Suns;Clippers;Thunder;Bucks;Nuggets;Trail Blazers|blazers;Jazz;Kings;Pistons;Magic;Hawks;Hornets;Timberwolves|wolves;Pelicans;Grizzlies;Pacers;Wizards`,
+  nope:{supersonics:"The SuperSonics left Seattle in 2008.",sonics:"The Sonics left Seattle in 2008.",bobcats:"The Bobcats became the Hornets again in 2014.",bullets:"The Bullets became the Wizards in 1997."} },
+
+{ id:"cars", name:"Car Brands", blurb:"Marques past and present.", items:`Toyota;Ford;Honda;Chevrolet|chevy;BMW;Mercedes-Benz|mercedes;Tesla;Audi;Volkswagen|vw;Nissan;Ferrari;Lamborghini;Porsche;Jeep;Hyundai;Kia;Subaru;Mazda;Dodge;Lexus;Jaguar;Land Rover;Volvo;Bugatti;Rolls-Royce;Bentley;Maserati;McLaren;Aston Martin;Cadillac;Buick;GMC;Chrysler;Fiat;Mini;Mitsubishi;Ram;Lincoln;Acura;Infiniti;Alfa Romeo;Peugeot;Renault;Citroen;Suzuki;Genesis;Lotus;Pagani;Koenigsegg;Rivian;Lucid;Polestar;Saab;Pontiac;Oldsmobile;Plymouth;Hummer;Saturn;Mercury;Skoda;SEAT;Opel;Vauxhall;Dacia;Lada;BYD;Geely;Smart;Tata;Mahindra;Proton;Holden;DeLorean;Studebaker;Packard;AMC;Datsun;Daewoo;Isuzu;Scion;Spyker;Rimac;Noble;TVR;Morgan;Caterham;Lancia;Abarth;Cupra;NIO;Xpeng;Hispano-Suiza;Tucker;Hudson;Nash;Edsel;Trabant;Wartburg;Zastava;Yugo;Hindustan` },
+
+{ id:"instruments", name:"Musical Instruments", blurb:"Orchestra pit to folk festival to museum case.", items:`Piano;Guitar;Drums|drum kit;Violin|fiddle;Flute;Trumpet;Saxophone|sax;Cello;Clarinet;Bass Guitar|bass;Harp;Trombone;Ukulele;Harmonica;Tuba;Accordion;Banjo;Xylophone;Oboe;Keyboard;Viola;Double Bass|upright bass|contrabass;French Horn|horn;Bassoon;Tambourine;Triangle;Recorder;Organ|pipe organ;Bagpipes;Mandolin;Sitar;Synthesizer|synth;Cymbals;Bongos;Maracas;Glockenspiel;Timpani;Harpsichord;Piccolo;Marimba;Cowbell;Kazoo;Didgeridoo;Steel Drum|steelpan;Castanets;Lute;Lyre;Harmonium;Djembe;Tabla;Theremin;Bugle;Cornet;Euphonium;Sousaphone;Ocarina;Pan Flute|panpipes;Zither;Dulcimer;Celesta;Vibraphone;Koto;Shamisen;Erhu;Pipa;Guzheng;Balalaika;Bouzouki;Oud;Kalimba|thumb piano;Handpan|hang;Washboard;Jaw Harp|jew's harp|mouth harp;Melodica;Flugelhorn;Contrabassoon;Mellotron;Ondes Martenot;Hurdy-Gurdy;Nyckelharpa;Sarangi;Sarod;Shakuhachi;Duduk;Kora;Mbira;Cuica;Berimbau;Cajon;Guiro;Charango;Crwth;Serpent;Ophicleide;Sackbut;Crumhorn;Theorbo;Glass Harmonica;Tromba Marina;Heckelphone;Waterphone;Stylophone;Rebab` },
+
+{ id:"dinos", name:"Dinosaurs", blurb:"Genuine dinosaurs only. Flying and swimming reptiles don't count.", items:`Tyrannosaurus|t rex|trex|tyrannosaurus rex;Triceratops;Velociraptor|raptor;Stegosaurus;Brachiosaurus;Spinosaurus;Ankylosaurus;Diplodocus;Allosaurus;Apatosaurus;Brontosaurus;Parasaurolophus;Iguanodon;Pachycephalosaurus;Dilophosaurus;Gallimimus;Compsognathus;Carnotaurus;Giganotosaurus;Argentinosaurus;Utahraptor;Deinonychus;Archaeopteryx;Oviraptor;Therizinosaurus;Baryonyx;Microraptor;Maiasaura;Protoceratops;Styracosaurus;Edmontosaurus;Corythosaurus;Troodon;Megalosaurus;Ceratosaurus;Albertosaurus;Gorgosaurus;Coelophysis;Herrerasaurus;Eoraptor;Plateosaurus;Camarasaurus;Supersaurus;Patagotitan;Dreadnoughtus;Mamenchisaurus;Amargasaurus;Nigersaurus;Carcharodontosaurus;Suchomimus;Irritator;Majungasaurus;Cryolophosaurus;Yutyrannus;Dilong;Guanlong;Sinosauropteryx;Psittacosaurus;Pentaceratops;Chasmosaurus;Centrosaurus;Kosmoceratops;Einiosaurus;Nodosaurus;Euoplocephalus;Borealopelta;Minmi;Kentrosaurus;Hypsilophodon;Leaellynasaura;Lambeosaurus;Shantungosaurus;Hadrosaurus;Ouranosaurus;Muttaburrasaurus;Mononykus;Halszkaraptor;Deinocheirus;Struthiomimus;Ornithomimus;Citipati;Incisivosaurus;Austroraptor;Rahonavis;Pyroraptor;Buitreraptor;Masiakasaurus;Tarbosaurus;Daspletosaurus;Nanuqsaurus;Zuniceratops;Tsintaosaurus;Stygimoloch;Dracorex;Saltasaurus;Rapetosaurus;Erketu;Haplocanthosaurus;Europasaurus;Anchiornis;Yi qi`,
+  nope:{pterodactyl:"Pterosaurs aren't dinosaurs.",pteranodon:"Pterosaurs aren't dinosaurs.",quetzalcoatlus:"Pterosaurs aren't dinosaurs.",mosasaurus:"Mosasaurs are marine lizards, not dinosaurs.",plesiosaur:"Plesiosaurs aren't dinosaurs.",plesiosaurus:"Plesiosaurs aren't dinosaurs.",elasmosaurus:"Plesiosaurs aren't dinosaurs.",liopleurodon:"Pliosaurs aren't dinosaurs.",ichthyosaur:"Ichthyosaurs aren't dinosaurs.",dimetrodon:"Dimetrodon is a synapsid, closer to mammals than dinosaurs.",mammoth:"Mammoths are mammals.",smilodon:"Smilodon is a cat."} },
+
+{ id:"cheese", name:"Cheeses", blurb:"Deli counter to cave-aged rarities.", items:`Cheddar;Mozzarella;Parmesan|parmigiano reggiano;Swiss;Brie;American;Gouda;Feta;Provolone;Blue Cheese|blue;Monterey Jack|jack;Pepper Jack;Colby;Ricotta;Cream Cheese;Cottage Cheese;Camembert;Goat Cheese|chevre;Gruyere;Havarti;Muenster|munster;Mascarpone;Halloumi;Roquefort;Gorgonzola;Stilton;Manchego;Pecorino|pecorino romano;Asiago;Emmental|emmentaler;Edam;Burrata;Paneer;Queso Fresco;Jarlsberg;Fontina;Colby Jack;Limburger;Wensleydale;Red Leicester;Double Gloucester;Comte;Raclette;Taleggio;Port Salut;Reblochon;Grana Padano;Cotija;Oaxaca;Epoisses;Pont-l'Eveque;Morbier;Mimolette;Beaufort;Saint-Nectaire;Cantal;Brillat-Savarin;Livarot;Banon;Valencay;Caciocavallo;Scamorza;Stracchino;Robiola;Castelmagno;Bel Paese;Lancashire;Caerphilly;Cheshire;Shropshire Blue;Stinking Bishop;Cornish Yarg;Danish Blue;Leerdammer;Tilsit;Butterkase;Cambozola;Kashkaval;Bryndza;Oscypek;Graviera;Kefalotyri;Mizithra;Casu Marzu;Juustoleipa;Brunost|gjetost;Labneh;Akkawi;Vacherin Mont d'Or|vacherin;Appenzeller;Tete de Moine;Sbrinz;Idiazabal;Cabrales;Mahon;Torta del Casar;Serra da Estrela;Pule` },
+
+{ id:"moons", name:"Moons of the Solar System", blurb:"Earth's one, then everyone else's dozens.", items:`The Moon|moon|luna;Europa;Titan;Io;Ganymede;Callisto;Phobos;Deimos;Enceladus;Triton;Charon;Oberon;Titania;Miranda;Mimas;Iapetus;Rhea;Dione;Tethys;Hyperion;Ariel;Umbriel;Phoebe;Nereid;Puck;Amalthea;Proteus;Janus;Epimetheus;Pandora;Prometheus;Atlas;Pan;Daphnis;Himalia;Thebe;Metis;Adrastea;Elara;Pasiphae;Sinope;Carme;Ananke;Leda;Nix;Hydra;Kerberos;Styx;Dysnomia;Hi'iaka;Namaka;Cordelia;Ophelia;Bianca;Cressida;Desdemona;Juliet;Portia;Rosalind;Belinda;Perdita;Mab;Cupid;Caliban;Sycorax;Prospero;Setebos;Stephano;Trinculo;Francisco;Margaret;Ferdinand;Naiad;Thalassa;Despina;Galatea;Larissa;Hippocamp;Halimede;Sao;Laomedeia;Psamathe;Neso;Helene;Telesto;Calypso;Polydeuces;Methone;Pallene;Anthe;Aegaeon;Ymir;Paaliaq;Siarnaq;Kiviuq;Ijiraq;Tarvos;Mundilfari;Skathi;Erriapus;Albiorix;Bebhionn;Fornjot;Callirrhoe;Themisto;Megaclite;Taygete;Valetudo;Dia;Ersa;Weywot;Vanth;Actaea;Ilmare`,
+  nope:{pluto:"Pluto is a dwarf planet, not a moon.",ceres:"Ceres is a dwarf planet.",sun:"The Sun is a star."} },
+
+{ id:"greek", name:"Greek Mythology", blurb:"Gods, heroes, monsters and minor nymphs.", items:`Zeus;Poseidon;Hades;Athena;Apollo;Aphrodite;Heracles|hercules;Hera;Ares;Hermes;Artemis;Achilles;Medusa;Dionysus;Odysseus;Perseus;Persephone;Demeter;Hephaestus;Cronus|kronos;Prometheus;Pandora;Helen of Troy|helen;Atlas;Narcissus;Icarus;Theseus;Jason;Minotaur;Gaia;Hestia;Eros;Nike;Pegasus;Cerberus;Hydra;Ajax;Agamemnon;Paris;Hector;Orpheus;Eurydice;Daedalus;Midas;Sisyphus;Tantalus;Oedipus;Medea;Circe;Calypso;Penelope;Polyphemus|cyclops;Uranus|ouranos;Rhea;Nemesis;Hecate;Pan;Morpheus;Hypnos;Thanatos;Nyx;Chaos;Eos;Helios;Selene;Iris;Hebe;Ganymede;Tyche;Charon;Typhon;Echidna;Chimera;Sphinx;Scylla;Charybdis;Arachne;Andromeda;Cassiopeia;Ariadne;Bellerophon;Atalanta;Adonis;Psyche;Echo;Danae;Leda;Europa;Io;Callisto;Actaeon;Niobe;Tiresias;Cassandra;Priam;Hecuba;Patroclus;Briseis;Menelaus;Clytemnestra;Electra;Orestes;Iphigenia;Antigone;Erebus;Tartarus;Hyperion;Themis;Mnemosyne;Oceanus;Tethys;Coeus;Phoebe;Crius;Iapetus;Metis;Asclepius;Hygieia;Nereus;Proteus;Triton;Amphitrite;Ladon;Talos;Philoctetes;Laocoon;Pygmalion;Galatea;Endymion;Hyacinthus;Ixion;Lycaon;Marsyas;Harmonia;Cadmus;Semele;Alcmene;Amphitryon;Peleus;Thetis;Deucalion;Pyrrha;Epimetheus;Aeolus;Boreas;Zephyrus;Notus;Eurus;Momus;Eris;Phobos;Deimos;Enyo;Erichthonius`,
+  nope:{jupiter:"Jupiter is the Roman name. Try Zeus.",neptune:"Neptune is Roman. Try Poseidon.",mars:"Mars is Roman. Try Ares.",venus:"Venus is Roman. Try Aphrodite.",minerva:"Minerva is Roman. Try Athena.",mercury:"Mercury is Roman. Try Hermes.",pluto:"Pluto is Roman. Try Hades.",juno:"Juno is Roman. Try Hera.",diana:"Diana is Roman. Try Artemis.",cupid:"Cupid is Roman. Try Eros.",odin:"Odin is Norse.",thor:"Thor is Norse."} },
+
+{ id:"boardgames", name:"Board Games", blurb:"Family closet classics to heavy Euros and ancient boards.", items:`Monopoly;Chess;Scrabble;Clue|cluedo;Checkers|draughts;Risk;Battleship;Candy Land;Sorry!;Trivial Pursuit;The Game of Life|life;Connect Four|connect 4;Catan|settlers of catan;Operation;Snakes and Ladders|chutes and ladders;Backgammon;Go|baduk|weiqi;Mouse Trap;Guess Who?;Pictionary;Stratego;Othello|reversi;Mancala;Ludo|parcheesi|pachisi;Ticket to Ride;Pandemic;Carcassonne;Codenames;Hungry Hungry Hippos;Trouble;Boggle;Taboo;Cranium;Axis & Allies;Mastermind;Chinese Checkers;Shogi;Xiangqi|chinese chess;Azul;Wingspan;Splendor;Terraforming Mars;Gloomhaven;Twilight Imperium;Scythe;Agricola;Puerto Rico;Power Grid;7 Wonders|seven wonders;King of Tokyo;Dixit;Small World;Betrayal at House on the Hill|betrayal;Arkham Horror;Root;Everdell;Spirit Island;Brass|brass birmingham;Through the Ages;Twilight Struggle;Diplomacy;Acquire;Tigris & Euphrates;El Grande;Hive;Patchwork;Kingdomino;Sagrada;Mysterium;Dead of Winter;Cosmic Encounter;Blood Rage;Ark Nova;Concordia;Le Havre;Caylus;Tzolk'in;Great Western Trail;Viticulture;Orleans;Lords of Waterdeep;Mansions of Madness;HeroQuest;Talisman;Die Macher;Hnefatafl;Nine Men's Morris;Senet;Royal Game of Ur|game of ur;Fanorona;Pente;Blokus;Santorini;Onitama;Tak;Crokinole;Carrom`,
+  nope:{uno:"Uno is a card game.",poker:"Poker is a card game.",jenga:"Jenga is a stacking game, no board.",yahtzee:"Yahtzee is a dice game.",magicthegathering:"Magic is a card game."} },
+
+{ id:"shakespeare", name:"Shakespeare Plays", blurb:"The canon, histories and collaborations included.", items:`Romeo and Juliet;Hamlet;Macbeth;Othello;King Lear|lear;A Midsummer Night's Dream|midsummer;Julius Caesar;The Tempest;Much Ado About Nothing;Twelfth Night;The Merchant of Venice;The Taming of the Shrew;As You Like It;Richard III;Henry V;Antony and Cleopatra;The Comedy of Errors;Titus Andronicus;The Winter's Tale;Coriolanus;Measure for Measure;The Merry Wives of Windsor;All's Well That Ends Well;Henry IV Part 1|henry iv part one|1 henry iv|henry iv;Henry IV Part 2|henry iv part two|2 henry iv;Richard II;King John;Henry VIII;Henry VI Part 1|henry vi part one|1 henry vi|henry vi;Henry VI Part 2|henry vi part two|2 henry vi;Henry VI Part 3|henry vi part three|3 henry vi;The Two Gentlemen of Verona;Love's Labour's Lost;Troilus and Cressida;Timon of Athens;Pericles|pericles prince of tyre;Cymbeline;The Two Noble Kinsmen;Edward III` },
+
+{ id:"constellations", name:"Constellations", blurb:"All 88 officially recognized by the IAU.", items:`Orion;Ursa Major;Ursa Minor;Cassiopeia;Scorpius|scorpio;Leo;Taurus;Gemini;Cancer;Virgo;Libra;Sagittarius;Capricornus|capricorn;Aquarius;Pisces;Aries;Cygnus;Draco;Pegasus;Andromeda;Perseus;Hercules;Lyra;Aquila;Canis Major;Canis Minor;Centaurus;Crux|southern cross;Cepheus;Bootes;Corona Borealis;Auriga;Ophiuchus;Hydra;Lupus;Phoenix;Pavo;Carina;Vela;Puppis;Eridanus;Monoceros;Lepus;Columba;Corvus;Crater;Sextans;Serpens;Delphinus;Sagitta;Vulpecula;Lacerta;Triangulum;Camelopardalis;Lynx;Leo Minor;Canes Venatici;Coma Berenices;Corona Australis;Ara;Norma;Circinus;Triangulum Australe;Musca;Chamaeleon;Apus;Octans;Hydrus;Tucana;Indus;Grus;Microscopium;Piscis Austrinus;Sculptor;Fornax;Caelum;Horologium;Reticulum;Dorado;Pictor;Volans;Mensa;Telescopium;Antlia;Pyxis;Cetus;Equuleus;Scutum`,
+  nope:{bigdipper:"The Big Dipper is an asterism inside Ursa Major.",littledipper:"The Little Dipper is an asterism inside Ursa Minor.",orionsbelt:"Orion's Belt is an asterism.",pleiades:"The Pleiades is a star cluster in Taurus.",argonavis:"Argo Navis was split into Carina, Puppis and Vela."} },
+
+{ id:"sea", name:"Sea Creatures", blurb:"Reef regulars down to the hadal weirdos. Krill included.", items:`Shark;Whale;Dolphin;Octopus;Jellyfish;Starfish|sea star;Crab;Lobster;Shrimp;Seal;Sea Turtle|turtle;Clownfish;Squid;Stingray;Seahorse;Orca|killer whale;Blue Whale;Great White Shark|great white;Sea Lion;Walrus;Eel;Manatee;Coral;Sea Urchin;Pufferfish;Swordfish;Tuna;Salmon;Hammerhead Shark|hammerhead;Narwhal;Beluga;Humpback Whale|humpback;Manta Ray;Clam;Oyster;Mussel;Krill;Plankton;Sea Otter|otter;Anglerfish;Barracuda;Marlin;Sea Anemone|anemone;Sea Cucumber;Cuttlefish;Nautilus;Barnacle;Sea Sponge|sponge;Moray Eel;Whale Shark;Sperm Whale;Lionfish;Sardine;Cod;Halibut;Flounder;Mackerel;Herring;Anchovy;Dugong;Giant Squid;Hermit Crab;King Crab;Horseshoe Crab;Nudibranch|sea slug;Blobfish;Goblin Shark;Frilled Shark;Vampire Squid;Gulper Eel;Viperfish;Dragonfish;Siphonophore;Portuguese Man o' War|man o war;Sea Pig;Yeti Crab;Giant Isopod;Barreleye;Ocean Sunfish|mola mola|sunfish;Oarfish;Coelacanth;Greenland Shark;Leafy Sea Dragon;Mantis Shrimp;Pistol Shrimp;Box Jellyfish;Comb Jelly|ctenophore;Sea Butterfly|pteropod;Salp;Pyrosome;Hagfish;Lamprey;Dumbo Octopus;Mimic Octopus;Blue-Ringed Octopus;Firefly Squid;Cookiecutter Shark;Megamouth Shark;Bowhead Whale;Vaquita;Sea Spider;Christmas Tree Worm;Bobbit Worm;Feather Star|crinoid;Brittle Star;Basket Star;Fangtooth;Hatchetfish;Stoplight Loosejaw;Pelican Eel;Black Swallower;Tripod Fish;Sea Angel;Blue Dragon|glaucus` },
+
+{ id:"pasta", name:"Pasta Shapes", blurb:"Boxed staples to regional handmade shapes.", items:`Spaghetti;Penne;Macaroni;Fettuccine;Lasagna|lasagne;Ravioli;Linguine;Rigatoni;Farfalle|bowtie|bow tie;Rotini;Fusilli;Tortellini;Angel Hair|capellini;Orzo;Ziti;Gnocchi;Shells|conchiglie;Manicotti;Cannelloni;Orecchiette;Pappardelle;Tagliatelle;Bucatini;Ditalini;Vermicelli;Rotelle|wagon wheels;Cavatappi;Gemelli;Radiatori;Campanelle;Stelline;Acini di Pepe;Paccheri;Cavatelli;Agnolotti;Tortelloni;Strozzapreti;Trofie;Casarecce;Mafaldine;Lumache;Fregola;Pici;Bigoli;Garganelli;Pizzoccheri;Malloreddus;Corzetti;Anelli;Calamarata;Mezzelune;Cappelletti;Culurgiones;Gigli;Busiate;Lorighittas;Su Filindeu;Lagane;Scialatielli;Tajarin;Passatelli` },
+
+{ id:"consoles", name:"Video Game Consoles", blurb:"Home, handheld and the forgotten flops.", items:`PlayStation|ps1|psx|playstation 1;Xbox;Nintendo Switch|switch;PlayStation 2|ps2;Wii;PlayStation 4|ps4;PlayStation 5|ps5;Nintendo 64|n64;Game Boy|gameboy;NES|nintendo entertainment system|famicom;SNES|super nintendo|super famicom;PlayStation 3|ps3;Xbox 360;Xbox One;Xbox Series X|xbox series s|series x;GameCube;Nintendo DS|ds;Wii U;Sega Genesis|genesis|mega drive;Atari 2600;Game Boy Advance|gba;Nintendo 3DS|3ds;PSP|playstation portable;Dreamcast;Game Boy Color|gbc;PS Vita|vita;Sega Saturn|saturn;Steam Deck;Nintendo Switch 2|switch 2;Game Gear;Master System;Virtual Boy;Atari Jaguar|jaguar;Atari Lynx|lynx;3DO;Neo Geo;TurboGrafx-16|pc engine;ColecoVision;Intellivision;Magnavox Odyssey|odyssey;Sega CD|mega cd;32X;N-Gage;Ouya;Nintendo DSi|dsi;Game & Watch;Philips CD-i|cdi;Apple Pippin|pippin;Vectrex;WonderSwan;Neo Geo Pocket;Atari 5200;Atari 7800;Fairchild Channel F|channel f;Nuon;Gizmondo;Game.com;Pokemon Mini;Sega Nomad|nomad;PC-FX;Amiga CD32|cd32;Atari Jaguar CD|jaguar cd;Playdia;Zeebo;Evercade;Analogue Pocket;Playdate;Stadia` },
+
+{ id:"beatles", name:"Beatles Songs", blurb:"Singles, album tracks and B-sides.", items:`Hey Jude;Let It Be;Yesterday;Come Together;Here Comes the Sun;Yellow Submarine;Help!;A Hard Day's Night;I Want to Hold Your Hand;Twist and Shout;All You Need Is Love;Strawberry Fields Forever;Penny Lane;Eleanor Rigby;Lucy in the Sky with Diamonds;Blackbird;Something;Get Back;Can't Buy Me Love;She Loves You;Love Me Do;Ob-La-Di, Ob-La-Da;While My Guitar Gently Weeps;In My Life;The Long and Winding Road;Norwegian Wood;Revolution;Day Tripper;Paperback Writer;Michelle;Octopus's Garden;Ticket to Ride;Eight Days a Week;A Day in the Life;With a Little Help from My Friends;Sgt. Pepper's Lonely Hearts Club Band|sgt pepper;Hello, Goodbye;Nowhere Man;All My Loving;Drive My Car;Across the Universe;I Am the Walrus;Magical Mystery Tour;Back in the U.S.S.R.;Helter Skelter;Golden Slumbers;Carry That Weight;The End;Here, There and Everywhere;Taxman;Tomorrow Never Knows;Rain;Dear Prudence;Happiness Is a Warm Gun;Julia;Martha My Dear;Rocky Raccoon;When I'm Sixty-Four|when im 64;Lovely Rita;Getting Better;She's Leaving Home;Fixing a Hole;Being for the Benefit of Mr. Kite!|mr kite;Within You Without You;Good Morning Good Morning;Oh! Darling;Maxwell's Silver Hammer;I Want You (She's So Heavy);Because;You Never Give Me Your Money;Sun King;Mean Mr. Mustard;Polythene Pam;She Came In Through the Bathroom Window;Her Majesty;Two of Us;Dig a Pony;I've Got a Feeling;One After 909;For You Blue;I Me Mine;Dig It;Maggie Mae;Glass Onion;Piggies;Revolution 9;Honey Pie;Good Night;Mother Nature's Son;Sexy Sadie;Birthday;Yer Blues;Cry Baby Cry;I Will;Long, Long, Long;Wild Honey Pie;The Continuing Story of Bungalow Bill|bungalow bill;Savoy Truffle;Why Don't We Do It in the Road?;Everybody's Got Something to Hide Except Me and My Monkey;Lady Madonna;Hey Bulldog;All Together Now;It's All Too Much;Only a Northern Song;The Inner Light;Baby, You're a Rich Man;Blue Jay Way;Flying;Your Mother Should Know;The Ballad of John and Yoko;Old Brown Shoe;Love You To;I'm Only Sleeping;And Your Bird Can Sing;For No One;Doctor Robert;Got to Get You into My Life;Good Day Sunshine;I Want to Tell You;She Said She Said;The Word;Think for Yourself;What Goes On;Wait;If I Needed Someone;Run for Your Life;Girl;I'm Looking Through You;You Won't See Me;I Feel Fine;She's a Woman;No Reply;I'm a Loser;Baby's in Black;Rock and Roll Music;Mr. Moonlight;Every Little Thing;I Don't Want to Spoil the Party;What You're Doing;Words of Love;Honey Don't;You've Got to Hide Your Love Away;I Need You;Another Girl;The Night Before;You're Going to Lose That Girl;It's Only Love;Dizzy Miss Lizzy;Act Naturally;Yes It Is;I'm Down;Things We Said Today;And I Love Her;If I Fell;I Should Have Known Better;Tell Me Why;Any Time at All;I'll Cry Instead;When I Get Home;You Can't Do That;I'll Be Back;From Me to You;Please Please Me;P.S. I Love You;I Saw Her Standing There;Misery;Anna (Go to Him);Chains;Boys;Ask Me Why;Baby It's You;Do You Want to Know a Secret;A Taste of Honey;There's a Place;This Boy;Thank You Girl;It Won't Be Long;All I've Got to Do;Don't Bother Me;Little Child;Till There Was You;Please Mister Postman;Roll Over Beethoven;Hold Me Tight;Money (That's What I Want);Not a Second Time;Devil in Her Heart;You Really Got a Hold on Me;I Wanna Be Your Man;Free as a Bird;Real Love;Now and Then;You Know My Name (Look Up the Number);Bad Boy;Matchbox;Slow Down;Long Tall Sally;Kansas City;Everybody's Trying to Be My Baby`,
+  nope:{imagine:"Imagine is a John Lennon solo song.",mysweetlord:"My Sweet Lord is a George Harrison solo song.",liveandletdie:"Live and Let Die is Paul McCartney and Wings."} },
+];
+
+/* ---------- helpers ---------- */
+const MAX_DEPTH = 10935; // Challenger Deep, metres
+const ZONES = [
+  { name:"Sunlight", to:200 }, { name:"Twilight", to:1000 }, { name:"Midnight", to:4000 },
+  { name:"Abyssal", to:6000 }, { name:"Hadal", to:MAX_DEPTH },
+];
+const RANKS = [
+  { to:250, t:"Snorkeler", d:"You stayed where the light reaches. Strong on the classics." },
+  { to:1200, t:"Scuba Diver", d:"A few dips below the obvious. Respectable." },
+  { to:3000, t:"Submariner", d:"You know things most people never think about." },
+  { to:5500, t:"Anglerfish", d:"Your answers glow in the dark. Most players never get here." },
+  { to:Infinity, t:"Hadal Dweller", d:"Trench-level knowledge. Nobody else said those." },
+];
+const zoneOf = d => ZONES.findIndex(z => d <= z.to);
+const zoneColor = ["#2ea3bd","#1e7891","#2f5f86","#5a4a8a","#a45a7b"];
+const gaugeY = d => Math.sqrt(d / MAX_DEPTH); // compressed so the sunlit band is readable
+const fmt = n => n.toLocaleString("en-US");
+
+function norm(s) {
+  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/&/g, " and ").replace(/\+\+/g, "pp").replace(/#/g, "sharp")
+    .replace(/\bst\.?\s/g, "saint ").replace(/\([^)]*\)/g, m => " " + m + " ")
+    .replace(/[^a-z0-9 ]/g, "").trim().replace(/^(the|a|an) /, "").replace(/\s+/g, "");
+}
+function stripParens(s) { return s.replace(/\([^)]*\)/g, "").trim(); }
+
+function build(cat) {
+  if (cat._items) return cat;
+  const raw = cat.items.split(";").map(s => s.trim()).filter(Boolean);
+  const n = raw.length;
+  cat._items = raw.map((entry, i) => {
+    const [name, ...aliases] = entry.split("|");
+    const p = n > 1 ? i / (n - 1) : 0;
+    const depth = Math.max(3, Math.round(Math.pow(p, 1.5) * MAX_DEPTH));
+    return { name, aliases, rank: i, depth, pts: 1 + Math.round(99 * Math.pow(p, 1.5)) };
+  });
+  cat._keys = new Map();
+  cat._items.forEach((it, i) => {
+    for (const v of [it.name, stripParens(it.name), ...it.aliases]) {
+      const k = norm(v);
+      if (k && !cat._keys.has(k)) cat._keys.set(k, i);
+    }
+  });
+  cat._nope = {};
+  for (const [k, v] of Object.entries(cat.nope || {})) if (v) cat._nope[norm(k)] = v;
+  return cat;
+}
+
+function lev(a, b, max) {
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  let prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i]; let best = i;
+    for (let j = 1; j <= b.length; j++) {
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      if (cur[j] < best) best = cur[j];
+    }
+    if (best > max) return max + 1;
+    prev = cur;
+  }
+  return prev[b.length];
+}
+
+// returns {i} exact, {i, fuzzy} close spelling, {nope}, or null
+function lookup(cat, text, loose) {
+  const k = norm(text);
+  if (!k) return null;
+  if (cat._keys.has(k)) return { i: cat._keys.get(k) };
+  if (!loose) return null;
+  if (cat._nope[k]) return { nope: cat._nope[k] };
+  if (cat.suffix) for (const [key, i] of cat._keys) if (key.length >= 3 && k.endsWith(key)) return { i };
+  if (k.length < 5) return null;
+  const max = k.length >= 9 ? 2 : 1;
+  let best = max + 1, hit = -1, tie = false;
+  for (const [key, i] of cat._keys) {
+    if (key.length < 4) continue;
+    const d = lev(k, key, max);
+    if (d < best) { best = d; hit = i; tie = false; }
+    else if (d === best && i !== hit) tie = true;
+  }
+  return best <= max && !tie ? { i: hit, fuzzy: true } : null;
+}
+
+const store = {
+  get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+const esc = s => s.replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+
+/* ---------- state ---------- */
+let mode = store.get("krill:mode") ?? 120;
+let game = null, tick = null;
+const view = document.getElementById("view");
+
+function setMode(m) {
+  mode = m; store.set("krill:mode", m);
+  document.querySelectorAll(".modes button").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.mode === m)));
+  if (!game) renderHome();
+}
+document.querySelectorAll(".modes button").forEach(b => b.onclick = () => { if (!game || game.over) setMode(+b.dataset.mode); });
+document.getElementById("home").onclick = () => { stop(); renderHome(); };
+
+const bestKey = id => `krill:best:${id}:${mode}`;
+
+/* ---------- home ---------- */
+function renderHome() {
+  game = null;
+  const totalItems = CATS.reduce((s, c) => s + build(c)._items.length, 0);
+  view.innerHTML = `
+    <p class="lede">Pick a category and name as many as you can. Every answer sinks to a depth based on how rarely people think of it.
+      <b>Obvious answers stay near the surface. Niche answers go to the trench</b> and score far more. ${CATS.length} categories, ${fmt(totalItems)} answers, no daily limit.</p>
+    <div class="zones" aria-label="Depth zones">
+      <div class="z0"><b>Sunlight</b><small>0–200 m</small></div>
+      <div class="z1"><b>Twilight</b><small>200–1,000 m</small></div>
+      <div class="z2"><b>Midnight</b><small>1,000–4,000 m</small></div>
+      <div class="z3"><b>Abyssal</b><small>4,000–6,000 m</small></div>
+      <div class="z4"><b>Hadal</b><small>6,000–10,935 m</small></div>
+    </div>
+    <div class="gridhead"><h2>Choose your water</h2><button class="btn" id="rand">Random category</button></div>
+    <div class="cats">${CATS.map(c => {
+      const best = store.get(bestKey(c.id));
+      return `<button class="cat" data-id="${c.id}"><b>${esc(c.name)}</b><p>${esc(c.blurb)}</p>
+        <span class="meta"><span>${c._items.length} answers</span><span class="best">${best ? "best " + fmt(best) : ""}</span></span></button>`;
+    }).join("")}</div>`;
+  view.querySelectorAll(".cat").forEach(b => b.onclick = () => start(CATS.find(c => c.id === b.dataset.id)));
+  document.getElementById("rand").onclick = () => start(randomCat());
+}
+function randomCat(except) {
+  const pool = CATS.filter(c => c.id !== except);
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+/* ---------- game ---------- */
+function stop() { clearInterval(tick); tick = null; }
+
+function start(cat) {
+  stop(); build(cat);
+  game = { cat, found: [], score: 0, left: mode, timed: mode > 0, over: false };
+  view.innerHTML = `
+    <section class="game">
+      <div>
+        <div class="prompt">Name as many as you can</div>
+        <h2 class="catname">${esc(cat.name)}</h2>
+        <div class="hud">
+          <div id="hTime"><small>${game.timed ? "Time" : "Mode"}</small><strong id="time">${game.timed ? clock(mode) : "∞"}</strong></div>
+          <div><small>Found</small><strong id="count">0</strong><small>of ${cat._items.length}</small></div>
+          <div><small>Score</small><strong id="score">0</strong></div>
+        </div>
+        <form class="entry" id="form" autocomplete="off">
+          <label class="prompt" for="guess" style="display:block;margin-bottom:6px">Your answer</label>
+          <input id="guess" placeholder="Type and press Enter" spellcheck="false" autocapitalize="off" autocorrect="off">
+        </form>
+        <div class="toast" id="toast" aria-live="polite">Exact answers lock in as you type. Press Enter to try a close spelling.</div>
+        <div class="row"><button class="btn ghost" id="surface">Surface (end round)</button></div>
+        <ul class="feed" id="feed"></ul>
+      </div>
+      <div class="gauge" id="gauge" aria-label="Depth gauge"></div>
+    </section>`;
+  drawGaugeZones();
+  const input = document.getElementById("guess");
+  input.focus();
+  input.addEventListener("input", () => {
+    const r = lookup(cat, input.value, false);
+    if (r && !game.found.includes(r.i) && !isPrefixOfOpen(norm(input.value))) accept(r.i);
+  });
+  document.getElementById("form").addEventListener("submit", e => {
+    e.preventDefault();
+    const v = input.value;
+    if (!v.trim()) return;
+    const r = lookup(cat, v, true);
+    if (!r) return reject(`"${v}" isn't on the list.`);
+    if (r.nope) return reject(r.nope);
+    if (game.found.includes(r.i)) return reject(`Already found ${cat._items[r.i].name}.`);
+    accept(r.i, r.fuzzy);
+  });
+  document.getElementById("surface").onclick = finish;
+  if (game.timed) tick = setInterval(() => {
+    game.left--;
+    document.getElementById("time").textContent = clock(game.left);
+    document.getElementById("hTime").classList.toggle("low", game.left <= 10);
+    if (game.left <= 0) finish();
+  }, 1000);
+}
+const clock = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+
+// don't auto-accept "Java" while someone is still typing "JavaScript"
+function isPrefixOfOpen(k) {
+  for (const [key, i] of game.cat._keys) if (key !== k && key.startsWith(k) && !game.found.includes(i)) return true;
+  return false;
+}
+
+function accept(i, fuzzy) {
+  const it = game.cat._items[i];
+  game.found.push(i);
+  game.score += it.pts;
+  const input = document.getElementById("guess");
+  input.value = "";
+  document.getElementById("count").textContent = game.found.length;
+  document.getElementById("score").textContent = fmt(game.score);
+  const z = zoneOf(it.depth);
+  const t = document.getElementById("toast");
+  t.className = "toast good";
+  t.textContent = `${it.name}${fuzzy ? " (close enough)" : ""}: ${fmt(it.depth)} m, ${ZONES[z].name} zone, +${it.pts}`;
+  const li = document.createElement("li");
+  li.style.setProperty("--zc", zoneColor[z]);
+  li.innerHTML = `<span>${esc(it.name)}</span><span class="d">${fmt(it.depth)} m</span><span class="p">+${it.pts}</span>`;
+  document.getElementById("feed").prepend(li);
+  placeMarker(it, true);
+  if (game.found.length === game.cat._items.length) finish();
+}
+function reject(msg) {
+  const input = document.getElementById("guess");
+  const t = document.getElementById("toast");
+  t.className = "toast bad"; t.textContent = msg;
+  input.classList.remove("shake"); void input.offsetWidth; input.classList.add("shake");
+  input.select();
+}
+
+function drawGaugeZones(el = document.getElementById("gauge")) {
+  el.innerHTML = `<span class="krill">surface</span>` + ZONES.slice(0, -1).map((z, i) =>
+    `<div class="zl" style="top:${gaugeY(z.to) * 100}%">${ZONES[i + 1].name} · ${fmt(z.to)} m</div>`).join("");
+  el._slots = { l: [], r: [] };
+}
+function placeMarker(it, fresh, el = document.getElementById("gauge"), missed = false) {
+  const y = gaugeY(it.depth);
+  const h = el.clientHeight || 600;
+  const dot = document.createElement("div");
+  dot.className = "mk" + (missed ? " missed" : "");
+  dot.style.top = Math.min(98.5, Math.max(1.5, y * 100)) + "%";
+  el.appendChild(dot);
+  if (missed) return;
+  // place label on the side with room, nudging down to avoid overlap
+  let px = Math.min(h - 14, Math.max(16, y * h)) - 6;
+  const fits = side => el._slots[side].every(s => Math.abs(s - px) >= 13);
+  let side = fits("r") ? "r" : fits("l") ? "l" : null;
+  if (!side) {
+    for (let k = 1; k < 8 && !side; k++) for (const sgn of [1, -1]) {
+      const tryPx = px + sgn * k * 13;
+      if (tryPx < 14 || tryPx > h - 14) continue;
+      const old = px; px = tryPx;
+      side = fits("r") ? "r" : fits("l") ? "l" : null;
+      if (side) break; px = old;
+    }
+  }
+  if (!side) return;
+  el._slots[side].push(px);
+  el.querySelectorAll(".lb.new").forEach(n => n.classList.remove("new"));
+  const lb = document.createElement("div");
+  lb.className = `lb ${side}${fresh ? " new" : ""}`;
+  lb.style.top = px + "px";
+  lb.textContent = it.name;
+  el.appendChild(lb);
+}
+
+/* ---------- results ---------- */
+function finish() {
+  if (!game || game.over) return;
+  game.over = true; stop();
+  const { cat, found, score } = game;
+  const got = found.map(i => cat._items[i]);
+  const avg = got.length ? got.reduce((s, it) => s + it.depth, 0) / got.length : 0;
+  const deepest = got.reduce((a, b) => (!a || b.depth > a.depth ? b : a), null);
+  const rank = RANKS.find(r => avg <= r.to);
+  const prev = store.get(bestKey(cat.id)) || 0;
+  const isBest = score > prev;
+  if (isBest) store.set(bestKey(cat.id), score);
+
+  const missed = cat._items.filter((_, i) => !found.includes(i));
+  const shallowMissed = missed.slice(0, 10);
+  const deepPool = missed.filter(it => zoneOf(it.depth) >= 3);
+  const deepMissed = deepPool.sort(() => Math.random() - 0.5).slice(0, 10).sort((a, b) => a.rank - b.rank);
+  const pct = Math.round(100 * found.length / cat._items.length);
+  const byZone = ZONES.map((z, zi) => cat._items.filter(it => zoneOf(it.depth) === zi));
+
+  view.innerHTML = `
+    <section class="game">
+      <div>
+        <div class="prompt">Round over · ${esc(cat.name)} · ${game.timed ? clock(mode) : "untimed"}</div>
+        <div class="verdict">
+          <div class="big">${fmt(score)}<small>${isBest && score ? "New best" : prev ? "Best " + fmt(prev) : "Points"}</small></div>
+          <div><h3>${got.length ? rank.t : "Never got wet"}</h3>
+            <p>${got.length ? rank.d : "No answers this round. The water's fine, jump back in."}</p>
+            <p style="margin-top:8px">Found <b>${found.length}</b> of ${cat._items.length} (${pct}%) · average depth <b>${fmt(Math.round(avg))} m</b>${deepest ? ` · deepest: <b>${esc(deepest.name)}</b> at ${fmt(deepest.depth)} m` : ""}</p>
+          </div>
+        </div>
+        <div class="row">
+          <button class="btn" id="again">Dive again</button>
+          <button class="btn ghost" id="next">New random category</button>
+          <button class="btn ghost" id="back">All categories</button>
+        </div>
+        <div class="cols">
+          <div><h4>Surface answers you missed <small>everyone says these</small></h4>
+            <div class="chips">${shallowMissed.map(it => `<span class="chip">${esc(it.name)}</span>`).join("") || "<span class='chip got'>None. Clean sweep.</span>"}</div></div>
+          <div><h4>Deep cuts you missed <small>abyssal and hadal</small></h4>
+            <div class="chips">${deepMissed.map(it => `<span class="chip">${esc(it.name)}</span>`).join("") || "<span class='chip got'>You got them all.</span>"}</div></div>
+        </div>
+        <details class="all"><summary>Show every answer by depth zone</summary>
+          <div class="zonelist">${byZone.map((list, zi) => `<div><h5>${ZONES[zi].name} · ${zi ? fmt(ZONES[zi - 1].to) : 0}–${fmt(ZONES[zi].to)} m</h5>
+            <div class="chips">${list.map(it => `<span class="chip${found.includes(it.rank) ? " got" : ""}">${esc(it.name)}</span>`).join("")}</div></div>`).join("")}</div>
+        </details>
+      </div>
+      <div class="gauge" id="gauge" aria-label="Your answers by depth"></div>
+    </section>`;
+  const g = document.getElementById("gauge");
+  drawGaugeZones(g);
+  missed.forEach(it => placeMarker(it, false, g, true));
+  got.forEach(it => placeMarker(it, false, g));
+  document.getElementById("again").onclick = () => start(cat);
+  document.getElementById("next").onclick = () => start(randomCat(cat.id));
+  document.getElementById("back").onclick = renderHome;
+}
+
+setMode(mode);
+renderHome();
+</script>
+</body>
+</html>
