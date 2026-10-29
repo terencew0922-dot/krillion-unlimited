@@ -1,0 +1,147 @@
+name: Herbs & Spices
+blurb: The spice rack and beyond.
+group: Food & Drink
+---
+Salt
+Black Pepper|pepper|peppercorn
+Cinnamon
+Garlic Powder
+Oregano
+Basil
+Paprika
+Cumin
+Rosemary
+Thyme
+Parsley
+Ginger
+Nutmeg
+Turmeric
+Chili Powder
+Cilantro|coriander leaf
+Mint
+Dill
+Bay Leaf|bay leaves
+Vanilla
+Cloves
+Cayenne|cayenne pepper
+Sage
+Onion Powder
+Curry Powder
+Allspice
+Cardamom
+Coriander|coriander seed
+Red Pepper Flakes|chili flakes|crushed red pepper
+Saffron
+Chives
+Tarragon
+Marjoram
+Star Anise
+Fennel Seed
+Mustard Seed
+Sesame Seed
+Poppy Seed
+Celery Seed
+Caraway
+Anise|aniseed
+Lemongrass
+Garam Masala
+Smoked Paprika
+White Pepper
+Pink Peppercorn
+Sichuan Pepper|szechuan pepper
+Five-Spice|chinese five spice
+Za'atar|zaatar
+Sumac
+Fenugreek
+Asafoetida|hing
+Ajwain|carom
+Nigella|kalonji|black seed
+Mace
+Juniper
+Lavender
+Chamomile
+Lemon Balm
+Lovage
+Chervil
+Savory|summer savory
+Borage
+Sorrel
+Shiso|perilla
+Epazote
+Culantro
+Mexican Oregano
+Herbes de Provence
+Italian Seasoning
+Old Bay
+Cajun Seasoning
+Jerk Seasoning
+Berbere
+Ras el Hanout
+Baharat
+Harissa
+Dukkah
+Advieh
+Panch Phoron
+Chaat Masala
+Amchur|mango powder
+Kasuri Methi
+Curry Leaves
+Kaffir Lime Leaves|makrut lime leaves
+Galangal
+Pandan
+Annatto|achiote
+Grains of Paradise
+Long Pepper
+Cubeb
+Tasmanian Pepper|pepperberry
+Wattleseed
+Lemon Myrtle
+Aniseed Myrtle
+Mahlab
+Mastic
+Black Lime|loomi
+Urfa Biber
+Aleppo Pepper|aleppo
+Kashmiri Chili
+Gochugaru
+Shichimi Togarashi|shichimi
+Sansho
+Furikake
+Togarashi
+Wasabi
+Horseradish
+Hyssop
+Rue
+Angelica
+Sweet Cicely
+Woodruff
+Costmary
+Tansy
+Yarrow
+Bee Balm
+Pennyroyal
+Catnip
+Lemon Verbena
+Lemon Thyme
+Pineapple Sage
+Stevia
+Licorice Root
+Orris Root
+Zedoary
+Black Cardamom
+Cassia
+Ceylon Cinnamon
+Dried Mint
+Sumbala
+Uziza
+Calabash Nutmeg|ehuru
+Selim Pepper|grains of selim
+Alligator Pepper
+Mbongo
+Njangsa
+Timur
+Jakhya
+Kokum
+Kalpasi|black stone flower
+Marathi Moggu
+Radhuni

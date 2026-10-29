@@ -1,0 +1,208 @@
+name: Trees
+blurb: Broadleaf, conifer, palm and tropical.
+group: Science & Nature
+---
+Oak
+Pine
+Maple
+Palm|palm tree
+Birch
+Willow
+Apple Tree|apple
+Redwood
+Sequoia|giant sequoia
+Cherry|cherry tree
+Elm
+Spruce
+Fir
+Cedar
+Ash
+Aspen
+Poplar
+Cypress
+Magnolia
+Dogwood
+Beech
+Walnut
+Chestnut
+Sycamore
+Hickory
+Cottonwood
+Juniper
+Hemlock
+Larch|tamarack
+Yew
+Holly
+Olive
+Baobab
+Banyan
+Mahogany
+Teak
+Eucalyptus|gum tree
+Coconut Palm|coconut tree
+Date Palm
+Joshua Tree
+Ginkgo
+Linden|lime tree|basswood
+Hawthorn
+Rowan|mountain ash
+Alder
+Hazel
+Hornbeam
+Fig|fig tree
+Pecan
+Cork Oak
+Live Oak
+White Oak
+Red Oak
+Sugar Maple
+Red Maple
+Japanese Maple
+Silver Birch
+Paper Birch
+Weeping Willow
+Bristlecone Pine
+Ponderosa Pine
+Lodgepole Pine
+Scots Pine
+White Pine
+Douglas Fir
+Balsam Fir
+Noble Fir
+Blue Spruce
+Norway Spruce
+Sitka Spruce
+Western Red Cedar
+Cedar of Lebanon
+Deodar
+Monkey Puzzle
+Norfolk Island Pine
+Wollemi Pine
+Kauri
+Totara
+Rimu
+Pohutukawa
+Kowhai
+Rata
+Jacaranda
+Flame Tree
+Poinciana|flamboyant
+Tulip Tree|tulip poplar
+Catalpa
+Sweetgum
+Sassafras
+Black Locust
+Honey Locust
+Mesquite
+Palo Verde
+Ironwood
+Acacia
+Jarrah
+Karri
+Ghost Gum
+River Red Gum
+Boab
+Paperbark|melaleuca
+Bottle Tree
+Dragon Blood Tree
+Frankincense Tree|boswellia
+Myrrh Tree
+Argan
+Carob
+Tamarind
+Neem
+Peepal|sacred fig|bodhi tree
+Sal
+Sandalwood
+Rosewood
+Ebony
+Lignum Vitae
+Balsa
+Kapok|ceiba
+Rubber Tree
+Brazil Nut Tree
+Cinchona
+Mangrove
+Screw Pine|pandanus
+Traveler's Palm
+Sago Palm
+Royal Palm
+Fan Palm
+Windmill Palm
+Sabal Palmetto|cabbage palm
+Coco de Mer
+Talipot Palm
+Ironbark
+Bunya Pine
+Hoop Pine
+Huon Pine
+Alerce
+Lenga
+Coihue
+Quebracho
+Ombu
+Lapacho|pink trumpet tree
+Jatoba
+Pau Brasil|brazilwood
+Ipe
+Cumaru
+Zebrawood
+Bubinga
+Padauk
+Wenge
+Iroko
+Sapele
+Okoume
+Obeche
+Mopane
+Sausage Tree
+Fever Tree
+Umbrella Thorn
+Whistling Thorn
+Dragon Tree
+Holm Oak
+Turkey Oak
+Pin Oak
+Bur Oak
+Chinkapin
+Tanoak
+Madrone|madrona
+Manzanita
+Buckeye
+Horse Chestnut
+Black Walnut
+Butternut
+Osage Orange
+Hackberry
+Hophornbeam
+Redbud
+Smoke Tree
+Sourwood
+Black Gum|tupelo
+Bald Cypress
+Dawn Redwood
+Coast Redwood
+Incense Cedar
+Alaska Cedar
+Port Orford Cedar
+Leyland Cypress
+Monterey Cypress
+Arborvitae|thuja
+Hinoki
+Sugi|japanese cedar
+Umbrella Pine
+Katsura
+Zelkova
+Paulownia|empress tree
+Tree of Heaven|ailanthus
+Chinaberry
+Camphor Tree
+Pagoda Tree
+Dove Tree|handkerchief tree
+Franklinia
+Stewartia
+Yellowwood
+Kentucky Coffeetree
+Pond Cypress
+Wingnut
+Silk Tree|mimosa

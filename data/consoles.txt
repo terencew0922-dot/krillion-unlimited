@@ -1,0 +1,157 @@
+name: Video Game Consoles
+blurb: Home, handheld and the forgotten flops.
+group: Pop Culture
+---
+PlayStation|ps1|psx|playstation 1
+Xbox
+Nintendo Switch|switch
+PlayStation 2|ps2
+Wii
+PlayStation 4|ps4
+PlayStation 5|ps5
+Nintendo 64|n64
+Game Boy|gameboy
+NES|nintendo entertainment system|famicom
+SNES|super nintendo|super famicom
+PlayStation 3|ps3
+Xbox 360
+Xbox One
+Xbox Series X|xbox series s|series x
+GameCube
+Nintendo DS|ds
+Wii U
+Sega Genesis|genesis|mega drive
+Atari 2600
+Game Boy Advance|gba
+Nintendo 3DS|3ds
+PSP|playstation portable
+Dreamcast
+Game Boy Color|gbc
+PS Vita|vita
+Sega Saturn|saturn
+Steam Deck
+Nintendo Switch 2|switch 2
+Game Gear
+Master System
+Virtual Boy
+Atari Jaguar|jaguar
+Atari Lynx|lynx
+3DO
+Neo Geo
+TurboGrafx-16|pc engine
+ColecoVision
+Intellivision
+Magnavox Odyssey|odyssey
+Sega CD|mega cd
+32X
+N-Gage
+Ouya
+Nintendo DSi|dsi
+Game & Watch
+Philips CD-i|cdi
+Apple Pippin|pippin
+Vectrex
+WonderSwan
+Neo Geo Pocket
+Atari 5200
+Atari 7800
+Fairchild Channel F|channel f
+Nuon
+Gizmondo
+Game.com
+Sega Nomad|nomad
+PC-FX
+Amiga CD32|cd32
+Atari Jaguar CD|jaguar cd
+Playdia
+Zeebo
+Evercade
+Analogue Pocket
+Playdate
+Stadia
+PlayStation Portal
+PS One|psone
+PlayStation TV|pstv
+PocketStation
+Game Boy Pocket
+Game Boy Light
+Game Boy Micro
+Game Boy Advance SP|gba sp
+Nintendo DS Lite|ds lite
+New Nintendo 3DS|new 3ds
+Nintendo 2DS|2ds
+Nintendo Switch Lite|switch lite
+Nintendo Switch OLED|switch oled
+Super Nintendo Classic|snes classic|snes mini
+NES Classic|nes mini
+PlayStation Classic
+Sega Genesis Mini
+Atari VCS
+Intellivision Amico|amico
+Atari Flashback
+Color TV-Game
+Satellaview
+64DD
+Pokemon Pikachu
+Tamagotchi
+Sega Pico
+Sega SG-1000|sg-1000
+Sega Mark III
+Super Cassette Vision
+Epoch Cassette Vision
+Bally Astrocade|astrocade
+RCA Studio II
+Emerson Arcadia 2001
+APF Imagination Machine
+Coleco Telstar|telstar
+Pong
+Atari XEGS
+Commodore 64 Games System|c64gs
+Amstrad GX4000
+Neo Geo CD
+Neo Geo X
+Hyperscan
+V.Smile
+Leapster
+VideoNow
+Game King
+Tiger R-Zone|r-zone
+Tapwave Zodiac
+GP32
+GP2X
+Pandora
+Pyra
+Xperia Play
+Nvidia Shield
+Amazon Luna
+OnLive
+Apple TV
+Polymega
+Retron
+Super NT
+Mega Sg
+Atari Jaguar VR
+PlayStation VR|psvr
+Meta Quest|oculus quest
+Valve Index
+Famicom Disk System
+Super Game Boy
+Game Boy Player
+Sega Pico Beena|beena
+Bandai Playdia
+Casio Loopy
+NEC SuperGrafx|supergrafx
+PC Engine Duo|turboduo
+TurboExpress
+Sega Mega Jet
+Sega Teradrive
+Nintendo iQue|ique player
+VMU
+Watara Supervision|supervision
+Mega Duck
+Gamate
+Microvision
+Entex Adventure Vision
+Palmtex PVS
+Koei PasoGo
+Benesse Pocket Challenge

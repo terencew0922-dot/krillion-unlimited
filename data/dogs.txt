@@ -1,0 +1,232 @@
+name: Dog Breeds
+blurb: From the dog park to the kennel-club fringe.
+group: Science & Nature
+nope: labradoodle => Labradoodles are a cross, not a recognized breed.
+nope: goldendoodle => Goldendoodles are a cross, not a recognized breed.
+nope: cockapoo => Cockapoos are a cross, not a recognized breed.
+nope: wolf => Wolves are not a dog breed.
+---
+Labrador Retriever|labrador|lab
+Golden Retriever|golden
+German Shepherd
+Poodle
+Bulldog|english bulldog
+Beagle
+Chihuahua
+Pug
+Siberian Husky|husky
+Dachshund|wiener dog|sausage dog
+Rottweiler
+Boxer
+Pit Bull|pitbull|american pit bull terrier
+Great Dane
+Border Collie
+Yorkshire Terrier|yorkie
+Shih Tzu
+Dalmatian
+Corgi|pembroke welsh corgi|welsh corgi
+French Bulldog|frenchie
+Doberman|doberman pinscher
+Pomeranian
+Maltese
+Saint Bernard
+Greyhound
+Australian Shepherd|aussie
+Bernese Mountain Dog
+Cocker Spaniel
+Shiba Inu
+Akita
+Bichon Frise
+Basset Hound
+Bloodhound
+Rough Collie|collie
+Schnauzer|miniature schnauzer
+Jack Russell Terrier|jack russell
+Newfoundland
+Mastiff
+Samoyed
+Alaskan Malamute|malamute
+Cavalier King Charles Spaniel|cavalier
+Boston Terrier
+Whippet
+Weimaraner
+Vizsla
+Afghan Hound
+Chow Chow
+Shar Pei
+Pekingese
+Lhasa Apso
+Papillon
+Bull Terrier
+Irish Setter
+Irish Wolfhound
+Great Pyrenees
+Cane Corso
+Belgian Malinois|malinois
+Rhodesian Ridgeback
+Basenji
+Borzoi
+Saluki
+Shetland Sheepdog|sheltie
+Old English Sheepdog
+West Highland White Terrier|westie
+Scottish Terrier|scottie
+Airedale Terrier|airedale
+English Springer Spaniel|springer spaniel
+Brittany
+German Shorthaired Pointer|pointer
+Havanese
+Italian Greyhound
+Miniature Pinscher|min pin
+Leonberger
+Tibetan Mastiff
+Xoloitzcuintli|xolo
+Komondor
+Puli
+Bedlington Terrier
+Dandie Dinmont Terrier
+Lagotto Romagnolo
+Norwegian Lundehund
+Azawakh
+Otterhound
+Catahoula Leopard Dog|catahoula
+Kooikerhondje
+Mudi
+Sloughi
+Peruvian Inca Orchid
+Chinook
+Bergamasco
+Stabyhoun
+Thai Ridgeback
+Kai Ken
+Bichon Bolognese|bolognese
+Coton de Tulear
+Japanese Chin
+Chinese Crested
+Brussels Griffon
+Affenpinscher
+Toy Fox Terrier
+Rat Terrier
+Cairn Terrier
+Norfolk Terrier
+Norwich Terrier
+Border Terrier
+Lakeland Terrier
+Welsh Terrier
+Kerry Blue Terrier
+Soft Coated Wheaten Terrier|wheaten terrier
+Irish Terrier
+Manchester Terrier
+Parson Russell Terrier
+Skye Terrier
+Sealyham Terrier
+Glen of Imaal Terrier
+Cesky Terrier
+Australian Terrier
+Silky Terrier
+Staffordshire Bull Terrier|staffy|staffie
+American Staffordshire Terrier
+Bull Mastiff|bullmastiff
+Neapolitan Mastiff
+Dogue de Bordeaux|french mastiff
+Boerboel
+Dogo Argentino
+Fila Brasileiro
+Presa Canario
+Anatolian Shepherd
+Kangal
+Caucasian Shepherd
+Central Asian Shepherd|alabai
+Kuvasz
+Maremma Sheepdog|maremma
+Akbash
+Polish Lowland Sheepdog
+Bearded Collie
+Briard
+Beauceron
+Bouvier des Flandres
+Belgian Tervuren
+Belgian Sheepdog|groenendael
+Dutch Shepherd
+Australian Cattle Dog|blue heeler|heeler
+Cardigan Welsh Corgi
+Swedish Vallhund
+Icelandic Sheepdog
+Norwegian Elkhound
+Finnish Spitz
+Finnish Lapphund
+Keeshond
+Schipperke
+American Eskimo Dog
+Japanese Spitz
+Korean Jindo|jindo
+Shikoku
+Kishu
+Hokkaido
+Tosa
+Pharaoh Hound
+Ibizan Hound
+Cirneco dell'Etna
+Portuguese Water Dog
+Spanish Water Dog
+Irish Water Spaniel
+Barbet
+Wirehaired Pointing Griffon
+Spinone Italiano
+Bracco Italiano
+Small Munsterlander
+Large Munsterlander
+Drentse Patrijshond
+German Wirehaired Pointer
+Chesapeake Bay Retriever
+Flat-Coated Retriever
+Curly-Coated Retriever
+Nova Scotia Duck Tolling Retriever|toller
+Boykin Spaniel
+Clumber Spaniel
+Sussex Spaniel
+Field Spaniel
+Welsh Springer Spaniel
+American Water Spaniel
+Coonhound|black and tan coonhound
+Bluetick Coonhound
+Redbone Coonhound
+Treeing Walker Coonhound
+Plott Hound
+American Foxhound
+English Foxhound
+Harrier
+Petit Basset Griffon Vendeen|pbgv
+Grand Basset Griffon Vendeen
+Bavarian Mountain Scent Hound
+Hanoverian Scenthound
+Scottish Deerhound|deerhound
+Polish Greyhound|chart polski
+Magyar Agar
+Silken Windhound
+Lurcher
+Entlebucher Mountain Dog
+Appenzeller Sennenhund
+Greater Swiss Mountain Dog
+Pyrenean Shepherd
+Bergamasco Shepherd
+Schapendoes
+Lancashire Heeler
+Norwegian Buhund
+Karelian Bear Dog
+Laika|west siberian laika
+Telomian
+Carolina Dog
+New Guinea Singing Dog
+Phalene
+Russian Toy
+Lowchen
+Prague Ratter
+Transylvanian Hound
+Segugio Italiano
+Volpino Italiano
+Dunker
+Halden Hound
+Hygen Hound
+Kromfohrlander
+Sapsali

@@ -1,0 +1,233 @@
+name: Star Wars Characters
+blurb: Skywalkers, scoundrels, droids and background aliens.
+group: Pop Culture
+---
+Luke Skywalker|luke
+Darth Vader|vader|anakin skywalker|anakin
+Han Solo|han
+Princess Leia|leia|leia organa
+Yoda
+Obi-Wan Kenobi|obi-wan|obi wan|ben kenobi
+Chewbacca|chewie
+R2-D2|r2d2|artoo
+C-3PO|c3po|threepio
+Emperor Palpatine|palpatine|darth sidious|the emperor
+Boba Fett
+Grogu|baby yoda
+The Mandalorian|din djarin|mando
+Rey
+Kylo Ren|ben solo
+Darth Maul|maul
+Jabba the Hutt|jabba
+Lando Calrissian|lando
+Padme Amidala|padme
+Jar Jar Binks|jar jar
+Mace Windu|windu
+Qui-Gon Jinn|qui-gon
+Count Dooku|dooku
+General Grievous|grievous
+Ahsoka Tano|ahsoka
+Finn
+Poe Dameron|poe
+BB-8
+Stormtrooper|stormtroopers
+Ewoks|ewok
+Wicket
+Jango Fett
+Admiral Ackbar|ackbar
+Grand Moff Tarkin|tarkin
+Greedo
+Wedge Antilles|wedge
+Captain Rex|rex
+Cad Bane
+Asajj Ventress|ventress
+Kanan Jarrus|kanan
+Ezra Bridger|ezra
+Hera Syndulla|hera
+Sabine Wren|sabine
+Zeb Orrelios|zeb
+Chopper
+Grand Admiral Thrawn|thrawn
+Jyn Erso|jyn
+Cassian Andor|cassian|andor
+K-2SO
+Chirrut Imwe|chirrut
+Baze Malbus
+Saw Gerrera
+Orson Krennic|krennic
+Galen Erso
+Bodhi Rook
+Mon Mothma
+Bail Organa
+Luthen Rael|luthen
+Dedra Meero
+Syril Karn
+General Hux|hux
+Captain Phasma|phasma
+Supreme Leader Snoke|snoke
+Rose Tico
+Maz Kanata
+Vice Admiral Holdo|holdo
+DJ
+Zorii Bliss
+Babu Frik
+Moff Gideon|gideon
+Cara Dune
+Greef Karga
+Kuiil
+IG-11
+Fennec Shand
+Bo-Katan Kryze|bo-katan
+The Armorer
+Paz Vizsla
+Cobb Vanth
+Peli Motto
+Satine Kryze
+Pre Vizsla
+Savage Opress
+Mother Talzin
+Hondo Ohnaka|hondo
+Embo
+Aurra Sing
+Bossk
+IG-88
+Dengar
+Zuckuss
+4-LOM
+Nien Nunb
+Bib Fortuna
+Salacious Crumb
+Max Rebo
+Sy Snootles
+Oola
+Rancor
+Sarlacc
+Wampa
+Tauntaun
+Dewback
+Bantha
+Jawa|jawas
+Tusken Raiders|sand people
+Watto
+Sebulba
+Shmi Skywalker
+Owen Lars|uncle owen
+Beru Lars|aunt beru
+Cliegg Lars
+Biggs Darklighter
+Porkins
+Red Leader
+Gold Leader
+Dak Ralter
+Hobbie
+Zev Senesca
+Piett|admiral piett
+Admiral Ozzel
+General Veers
+Captain Needa
+Moff Jerjerrod
+Ki-Adi-Mundi
+Plo Koon
+Kit Fisto
+Shaak Ti
+Aayla Secura
+Luminara Unduli
+Barriss Offee
+Agen Kolar
+Saesee Tiin
+Eeth Koth
+Yarael Poof
+Even Piell
+Adi Gallia
+Depa Billaba
+Oppo Rancisis
+Yaddle
+Jocasta Nu
+Cin Drallig
+Quinlan Vos
+Cal Kestis
+Cere Junda
+Merrin
+BD-1
+Second Sister|trilla
+Ninth Sister
+Seventh Sister
+Fifth Brother
+Grand Inquisitor
+Reva|third sister
+Darth Bane
+Darth Plagueis
+Darth Revan|revan
+Darth Malak
+Darth Nihilus
+Darth Traya|kreia
+Starkiller|galen marek
+Mara Jade
+Jaina Solo
+Jacen Solo
+Kyle Katarn
+Dash Rendar
+Prince Xizor
+Corran Horn
+Talon Karrde
+Kir Kanos
+Exar Kun
+Ulic Qel-Droma
+Nomi Sunrider
+Bastila Shan
+Carth Onasi
+HK-47
+Canderous Ordo
+Mission Vao
+Zaalbar
+Jolee Bindo
+Juhani
+T3-M4
+Atton Rand
+Visas Marr
+Bao-Dur
+Mira
+Hanharr
+Darth Sion
+Wat Tambor
+Nute Gunray
+Rune Haako
+San Hill
+Poggle the Lesser
+Lott Dod
+Sio Bibble
+Captain Panaka
+Captain Typho
+Cordé
+Dormé
+Sabé
+Boss Nass
+Captain Tarpals
+Lama Su
+Taun We
+Dexter Jettster
+Zam Wesell
+Elan Sleazebaggano
+Wald
+Kitster
+Ody Mandrell
+Aldar Beedo
+Ben Quadinaros
+Teemto Pagalies
+Gasgano
+Mars Guo
+Ratts Tyerell
+Dud Bolt
+Fode and Beed
+Lobot
+Willrow Hood
+Momaw Nadon|hammerhead
+Ponda Baba
+Dr. Evazan
+Figrin D'an
+Garindan
+Kabe
+Muftak
+Lak Sivrak
+Labria
+Wuher

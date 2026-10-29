@@ -1,0 +1,366 @@
+name: Board Games
+blurb: Family closet classics to heavy Euros and ancient boards.
+group: Sports & Games
+nope: uno => Uno is a card game.
+nope: poker => Poker is a card game.
+nope: jenga => Jenga is a stacking game, no board.
+nope: yahtzee => Yahtzee is a dice game.
+nope: magicthegathering => Magic is a card game.
+---
+Monopoly
+Chess
+Scrabble
+Clue|cluedo
+Checkers|draughts
+Risk
+Battleship
+Candy Land
+Sorry!
+Trivial Pursuit
+The Game of Life|life
+Connect Four|connect 4
+Catan|settlers of catan
+Operation
+Snakes and Ladders|chutes and ladders
+Backgammon
+Go|baduk|weiqi
+Mouse Trap
+Guess Who?
+Pictionary
+Stratego
+Othello|reversi
+Mancala
+Ludo|parcheesi|pachisi
+Ticket to Ride
+Pandemic
+Carcassonne
+Codenames
+Hungry Hungry Hippos
+Trouble
+Boggle
+Taboo
+Cranium
+Axis & Allies
+Mastermind
+Chinese Checkers
+Shogi
+Xiangqi|chinese chess
+Azul
+Wingspan
+Splendor
+Terraforming Mars
+Gloomhaven
+Twilight Imperium
+Scythe
+Agricola
+Puerto Rico
+Power Grid
+7 Wonders|seven wonders
+King of Tokyo
+Dixit
+Small World
+Betrayal at House on the Hill|betrayal
+Arkham Horror
+Root
+Everdell
+Spirit Island
+Brass|brass birmingham
+Through the Ages
+Twilight Struggle
+Diplomacy
+Acquire
+Tigris & Euphrates
+El Grande
+Hive
+Patchwork
+Kingdomino
+Sagrada
+Mysterium
+Dead of Winter
+Cosmic Encounter
+Blood Rage
+Ark Nova
+Concordia
+Le Havre
+Caylus
+Tzolk'in
+Great Western Trail
+Viticulture
+Orleans
+Lords of Waterdeep
+Mansions of Madness
+HeroQuest
+Talisman
+Die Macher
+Hnefatafl
+Nine Men's Morris
+Senet
+Royal Game of Ur|game of ur
+Fanorona
+Pente
+Blokus
+Santorini
+Onitama
+Tak
+Crokinole
+Carrom
+Sushi Go
+Love Letter
+Coup
+The Resistance|resistance
+Avalon
+Secret Hitler
+One Night Ultimate Werewolf|werewolf
+Mafia
+Telestrations
+Wavelength
+Just One
+Decrypto
+Skull
+The Crew
+Hanabi
+The Mind
+Forbidden Island
+Forbidden Desert
+Flash Point
+Robinson Crusoe
+Mage Knight
+Nemesis
+Eldritch Horror
+Star Wars Rebellion
+War of the Ring
+Battlestar Galactica
+Dune
+Dune Imperium
+Lost Ruins of Arnak
+Clank
+Dominion
+Thunderstone
+Star Realms
+Aeon's End
+Marvel Champions
+Lord of the Rings LCG|lotr lcg
+Android Netrunner|netrunner
+Eclipse
+Gaia Project
+Terra Mystica
+Barrage
+Lisboa
+Vinhos
+Kanban
+On Mars
+The Gallerist
+Clans of Caledonia
+Teotihuacan
+Trajan
+Five Tribes
+Istanbul
+Lorenzo il Magnifico
+Grand Austria Hotel
+Castles of Burgundy
+Bora Bora
+Russian Railroads
+Underwater Cities
+Maracaibo
+Pax Pamir
+Pax Renaissance
+John Company
+Oath
+Cascadia
+Parks
+Quacks of Quedlinburg|quacks
+Kingsburg
+Stone Age
+Alhambra
+Ra
+Modern Art
+Medici
+Lost Cities
+Jaipur
+Schotten Totten
+Battle Line
+Bohnanza
+Ingenious
+Samurai
+Torres
+Mexica
+Tikal
+Java
+Princes of Florence
+Goa
+Hansa Teutonica
+Navegador
+Antiquity
+Indonesia
+Age of Steam
+18xx|1830
+1846
+Food Chain Magnate
+Container
+Steam
+Railways of the World
+Snowdonia
+Keyflower
+Kemet
+Cyclades
+Chaos in the Old World
+Rising Sun
+Inis
+Labyrinth
+Here I Stand
+Paths of Glory
+Combat Commander
+Memoir '44|memoir 44
+Commands & Colors
+Heroscape
+Warhammer Quest
+Space Hulk
+Necromunda
+Blood Bowl
+Mordheim
+Dungeon!
+Dungeon Mayhem
+Escape the Dark Castle
+Arkham Horror LCG
+Elder Sign
+Fury of Dracula
+Scotland Yard
+Letters from Whitechapel
+Mr. Jack
+Sherlock Holmes Consulting Detective
+Chronicles of Crime
+Detective
+Unlock
+Exit
+T.I.M.E Stories|time stories
+Pandemic Legacy
+Risk Legacy
+Charterstone
+SeaFall
+Gloomhaven Jaws of the Lion|jaws of the lion
+Frosthaven
+Kingdom Death Monster|kdm
+Sleeping Gods
+Tainted Grail
+Middara
+Hexplore It
+Mage Wars
+Summoner Wars
+Neuroshima Hex
+Tash-Kalar
+Tokaido
+Takenoko
+Photosynthesis
+Celestia
+Camel Up
+Downforce
+Formula D
+Flamme Rouge
+Heat Pedal to the Metal|heat
+Survive Escape from Atlantis|survive
+Escape from Colditz
+Kremlin
+Junta
+Republic of Rome
+Civilization
+Advanced Civilization
+Mega Civilization
+Sid Meier's Civilization
+Through the Desert
+Lost Valley
+Tobago
+Tinners' Trail
+Age of Industry
+Cottage Garden
+Isle of Skye
+Carpe Diem
+Pharaon
+Coimbra
+Tawantinsuyu
+Mombasa
+Hamburg
+Kraftwagen
+Fields of Arle
+Ora et Labora
+Glass Road
+Hallertau
+Nusfjord
+Feast for Odin|a feast for odin
+Mayday Mayday
+Abalone
+Quoridor
+Quarto
+Gipf
+Yinsh
+Dvonn
+Zertz
+Tzaar
+Lines of Action
+Arimaa
+Havannah
+Hex
+Twixt
+Gomoku
+Renju
+Connect6
+Surakarta
+Alquerque
+Konane
+Bao
+Oware
+Sungka
+Pachisi Chaupar|chaupar
+Chaturanga
+Makruk
+Janggi
+Sittuyin
+Tablut
+Brandubh
+Patolli
+Mehen
+Twenty Squares
+Hounds and Jackals|58 holes
+Liubo
+Petteia
+Ludus Latrunculorum
+Tafl
+Fox and Geese
+Halma
+Kalah
+Pentago
+Ploy
+Lasca
+Bashni
+Dameo
+Kamisado
+Tsuro
+Ubongo
+Ricochet Robots
+Set
+Rush Hour
+Hotels
+Mall Madness
+Dream Phone
+Girl Talk
+Fireball Island
+Crossbows and Catapults
+Dark Tower
+Stay Alive
+Mystery Mansion
+Don't Wake Daddy
+Perfection
+Kerplunk
+Ants in the Pants
+Cootie
+Barrel of Monkeys
+Crocodile Dentist
+Pop-Up Pirate
+Buckaroo
+Payday
+Masterpiece
+Careers
+Easy Money
+Square Mile
+Ratrace
+Go for Broke
+Landlord's Game

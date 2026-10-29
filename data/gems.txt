@@ -1,0 +1,202 @@
+name: Gemstones & Minerals
+blurb: Precious stones, rocks-shop favorites and mineralogy deep cuts.
+group: Science & Nature
+---
+Diamond
+Ruby
+Emerald
+Sapphire
+Amethyst
+Pearl
+Opal
+Topaz
+Jade
+Quartz
+Turquoise
+Garnet
+Aquamarine
+Onyx
+Peridot
+Citrine
+Tanzanite
+Moonstone
+Amber
+Lapis Lazuli
+Obsidian
+Jasper
+Agate
+Tourmaline
+Rose Quartz
+Malachite
+Coral
+Alexandrite
+Zircon
+Tiger's Eye
+Bloodstone
+Carnelian
+Hematite
+Pyrite|fool's gold
+Mica
+Talc
+Gypsum
+Calcite
+Fluorite
+Feldspar
+Graphite
+Halite|rock salt
+Azurite
+Chrysocolla
+Rhodochrosite
+Rhodonite
+Sodalite
+Labradorite
+Sunstone
+Spinel
+Morganite
+Kunzite
+Iolite
+Chalcedony
+Jet
+Selenite
+Celestite
+Kyanite
+Amazonite
+Aventurine
+Smoky Quartz
+Ametrine
+Prasiolite
+Chrysoprase
+Sardonyx
+Moldavite
+Larimar
+Charoite
+Sugilite
+Benitoite
+Painite
+Taaffeite
+Grandidierite
+Jeremejevite
+Musgravite
+Red Beryl|bixbite
+Poudretteite
+Serendibite
+Paraiba Tourmaline
+Demantoid
+Tsavorite
+Spessartine
+Hessonite
+Rhodolite
+Pyrope
+Almandine
+Andradite
+Uvarovite
+Padparadscha
+Star Sapphire
+Cat's Eye|chrysoberyl
+Euclase
+Phenakite
+Danburite
+Sphene|titanite
+Andalusite
+Sillimanite
+Staurolite
+Apatite
+Diopside
+Enstatite
+Hiddenite
+Spodumene
+Jadeite
+Nephrite
+Serpentine
+Variscite
+Howlite
+Magnesite
+Dolomite
+Aragonite
+Barite
+Anhydrite
+Borax
+Ulexite|tv stone
+Cinnabar
+Galena
+Sphalerite
+Chalcopyrite
+Bornite|peacock ore
+Cuprite
+Magnetite|lodestone
+Ilmenite
+Rutile
+Cassiterite
+Wolframite
+Scheelite
+Molybdenite
+Stibnite
+Realgar
+Orpiment
+Vivianite
+Wulfenite
+Vanadinite
+Crocoite
+Dioptase
+Smithsonite
+Hemimorphite
+Prehnite
+Apophyllite
+Stilbite
+Natrolite
+Zeolite
+Okenite
+Cavansite
+Lepidolite
+Muscovite
+Biotite
+Chlorite
+Olivine
+Pyroxene
+Amphibole
+Hornblende
+Actinolite
+Tremolite
+Asbestos
+Vermiculite
+Kaolinite
+Bentonite
+Ammolite
+Petrified Wood
+Fulgurite
+Tektite
+Libyan Desert Glass
+Pallasite
+Moqui Marbles
+Septarian
+Geode
+Thunder Egg
+Shungite
+Seraphinite
+Astrophyllite
+Eudialyte
+Zoisite
+Ruby in Zoisite|anyolite
+Unakite
+Pietersite
+Covellite
+Kammererite
+Purpurite
+Erythrite
+Pyromorphite
+Mimetite
+Legrandite
+Adamite
+Ettringite
+Tugtupite
+Hackmanite
+Scolecite
+Mesolite
+Thomsonite
+Bustamite
+Inesite
+Clinohumite
+Kornerupine
+Sapphirine
+Hauyne
+Jadarite

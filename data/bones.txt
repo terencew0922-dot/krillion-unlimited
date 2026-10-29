@@ -1,0 +1,81 @@
+name: Bones of the Human Body
+blurb: From the femur to the tiniest bones in the ear.
+group: Science & Nature
+---
+Skull|cranium
+Femur|thigh bone
+Rib|ribs
+Spine|vertebra|vertebrae|backbone
+Pelvis|hip bone
+Humerus|funny bone
+Tibia|shin bone
+Fibula
+Radius
+Ulna
+Collarbone|clavicle
+Jaw|jawbone|mandible
+Kneecap|patella
+Sternum|breastbone
+Shoulder Blade|scapula
+Tailbone|coccyx
+Sacrum
+Phalanges|phalanx|finger bones|toe bones
+Metacarpals|metacarpal
+Metatarsals|metatarsal
+Carpals|carpal|wrist bones
+Tarsals|tarsal
+Heel Bone|calcaneus
+Ankle Bone|talus
+Maxilla
+Cheekbone|zygomatic
+Nasal Bone|nasal
+Stapes|stirrup
+Incus|anvil
+Malleus|hammer
+Hyoid
+Atlas
+Axis
+Ilium
+Ischium
+Pubis
+Frontal Bone|frontal
+Parietal Bone|parietal
+Occipital Bone|occipital
+Temporal Bone|temporal
+Sphenoid
+Ethmoid
+Vomer
+Lacrimal Bone|lacrimal
+Palatine Bone|palatine
+Inferior Nasal Concha|turbinate
+Cervical Vertebrae|cervical
+Thoracic Vertebrae|thoracic
+Lumbar Vertebrae|lumbar
+Scaphoid
+Lunate
+Triquetrum
+Pisiform
+Trapezium
+Trapezoid
+Capitate
+Hamate
+Navicular
+Cuboid
+Cuneiform|cuneiforms
+Medial Cuneiform
+Intermediate Cuneiform
+Lateral Cuneiform
+Sesamoid
+Manubrium
+Xiphoid Process|xiphoid
+Floating Ribs|floating rib
+True Ribs
+False Ribs
+Fabella
+Wormian Bones|sutural bones
+Os Trigonum
+Accessory Navicular
+Os Peroneum
+Os Acromiale
+Cervical Rib
+Ossicles

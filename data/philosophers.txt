@@ -1,0 +1,247 @@
+name: Philosophers
+blurb: Thinkers East and West, ancient to contemporary.
+group: Arts & History
+---
+Socrates
+Plato
+Aristotle
+Confucius
+Friedrich Nietzsche|nietzsche
+Immanuel Kant|kant
+Rene Descartes|descartes
+Karl Marx|marx
+Jean-Paul Sartre|sartre
+Niccolo Machiavelli|machiavelli
+Sun Tzu
+Laozi|lao tzu|lao tse
+John Locke|locke
+Thomas Hobbes|hobbes
+Jean-Jacques Rousseau|rousseau
+Voltaire
+David Hume|hume
+Soren Kierkegaard|kierkegaard
+Albert Camus|camus
+Simone de Beauvoir|de beauvoir|beauvoir
+Pythagoras
+Marcus Aurelius
+Seneca
+Epicurus
+Diogenes
+Buddha|siddhartha gautama|gautama buddha
+Thomas Aquinas|aquinas
+Augustine|saint augustine|augustine of hippo
+Baruch Spinoza|spinoza
+Gottfried Wilhelm Leibniz|leibniz
+Georg Wilhelm Friedrich Hegel|hegel
+Arthur Schopenhauer|schopenhauer
+John Stuart Mill|mill
+Jeremy Bentham|bentham
+Ludwig Wittgenstein|wittgenstein
+Bertrand Russell|russell
+Martin Heidegger|heidegger
+Michel Foucault|foucault
+Noam Chomsky|chomsky
+Ayn Rand|rand
+Hannah Arendt|arendt
+Francis Bacon
+Blaise Pascal|pascal
+Michel de Montaigne|montaigne
+Heraclitus
+Parmenides
+Zeno of Elea
+Democritus
+Thales
+Anaximander
+Anaximenes
+Empedocles
+Anaxagoras
+Protagoras
+Gorgias
+Epictetus
+Zeno of Citium
+Chrysippus
+Cicero
+Lucretius
+Plotinus
+Porphyry
+Proclus
+Hypatia
+Boethius
+Anselm
+Peter Abelard|abelard
+William of Ockham|ockham|occam
+Duns Scotus
+Avicenna|ibn sina
+Averroes|ibn rushd
+Al-Farabi|farabi
+Al-Kindi|kindi
+Al-Ghazali|ghazali
+Ibn Khaldun
+Maimonides
+Mencius|mengzi
+Zhuangzi|chuang tzu
+Mozi
+Xunzi
+Han Feizi|han fei
+Zhu Xi
+Wang Yangming
+Nagarjuna
+Shankara|adi shankara
+Ramanuja
+Chanakya|kautilya
+Dogen
+Kitaro Nishida|nishida
+George Berkeley|berkeley
+Adam Smith
+Montesquieu
+Denis Diderot|diderot
+Edmund Burke|burke
+Thomas Paine|paine
+Mary Wollstonecraft|wollstonecraft
+Johann Gottlieb Fichte|fichte
+Friedrich Schelling|schelling
+Ludwig Feuerbach|feuerbach
+Friedrich Engels|engels
+Auguste Comte|comte
+Herbert Spencer|spencer
+Henry David Thoreau|thoreau
+Ralph Waldo Emerson|emerson
+William James
+Charles Sanders Peirce|peirce
+John Dewey|dewey
+Edmund Husserl|husserl
+Max Weber|weber
+Henri Bergson|bergson
+Gottlob Frege|frege
+G. E. Moore|moore
+Alfred North Whitehead|whitehead
+Karl Popper|popper
+Thomas Kuhn|kuhn
+Rudolf Carnap|carnap
+A. J. Ayer|ayer
+W. V. O. Quine|quine
+Gilbert Ryle|ryle
+J. L. Austin
+Maurice Merleau-Ponty|merleau-ponty
+Emmanuel Levinas|levinas
+Jacques Derrida|derrida
+Gilles Deleuze|deleuze
+Jean Baudrillard|baudrillard
+Roland Barthes|barthes
+Jacques Lacan|lacan
+Louis Althusser|althusser
+Theodor Adorno|adorno
+Max Horkheimer|horkheimer
+Walter Benjamin
+Herbert Marcuse|marcuse
+Jurgen Habermas|habermas
+Antonio Gramsci|gramsci
+Georg Lukacs|lukacs
+John Rawls|rawls
+Robert Nozick|nozick
+Peter Singer|singer
+Martha Nussbaum|nussbaum
+Judith Butler|butler
+Richard Rorty|rorty
+Daniel Dennett|dennett
+Saul Kripke|kripke
+David Lewis
+Hilary Putnam|putnam
+Donald Davidson
+Thomas Nagel|nagel
+Derek Parfit|parfit
+Bernard Williams
+Alasdair MacIntyre|macintyre
+Charles Taylor
+Philippa Foot|foot
+Elizabeth Anscombe|anscombe
+Iris Murdoch|murdoch
+Simone Weil|weil
+Edith Stein
+Hans-Georg Gadamer|gadamer
+Paul Ricoeur|ricoeur
+Karl Jaspers|jaspers
+Gabriel Marcel
+Martin Buber|buber
+Franz Rosenzweig
+Leo Strauss
+Isaiah Berlin
+Slavoj Zizek|zizek
+Alain Badiou|badiou
+Giorgio Agamben|agamben
+Byung-Chul Han
+Peter Sloterdijk|sloterdijk
+Cornel West
+Frantz Fanon|fanon
+W. E. B. Du Bois|du bois
+Kwame Anthony Appiah|appiah
+Angela Davis
+bell hooks
+Gayatri Spivak|spivak
+Edward Said|said
+Amartya Sen
+Jiddu Krishnamurti|krishnamurti
+Sri Aurobindo|aurobindo
+Rabindranath Tagore|tagore
+Mahatma Gandhi|gandhi
+Swami Vivekananda|vivekananda
+Alan Watts
+Giordano Bruno|bruno
+Marsilio Ficino|ficino
+Pico della Mirandola
+Erasmus
+Thomas More
+Hugo Grotius|grotius
+Francisco Suarez|suarez
+Nicolas Malebranche|malebranche
+Pierre Bayle|bayle
+Giambattista Vico|vico
+Thomas Reid
+Moses Mendelssohn
+Johann Gottfried Herder|herder
+Friedrich Schleiermacher|schleiermacher
+Max Stirner|stirner
+Pierre-Joseph Proudhon|proudhon
+Mikhail Bakunin|bakunin
+Peter Kropotkin|kropotkin
+Emma Goldman
+Henry Sidgwick|sidgwick
+F. H. Bradley|bradley
+Josiah Royce|royce
+George Santayana|santayana
+Alexius Meinong|meinong
+Franz Brentano|brentano
+Ernst Mach|mach
+Moritz Schlick|schlick
+Otto Neurath|neurath
+Imre Lakatos|lakatos
+Paul Feyerabend|feyerabend
+Nelson Goodman|goodman
+Wilfrid Sellars|sellars
+Ruth Barcan Marcus
+Pyrrho
+Sextus Empiricus
+Carneades
+Arcesilaus
+Antisthenes
+Crates of Thebes
+Hipparchia
+Aristippus
+Theophrastus
+Xenophanes
+Leucippus
+Melissus
+Philolaus
+Iamblichus
+Damascius
+Eriugena|john scotus eriugena
+Bonaventure
+Albertus Magnus
+Roger Bacon
+Meister Eckhart|eckhart
+Nicholas of Cusa
+Christine de Pizan
+Mary Astell
+Anne Conway
+Margaret Cavendish
+Emilie du Chatelet

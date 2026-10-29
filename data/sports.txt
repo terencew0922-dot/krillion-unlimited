@@ -1,0 +1,218 @@
+name: Sports
+blurb: Mainstream, Olympic, traditional, and wonderfully odd.
+group: Sports & Games
+---
+Soccer|football|association football
+Basketball
+Baseball
+American Football
+Tennis
+Golf
+Hockey|ice hockey
+Swimming
+Volleyball
+Boxing
+Cricket
+Rugby
+Track and Field|athletics
+Gymnastics
+Wrestling
+Skiing
+Snowboarding
+Surfing
+Skateboarding
+Cycling
+Badminton
+Table Tennis|ping pong
+Bowling
+Lacrosse
+Softball
+Field Hockey
+Figure Skating
+Beach Volleyball
+Water Polo
+Diving
+Rowing
+Sailing
+Fencing
+Archery
+Equestrian|horse riding
+Horse Racing
+Formula One|f1|auto racing
+NASCAR
+MMA|mixed martial arts
+Judo
+Karate
+Taekwondo
+Weightlifting
+Powerlifting
+Bodybuilding
+Rock Climbing|climbing
+Bouldering
+Darts
+Snooker
+Pool|billiards
+Handball
+Kickboxing
+Triathlon
+Marathon
+Decathlon
+Pentathlon|modern pentathlon
+Biathlon
+Curling
+Bobsled|bobsleigh
+Luge
+Skeleton
+Speed Skating
+Ski Jumping
+Cross-Country Skiing
+Polo
+Water Skiing
+Kayaking
+Canoeing
+Rafting
+Kitesurfing
+Windsurfing
+Wakeboarding
+Paragliding
+Skydiving
+BMX
+Mountain Biking
+Motocross
+Rally
+Squash
+Racquetball
+Pickleball
+Padel
+Ultimate Frisbee|ultimate
+Disc Golf
+Dodgeball
+Kickball
+Netball
+Gaelic Football
+Hurling
+Camogie
+Shinty
+Australian Rules Football|aussie rules|afl
+Rugby League
+Rugby Sevens
+Sumo
+Jousting
+Bullfighting
+Rodeo
+Cheerleading
+Synchronized Swimming|artistic swimming
+Trampoline
+Parkour
+Breakdancing|breaking
+Esports
+Chess Boxing
+Sepak Takraw
+Kabaddi
+Kho Kho
+Jai Alai|pelota
+Bandy
+Floorball
+Korfball
+Underwater Hockey
+Underwater Rugby
+Octopush
+Bossaball
+Hornussen
+Schwingen
+Pesapallo
+Bo-taoshi
+Buzkashi
+Kok-boru
+Calcio Storico
+Cheese Rolling
+Bog Snorkelling
+Wife Carrying
+Toe Wrestling
+Shin Kicking
+Extreme Ironing
+Quidditch|quadball
+Zorbing
+Sandboarding
+Ice Climbing
+Free Diving|freediving
+Spearfishing
+Caving|spelunking
+Orienteering
+Rogaining
+Fell Running
+Canicross
+Mushing|dog sledding
+Skijoring
+Ski Mountaineering
+Telemark Skiing
+Snow Kiting
+Ice Yachting
+Land Sailing
+Dragon Boat Racing
+Outrigger Canoeing
+Stand-Up Paddleboarding|sup|paddleboarding
+Bodyboarding
+Skimboarding
+Kneeboarding
+Cliff Diving
+Highlining
+Slacklining
+Base Jumping
+Wingsuit Flying
+Hang Gliding
+Gliding
+Air Racing
+Drone Racing
+Powerboat Racing
+Hydrofoiling
+Petanque|boules
+Bocce
+Lawn Bowls
+Croquet
+Roque
+Shuffleboard
+Cornhole
+Horseshoes
+Skee-Ball
+Tug of War
+Sack Racing
+Lumberjack Sports|timbersports
+Caber Toss|highland games
+Strongman
+Arm Wrestling
+Kendo
+Kyudo
+Iaido
+Sambo
+Pankration
+Savate
+Muay Thai
+Lethwei
+Bokator
+Glima
+Kurash
+Yagli Gures|oil wrestling
+Pehlwani
+Ssireum
+Mongolian Wrestling|bokh
+Lucha Libre
+Catch Wrestling
+Fives
+Real Tennis|court tennis
+Rackets
+Paddle Tennis
+Platform Tennis
+Soft Tennis
+Teqball
+Footvolley
+Footgolf
+Speedminton
+Spikeball|roundnet
+Throwball
+Tchoukball
+Kin-Ball
+Goalball
+Boccia
+Wheelchair Rugby|murderball
+Sitting Volleyball

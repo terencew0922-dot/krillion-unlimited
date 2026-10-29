@@ -1,0 +1,259 @@
+name: Mountains
+blurb: Peaks and volcanoes. Ranges don't count, only individual summits.
+group: Geography
+nope: himalayas => The Himalayas are a range. Name a single peak.
+nope: alps => The Alps are a range. Name a single peak.
+nope: andes => The Andes are a range. Name a single peak.
+nope: rockies => The Rockies are a range. Name a single peak.
+nope: rockymountains => The Rockies are a range. Name a single peak.
+---
+Mount Everest|everest|sagarmatha|chomolungma
+K2
+Mount Kilimanjaro|kilimanjaro
+Mount Fuji|fuji|fujisan
+Matterhorn
+Mont Blanc
+Mount Rushmore|rushmore
+Denali|mount mckinley|mckinley
+Mount Olympus|olympus
+Mount St. Helens|st helens|saint helens
+Mount Vesuvius|vesuvius
+Mount Etna|etna
+Mount Rainier|rainier|tahoma
+Mount Sinai|sinai
+Kangchenjunga
+Aconcagua
+Mount Elbrus|elbrus
+Mount Kosciuszko|kosciuszko
+Vinson Massif|vinson
+Mount Whitney|whitney
+Mount Hood|hood
+Pikes Peak
+Mount Washington
+Ben Nevis
+Snowdon|yr wyddfa
+Table Mountain
+Mount Kenya
+Lhotse
+Makalu
+Cho Oyu
+Dhaulagiri
+Manaslu
+Nanga Parbat
+Annapurna
+Gasherbrum I|hidden peak
+Broad Peak
+Gasherbrum II
+Shishapangma
+Mount Cook|aoraki
+Eiger
+Jungfrau
+Monch
+Mount Ararat|ararat
+Kilauea
+Mauna Kea
+Mauna Loa
+Mount Shasta|shasta
+Mount Baker
+Mount Tambora|tambora
+Krakatoa|krakatau
+Mount Pinatubo|pinatubo
+Popocatepetl
+Iztaccihuatl
+Pico de Orizaba|citlaltepetl
+Chimborazo
+Cotopaxi
+Huascaran
+Ojos del Salado
+Fitz Roy|cerro chalten
+Cerro Torre
+Torres del Paine
+Mount Logan|logan
+Mount Robson
+Mount Assiniboine
+Grand Teton
+Longs Peak
+Mount Elbert
+Half Dome
+El Capitan
+Mount Katahdin|katahdin
+Mount Mitchell
+Clingmans Dome
+Stone Mountain
+Mount Tam|mount tamalpais
+Mount Diablo
+Mount Shuksan
+Mount Adams
+Mount Jefferson
+Lassen Peak
+Mount Saint Elias|mount st elias
+Mount Foraker
+Mount Hunter
+Mount Kazbek|kazbek
+Mount Damavand|damavand
+Mount Tai|taishan
+Huangshan|yellow mountain
+Mount Emei|emeishan
+Mount Kailash|kailash
+Nanda Devi
+Kamet
+Machapuchare|fishtail
+Ama Dablam
+Pumori
+Nuptse
+Baruntse
+Gyachung Kang
+Muztagh Ata
+Kongur Tagh
+Ismoil Somoni Peak|communism peak
+Lenin Peak|ibn sina peak
+Jengish Chokusu|pobeda peak
+Khan Tengri
+Belukha
+Klyuchevskaya Sopka|klyuchevskoy
+Mount Aso|aso
+Mount Ontake|ontake
+Mount Haku
+Hallasan
+Baekdu|paektu|changbai
+Mount Kinabalu|kinabalu
+Puncak Jaya|carstensz pyramid
+Mount Wilhelm
+Mount Apo|apo
+Mayon
+Taal
+Mount Merapi|merapi
+Mount Bromo|bromo
+Mount Rinjani|rinjani
+Mount Agung|agung
+Mount Semeru|semeru
+Mount Ruapehu|ruapehu
+Mount Taranaki|egmont
+Mount Ngauruhoe|ngauruhoe
+Mount Erebus|erebus
+Mount Kirkpatrick
+Mount Stanley|margherita peak
+Mount Meru
+Ras Dashen
+Mount Cameroon
+Mount Elgon
+Nyiragongo
+Mount Toubkal|toubkal
+Emi Koussi
+Pico de Teide|teide
+Pico do Fogo
+Mount Athos|athos
+Mount Parnassus|parnassus
+Mount Ida
+Musala
+Triglav
+Gerlach|gerlachovsky stit
+Rysy
+Grossglockner
+Zugspitze
+Dom
+Weisshorn
+Dufourspitze|monte rosa
+Piz Bernina
+Gran Paradiso
+Monte Viso|monviso
+Barre des Ecrins
+Aiguille du Midi
+Aiguille Verte
+Grandes Jorasses
+Pic du Midi
+Aneto
+Mulhacen
+Mount Canigou|canigou
+Puy de Dome
+Mont Ventoux|ventoux
+Feldberg
+Brocken
+Galdhopiggen
+Kebnekaise
+Hvannadalshnukur
+Hekla
+Eyjafjallajokull
+Katla
+Snaefellsjokull
+Scafell Pike
+Helvellyn
+Carrauntoohil
+Croagh Patrick
+Slieve Donard
+Cairn Gorm|cairngorm
+Schiehallion
+Buachaille Etive Mor
+Ayers Rock|uluru
+Mount Ossa
+Cradle Mountain
+Mount Bogong
+Mount Augustus
+Haleakala
+Mount Waialeale
+Pico Duarte
+Blue Mountain Peak
+Pico Turquino
+Chirripo
+Tajumulco
+Volcan Fuego|fuego
+Volcan de Agua
+Pacaya
+Arenal
+Irazu
+Momotombo
+Nevado del Ruiz
+Pico Cristobal Colon
+Pico Bolivar
+Roraima|mount roraima
+Pico da Neblina
+Illimani
+Sajama
+Huayna Potosi
+Alpamayo
+Siula Grande
+Yerupaja
+Ausangate
+Misti|el misti
+Llullaillaco
+Licancabur
+Tupungato
+Lanin
+Osorno
+Villarrica
+Mount Tronador|tronador
+Mount Sidley
+Mount Takahe
+Mount Melbourne
+Big Ben Heard Island|big ben
+Mount Kerinci|kerinci
+Mount Fansipan|fansipan
+Doi Inthanon
+Phou Bia
+Phnom Aural
+Mount Hkakabo Razi|hkakabo razi
+Saramati
+Mount Abu|guru shikhar
+Anamudi
+Doddabetta
+Pidurutalagala
+Adam's Peak|sri pada
+Gongga Shan|minya konka
+Amne Machin
+Namcha Barwa
+Gurla Mandhata
+Meili Snow Mountain|kawagebo
+Yulong Snow Mountain|jade dragon
+Hua Shan|huashan
+Wudang Shan|wudang
+Mount Lu|lushan
+Mount Wutai|wutai
+Mount Putuo|putuo
+Mount Song|songshan
+Mount Heng
+Mount Hiei
+Mount Koya|koya
+Mount Takao|takao
+Tateyama
+Yarigatake
+Hotaka

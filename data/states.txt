@@ -1,0 +1,57 @@
+name: U.S. States
+blurb: All fifty. Some hide better than others.
+group: Geography
+nope: puertorico => Puerto Rico is a territory, not a state.
+nope: washingtondc => D.C. is a federal district, not a state.
+nope: dc => D.C. is a federal district, not a state.
+---
+California
+Texas
+New York
+Florida
+Hawaii
+Alaska
+Washington
+Nevada
+Arizona
+Colorado
+Illinois
+Georgia
+Ohio
+Michigan
+Massachusetts
+Pennsylvania
+New Jersey
+Oregon
+Utah
+Louisiana
+Tennessee
+Virginia
+North Carolina
+South Carolina
+Kentucky
+Alabama
+Mississippi
+Minnesota
+Wisconsin
+Indiana
+Missouri
+Oklahoma
+Kansas
+Iowa
+Nebraska
+Montana
+Idaho
+Wyoming
+New Mexico
+Maine
+Vermont
+New Hampshire
+Connecticut
+Rhode Island
+Maryland
+Delaware
+West Virginia
+Arkansas
+North Dakota
+South Dakota

@@ -1,0 +1,209 @@
+name: World Capitals
+blurb: Capital cities of the world's countries.
+group: Geography
+nope: newyork => New York isn't the U.S. capital. Try Washington, D.C.
+nope: sydney => Australia's capital is Canberra.
+nope: toronto => Canada's capital is Ottawa.
+nope: istanbul => Turkey's capital is Ankara.
+nope: riodejaneiro => Brazil's capital is Brasília.
+nope: zurich => Switzerland's capital is Bern.
+nope: mumbai => India's capital is New Delhi.
+---
+London
+Paris
+Washington, D.C.|washington|washington dc
+Tokyo
+Rome
+Berlin
+Madrid
+Moscow
+Beijing
+Ottawa
+Canberra
+Mexico City
+Cairo
+Athens
+Dublin
+Lisbon
+Amsterdam
+Brussels
+Vienna
+Stockholm
+Oslo
+Copenhagen
+Helsinki
+New Delhi|delhi
+Seoul
+Bangkok
+Buenos Aires
+Brasilia
+Lima
+Santiago
+Bogota
+Caracas
+Havana
+Ankara
+Jerusalem
+Tehran
+Baghdad
+Riyadh
+Nairobi
+Warsaw
+Prague
+Budapest
+Bern
+Kyiv|kiev
+Wellington
+Manila
+Jakarta
+Hanoi
+Kuala Lumpur
+Singapore
+Islamabad
+Kabul
+Damascus
+Beirut
+Amman
+Doha
+Abu Dhabi
+Kuwait City
+Muscat
+Manama
+Reykjavik
+Edinburgh
+Cardiff
+Belfast
+Bucharest
+Sofia
+Belgrade
+Zagreb
+Ljubljana
+Sarajevo
+Podgorica
+Skopje
+Tirana
+Pristina
+Bratislava
+Vilnius
+Riga
+Tallinn
+Minsk
+Chisinau
+Tbilisi
+Yerevan
+Baku
+Astana|nur-sultan
+Tashkent
+Bishkek
+Dushanbe
+Ashgabat
+Ulaanbaatar|ulan bator
+Kathmandu
+Thimphu
+Dhaka
+Colombo|sri jayawardenepura kotte|kotte
+Male
+Naypyidaw|nay pyi taw
+Phnom Penh
+Vientiane
+Taipei
+Pyongyang
+Dili
+Bandar Seri Begawan
+Port Moresby
+Suva
+Apia
+Nuku'alofa
+Port Vila
+Honiara
+Tarawa|south tarawa
+Funafuti
+Yaren
+Ngerulmud
+Majuro
+Palikir
+Pretoria|cape town|bloemfontein
+Abuja
+Accra
+Addis Ababa
+Rabat
+Algiers
+Tunis
+Tripoli
+Khartoum
+Juba
+Mogadishu
+Djibouti
+Asmara
+Kampala
+Kigali
+Gitega
+Dodoma
+Lusaka
+Harare
+Gaborone
+Windhoek
+Maseru
+Mbabane|lobamba
+Maputo
+Lilongwe
+Antananarivo
+Port Louis
+Victoria
+Moroni
+Luanda
+Kinshasa
+Brazzaville
+Libreville
+Malabo
+Yaounde
+Bangui
+N'Djamena
+Niamey
+Bamako
+Ouagadougou
+Dakar
+Banjul
+Bissau
+Conakry
+Freetown
+Monrovia
+Yamoussoukro
+Lome
+Porto-Novo
+Nouakchott
+Praia
+Sao Tome
+Montevideo
+Asuncion
+La Paz|sucre
+Quito
+Georgetown
+Paramaribo
+Panama City
+San Jose
+Managua
+Tegucigalpa
+San Salvador
+Guatemala City
+Belmopan
+Kingston
+Port-au-Prince
+Santo Domingo
+Nassau
+Bridgetown
+Port of Spain
+Castries
+Kingstown
+Basseterre
+St. John's
+Roseau
+St. George's
+Luxembourg City|luxembourg
+Monaco City|monaco
+Vaduz
+San Marino City
+Vatican City
+Andorra la Vella
+Valletta
+Nicosia

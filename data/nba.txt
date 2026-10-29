@@ -1,0 +1,39 @@
+name: NBA Teams
+blurb: Thirty franchises. City optional.
+group: Sports & Games
+suffix: true
+nope: supersonics => The SuperSonics left Seattle in 2008.
+nope: sonics => The Sonics left Seattle in 2008.
+nope: bobcats => The Bobcats became the Hornets again in 2014.
+nope: bullets => The Bullets became the Wizards in 1997.
+---
+Lakers
+Celtics
+Bulls
+Warriors
+Heat
+Knicks
+Spurs
+Cavaliers|cavs
+Mavericks|mavs
+Rockets
+Nets
+76ers|sixers
+Raptors
+Suns
+Clippers
+Thunder
+Bucks
+Nuggets
+Trail Blazers|blazers
+Jazz
+Kings
+Pistons
+Magic
+Hawks
+Hornets
+Timberwolves|wolves
+Pelicans
+Grizzlies
+Pacers
+Wizards

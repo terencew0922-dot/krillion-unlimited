@@ -1,0 +1,213 @@
+name: Flowers
+blurb: Garden, wild, and exotic blooms.
+group: Science & Nature
+---
+Rose
+Tulip
+Sunflower
+Daisy
+Lily
+Orchid
+Daffodil
+Lavender
+Carnation
+Lotus
+Poppy
+Dandelion
+Violet
+Marigold
+Hibiscus
+Iris
+Lilac
+Peony
+Chrysanthemum|mum
+Hydrangea
+Jasmine
+Magnolia
+Cherry Blossom|sakura
+Gardenia
+Daylily
+Petunia
+Pansy
+Begonia
+Geranium
+Zinnia
+Dahlia
+Gerbera|gerbera daisy
+Azalea
+Rhododendron
+Camellia
+Gladiolus
+Snapdragon
+Morning Glory
+Lily of the Valley
+Forget-Me-Not
+Bluebell
+Buttercup
+Crocus
+Hyacinth
+Freesia
+Anemone
+Aster
+Cosmos
+Calla Lily
+Bird of Paradise
+Protea
+Plumeria|frangipani
+Bougainvillea
+Wisteria
+Honeysuckle
+Clematis
+Foxglove
+Hollyhock
+Sweet Pea
+Lupine|lupin
+Delphinium|larkspur
+Columbine
+Bleeding Heart
+Primrose
+Cowslip
+Snowdrop
+Hellebore
+Cyclamen
+Amaryllis
+Poinsettia
+Edelweiss
+Heather
+Gorse
+Thistle
+Clover
+Cornflower
+Black-Eyed Susan|rudbeckia
+Coneflower|echinacea
+Yarrow
+Verbena
+Salvia
+Lantana
+Impatiens
+Fuchsia
+Lobelia
+Alyssum
+Nasturtium
+Calendula
+Gaillardia|blanket flower
+Coreopsis
+Phlox
+Penstemon
+Allium
+Ranunculus
+Lisianthus|eustoma
+Stock|matthiola
+Statice
+Baby's Breath|gypsophila
+Waxflower
+Kangaroo Paw
+Banksia
+Waratah
+Bottlebrush
+Wattle|acacia
+Flannel Flower
+Sturt's Desert Pea
+Heliconia
+Anthurium
+Torch Ginger
+Passionflower
+Jacaranda
+Ixora
+Oleander
+Agapanthus
+Clivia
+Nerine
+Gazania
+Osteospermum|african daisy
+Ice Plant|delosperma
+Portulaca|moss rose
+Vinca|periwinkle
+Bacopa
+Diascia
+Nemesia
+Torenia
+Celosia
+Gomphrena
+Amaranthus|love-lies-bleeding
+Cleome|spider flower
+Scabiosa|pincushion flower
+Astilbe
+Hosta
+Lungwort|pulmonaria
+Brunnera
+Trillium
+Bloodroot
+Hepatica
+Pasque Flower
+Jack-in-the-Pulpit
+Lady's Slipper
+Trout Lily
+Spring Beauty
+Dutchman's Breeches
+Shooting Star
+Fireweed
+Indian Paintbrush
+Bluebonnet
+Lady's Mantle
+Meadowsweet
+Queen Anne's Lace
+Chicory
+Mallow
+Evening Primrose
+Moonflower
+Four O'Clock
+Night-Blooming Cereus
+Corpse Flower|titan arum
+Rafflesia
+Ghost Orchid
+Jade Vine
+Middlemist Red
+Kadupul
+Chocolate Cosmos
+Black Bat Flower
+Parrot's Beak
+Hooker's Lips
+Monkey Orchid
+Dove Orchid
+Naked Man Orchid
+Bee Orchid
+Flying Duck Orchid
+Swaddled Babies Orchid|tulip orchid
+Gloriosa Lily|flame lily
+Tiger Lily
+Stargazer Lily
+Martagon Lily
+Crown Imperial|fritillaria
+Snake's Head Fritillary
+Winter Aconite
+Glory-of-the-Snow
+Squill|scilla
+Grape Hyacinth|muscari
+Star of Bethlehem
+Camas
+Trumpet Vine
+Mandevilla
+Dipladenia
+Stephanotis
+Hoya|wax plant
+Tuberose
+Ylang-Ylang
+Osmanthus
+Daphne
+Mock Orange
+Viburnum
+Forsythia
+Spirea
+Weigela
+Deutzia
+Kerria
+Dogwood
+Redbud
+Catalpa
+Linden Blossom
+Elderflower
+Orange Blossom
+Apple Blossom
+Plum Blossom
+Almond Blossom

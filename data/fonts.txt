@@ -1,0 +1,242 @@
+name: Typefaces
+blurb: Fonts you've seen on menus, signs, screens and posters.
+group: Arts & History
+---
+Times New Roman|times
+Arial
+Comic Sans|comic sans ms
+Helvetica
+Calibri
+Georgia
+Verdana
+Courier|courier new
+Garamond
+Papyrus
+Impact
+Futura
+Cambria
+Roboto
+Tahoma
+Trebuchet|trebuchet ms
+Baskerville
+Gill Sans
+Franklin Gothic
+Century Gothic
+Lucida
+Palatino
+Bodoni
+Rockwell
+Open Sans
+Lato
+Montserrat
+Avenir
+San Francisco|sf pro
+Segoe UI|segoe
+Wingdings
+Brush Script
+Copperplate
+Didot
+Optima
+Frutiger
+Univers
+Akzidenz-Grotesk
+Gotham
+Proxima Nova
+Inter
+Source Sans|source sans pro
+Noto Sans|noto
+Ubuntu
+Fira Sans
+Poppins
+Raleway
+Oswald
+Playfair Display|playfair
+Merriweather
+Lora
+PT Sans
+Nunito
+Quicksand
+Bebas Neue|bebas
+Lobster
+Pacifico
+Courier Prime
+Consolas
+Menlo
+Monaco
+Fira Code
+JetBrains Mono
+Source Code Pro
+Inconsolata
+Cascadia Code
+Iosevka
+Andale Mono
+Space Grotesk
+DM Sans
+Manrope
+Work Sans
+IBM Plex|ibm plex sans
+Avenir Next
+Myriad|myriad pro
+Minion|minion pro
+Caslon
+Bembo
+Jenson
+Centaur
+Perpetua
+Goudy|goudy old style
+Sabon
+Plantin
+Janson
+Electra
+Caledonia
+Fournier
+Bell MT|bell
+Clarendon
+Cooper Black
+Souvenir
+ITC Benguiat|benguiat
+Avant Garde|itc avant garde
+Eurostile
+Microgramma
+Bank Gothic
+OCR-A
+OCR-B
+DIN
+Transport
+Johnston
+New Johnston
+Calvert
+Highway Gothic
+Clearview
+Interstate
+Meta|ff meta
+Scala
+Fedra
+Gotham Rounded
+Archer
+Chronicle
+Hoefler Text
+Tungsten
+Knockout
+Sentinel
+Whitney
+Verlag
+Neutraface
+Brandon Grotesque
+Gilroy
+Circular
+Graphik
+Calibre
+Founders Grotesk
+Neue Haas Grotesk
+GT America
+GT Walsheim
+Aktiv Grotesk
+Suisse Int'l|suisse
+Apercu
+Maison Neue
+Sohne
+Tiempos
+Lyon Text
+Publico
+Canela
+Freight
+Domaine
+Ogg
+Recoleta
+Cormorant
+EB Garamond
+Libre Baskerville
+Crimson
+Spectral
+Fraunces
+Bricolage Grotesque
+Syne
+Clash Display
+Satoshi
+General Sans
+Cabinet Grotesk
+Neue Montreal
+Migra
+Editorial New
+Zapfino
+Zapf Dingbats
+Mistral
+Snell Roundhand
+Edwardian Script
+Bickham Script
+Trajan
+Cinzel
+Herculanum
+Chalkboard
+Marker Felt
+Bradley Hand
+Curlz|curlz mt
+Jokerman
+Chiller
+Algerian
+Broadway
+Stencil
+Harrington
+Matura
+Old English Text|old english
+Fraktur
+Textura
+Schwabacher
+Rotunda
+Cloister Black
+Sans Forgetica
+Comic Neue
+Dyslexie
+OpenDyslexic
+Atkinson Hyperlegible
+Lexend
+Tiresias
+Fixedsys
+Terminal
+Chicago
+Geneva
+New York
+Charcoal
+Skia
+Hiragino
+Meiryo
+MS Gothic
+SimSun
+PingFang
+Arial Black
+Arial Rounded
+Arial Narrow
+Helvetica Neue
+Aptos
+Bierstadt
+Grandview
+Seaford
+Tenorite
+Skeena
+Segoe Script
+Segoe Print
+Ink Free
+Gabriola
+Constantia
+Corbel
+Candara
+Ebrima
+Leelawadee
+Sylfaen
+MV Boli
+Book Antiqua
+Bookman
+Century Schoolbook
+Lucida Console
+Lucida Handwriting
+Lucida Grande
+Tw Cen|tw cen mt
+Agency FB
+Berlin Sans
+Bauhaus 93
+Showcard Gothic
+Ravie
+Magneto
+Vivaldi
+Old London

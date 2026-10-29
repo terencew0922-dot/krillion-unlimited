@@ -1,0 +1,176 @@
+name: Vegetables
+blurb: Roots, leaves, stalks, pods and gourds. Culinary vegetables count.
+group: Food & Drink
+---
+Carrot
+Broccoli
+Potato
+Lettuce
+Tomato
+Onion
+Corn|maize|sweetcorn
+Cucumber
+Spinach
+Pea|peas
+Celery
+Bell Pepper|pepper|capsicum
+Cauliflower
+Cabbage
+Green Bean|green beans|string bean
+Garlic
+Mushroom
+Zucchini|courgette
+Sweet Potato
+Pumpkin
+Asparagus
+Kale
+Brussels Sprout|brussels sprouts
+Eggplant|aubergine
+Radish
+Beet|beetroot
+Squash
+Avocado
+Artichoke
+Leek
+Turnip
+Parsnip
+Okra
+Red Cabbage
+Bok Choy|pak choi
+Arugula|rocket
+Chard|swiss chard
+Collard Greens|collards
+Yam
+Shallot
+Scallion|green onion|spring onion
+Jalapeno
+Chili Pepper|chili|chile
+Rutabaga|swede
+Butternut Squash
+Acorn Squash
+Spaghetti Squash
+Watercress
+Endive
+Radicchio
+Fennel
+Kohlrabi
+Jicama
+Celeriac|celery root
+Daikon
+Ginger
+Horseradish
+Lima Bean|lima beans|butter bean
+Edamame
+Snow Pea|snow peas|mangetout
+Sugar Snap Pea|snap peas
+Bean Sprouts
+Alfalfa Sprouts
+Mustard Greens
+Turnip Greens
+Dandelion Greens
+Romaine
+Iceberg Lettuce|iceberg
+Butterhead Lettuce|butter lettuce
+Frisee
+Mache|lamb's lettuce|corn salad
+Sorrel
+Purslane
+Nettle
+Napa Cabbage|chinese cabbage
+Savoy Cabbage
+Broccolini
+Broccoli Rabe|rapini
+Romanesco
+Gai Lan|chinese broccoli
+Choy Sum
+Tatsoi
+Mizuna
+Komatsuna
+Water Spinach|kangkong|morning glory
+Malabar Spinach
+Amaranth Greens
+Moringa
+Taro
+Cassava|yuca|manioc
+Jerusalem Artichoke|sunchoke
+Salsify
+Scorzonera|black salsify
+Burdock|gobo
+Lotus Root
+Water Chestnut
+Bamboo Shoot|bamboo shoots
+Chayote
+Bitter Gourd|bitter melon
+Bottle Gourd|calabash
+Luffa|loofah
+Snake Gourd
+Ash Gourd|winter melon
+Ivy Gourd|tindora
+Pointed Gourd|parwal
+Drumstick
+Tomatillo
+Poblano
+Habanero
+Serrano
+Anaheim Pepper
+Banana Pepper
+Shishito
+Padron Pepper
+Cubanelle
+Ghost Pepper|bhut jolokia
+Scotch Bonnet
+Cardoon
+Fiddlehead|fiddleheads
+Ramps|wild garlic|ramsons
+Garlic Scape|scapes
+Chives
+Pearl Onion
+Cipollini
+Sea Beans|samphire
+Sea Kale
+Ice Plant
+Okahijiki
+Celtuce|stem lettuce
+Puntarelle
+Agretti
+Salsola
+Hosta Shoots
+Pea Shoots
+Microgreens
+Mung Bean
+Fava Bean|broad bean
+Runner Bean
+Yardlong Bean|long bean
+Winged Bean
+Hyacinth Bean|lablab
+Pigeon Pea
+Chickpea|garbanzo
+Lentil|lentils
+Black-Eyed Pea
+Kidney Bean
+Black Bean
+Pinto Bean
+Navy Bean
+Cannellini
+Adzuki Bean
+Lupini Bean|lupin
+Ulluco
+Oca
+Mashua
+Yacon
+Arracacha
+Malanga|yautia
+Eddoe
+Konjac
+Chinese Artichoke|crosne
+Skirret
+Hamburg Parsley|parsley root
+Earthnut
+Tiger Nut|chufa
+Breadroot
+Camas
+Wapato
+Kudzu Root
+Arrowroot
+Galangal
+Turmeric Root|fresh turmeric

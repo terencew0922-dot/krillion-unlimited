@@ -1,0 +1,278 @@
+name: Dances
+blurb: Ballroom, folk, street and ceremonial dance styles.
+group: Arts & History
+---
+Ballet
+Salsa
+Tango
+Waltz
+Hip Hop|hip-hop
+Tap|tap dance
+Breakdancing|breaking|breakdance
+Jazz|jazz dance
+Contemporary
+Swing
+Cha-Cha|cha cha
+Foxtrot
+Samba
+Rumba
+Line Dancing|line dance
+Square Dance
+Belly Dance
+Flamenco
+Polka
+Macarena
+Twist
+Moonwalk
+Floss
+Disco
+Electric Slide
+Cotton Eye Joe
+Conga
+Limbo
+Hula
+Irish Dance|irish step dance|riverdance
+Bachata
+Merengue
+Mambo
+Quickstep
+Paso Doble
+Jive
+Lindy Hop
+Charleston
+Jitterbug
+Boogie-Woogie
+Krump
+Popping
+Locking
+Voguing|vogue
+Twerking|twerk
+Dougie
+Whip|nae nae
+Dab
+Gangnam Style
+Harlem Shake
+Running Man
+Shuffle|melbourne shuffle
+Robot
+Worm
+Cabbage Patch
+Electric Boogaloo|boogaloo
+Mashed Potato
+Hustle
+Bus Stop
+YMCA
+Chicken Dance
+Hokey Pokey
+Bunny Hop
+Can-Can|cancan
+Minuet
+Gavotte
+Allemande
+Pavane
+Galliard
+Sarabande
+Courante
+Gigue|jig
+Reel
+Hornpipe
+Strathspey
+Highland Fling
+Sword Dance
+Morris Dance
+Maypole Dance
+Clog Dance|clogging
+Step Dance
+Flatfooting
+Buck Dance
+Cakewalk
+Juba Dance
+Stepping
+Kizomba
+Zouk
+Semba
+Kuduro
+Azonto
+Gwara Gwara
+Pantsula
+Gumboot Dance
+Indlamu
+Coupé-Décalé|coupe decale
+Ndombolo
+Soukous
+Makossa
+Mapouka
+Kpanlogo
+Adowa
+Eskista
+Haka
+Siva
+Tamure
+Otea
+Bharatanatyam
+Kathak
+Kathakali
+Kuchipudi
+Odissi
+Manipuri
+Mohiniyattam
+Sattriya
+Bhangra
+Garba
+Dandiya
+Ghoomar
+Lavani
+Bihu
+Chhau
+Yakshagana
+Kalbelia
+Bollywood|bollywood dance
+Lion Dance
+Dragon Dance
+Fan Dance
+Ribbon Dance
+Yangge
+Butoh
+Bon Odori
+Para Para
+Buyo|nihon buyo
+Talchum
+Buchaechum
+Ganggangsullae
+Tinikling
+Cariñosa|carinosa
+Singkil
+Pangalay
+Kecak
+Legong
+Barong
+Saman
+Jaipong
+Ramvong
+Apsara Dance
+Khon
+Fon
+Lam Vong
+Sirtaki
+Kalamatianos
+Hasapiko
+Tsamiko
+Zeibekiko
+Horo
+Hora
+Kolo
+Csardas
+Verbunkos
+Mazurka
+Polonaise
+Krakowiak
+Oberek
+Kujawiak
+Hopak
+Kazachok
+Trepak
+Barynya
+Lezginka
+Kartuli
+Khorumi
+Halay
+Horon
+Zeybek
+Sema|whirling dervish
+Dabke
+Raqs Sharqi
+Tahtib
+Guedra
+Ahwash
+Schuhplattler
+Landler
+Zwiefacher
+Volta
+Branle
+Farandole
+Bourree
+Sardana
+Jota
+Sevillanas
+Fandango
+Bolero
+Muineira
+Vira
+Corridinho
+Tarantella
+Pizzica
+Saltarello
+Forlana
+Polska
+Hambo
+Halling
+Springar
+Schottische
+Varsovienne
+Cumbia
+Vallenato
+Joropo
+Marinera
+Huayno
+Cueca
+Chacarera
+Zamba
+Milonga
+Candombe
+Forro
+Frevo
+Axe
+Lambada
+Capoeira
+Maculele
+Danzon
+Son|son cubano
+Guaguanco
+Rueda de Casino|casino
+Pachanga
+Bomba
+Plena
+Punta
+Jarabe Tapatio|mexican hat dance
+Huapango
+Danza de los Viejitos
+Quebradita
+Tribal|tribal guarachero
+Dancehall
+Calypso
+Soca
+Quadrille
+Contra Dance
+Ceilidh
+Barn Dance
+Two-Step|texas two-step
+West Coast Swing
+East Coast Swing
+Balboa
+Shag|carolina shag
+Collegiate Shag
+Blues Dance
+Waacking
+House|house dance
+Jookin
+Turfing
+Litefeet
+Flexing
+Footwork|juke
+Jerkin'
+C-Walk|crip walk
+Tutting
+Animation
+Liquid
+Tecktonik
+Jumpstyle
+Cutting Shapes
+Pogo
+Moshing
+Skanking
+Headbanging
+Viennese Waltz
+Pole Dance
+Burlesque
+Majorette
+Ice Dance

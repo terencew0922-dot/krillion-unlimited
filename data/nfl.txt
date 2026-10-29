@@ -1,0 +1,39 @@
+name: NFL Teams
+blurb: All 32 franchises. City optional.
+group: Sports & Games
+suffix: true
+nope: oilers => The Oilers became the Titans.
+nope: redskins => Now the Washington Commanders.
+---
+Cowboys
+Patriots
+Packers
+Steelers
+49ers|niners|forty niners
+Giants
+Eagles
+Bears
+Chiefs
+Raiders
+Dolphins
+Broncos
+Seahawks
+Rams
+Saints
+Ravens
+Vikings
+Jets
+Buccaneers|bucs
+Bills
+Lions
+Browns
+Colts
+Chargers
+Falcons
+Commanders|washington
+Bengals
+Cardinals
+Panthers
+Titans
+Texans
+Jaguars|jags

@@ -1,0 +1,244 @@
+name: DC Characters
+blurb: Heroes, villains and oddities from DC Comics.
+group: Pop Culture
+nope: spiderman => Spider-Man is Marvel.
+nope: ironman => Iron Man is Marvel.
+nope: wolverine => Wolverine is Marvel.
+nope: deadpool => Deadpool is Marvel.
+nope: thor => Thor is Marvel.
+---
+Batman|bruce wayne
+Superman|clark kent|kal-el
+Wonder Woman|diana prince
+The Joker|joker
+The Flash|flash|barry allen
+Aquaman|arthur curry
+Green Lantern|hal jordan
+Robin|dick grayson
+Harley Quinn|harley
+Catwoman|selina kyle
+Lex Luthor|luthor
+Cyborg
+Supergirl|kara zor-el
+Batgirl|barbara gordon
+Green Arrow|oliver queen
+Lois Lane
+Alfred Pennyworth|alfred
+Commissioner Gordon|jim gordon
+The Penguin|penguin|oswald cobblepot
+The Riddler|riddler
+Two-Face|harvey dent
+Poison Ivy
+Bane
+Scarecrow
+Mr. Freeze
+Darkseid
+Shazam|captain marvel
+Black Adam
+Doomsday
+Brainiac
+General Zod|zod
+Martian Manhunter|j'onn j'onzz
+Nightwing
+Red Hood|jason todd
+Deathstroke|slade wilson
+Ra's al Ghul
+Talia al Ghul
+Damian Wayne
+Tim Drake|red robin
+Beast Boy
+Starfire
+Raven
+Constantine|john constantine
+Swamp Thing
+Zatanna
+Hawkman
+Hawkgirl
+Black Canary
+Blue Beetle
+Booster Gold
+Plastic Man
+The Atom|atom
+Firestorm
+Static|static shock
+Peacemaker
+Bloodsport
+King Shark
+Killer Croc
+Deadshot
+Captain Boomerang
+Amanda Waller
+Rick Flag
+Enchantress
+El Diablo
+Katana
+Mad Hatter
+Hush
+Clayface
+Man-Bat
+Killer Moth
+Firefly
+Calendar Man
+Ventriloquist|scarface
+Black Mask
+Zsasz|victor zsasz
+Professor Pyg
+Azrael
+Huntress
+Spoiler
+Orphan|cassandra cain
+Signal
+Batwoman|kate kane
+Ace the Bat-Hound|ace
+Krypto
+Streaky
+Comet the Super-Horse
+Bizarro
+Metallo
+Parasite
+Toyman
+Mxyzptlk|mr mxyzptlk
+Cyborg Superman
+Mongul
+Brainiac 5
+Superboy|conner kent
+Power Girl
+Steel
+Jimmy Olsen
+Perry White
+Lana Lang
+Jonathan Kent
+Martha Kent
+Jor-El
+Lara
+Faora
+Non
+Ursa
+Kid Flash|wally west
+Impulse|bart allen
+Reverse-Flash|eobard thawne
+Zoom
+Captain Cold
+Heat Wave
+Mirror Master
+Weather Wizard
+Trickster
+Gorilla Grodd|grodd
+Sinestro
+John Stewart
+Guy Gardner
+Kyle Rayner
+Jessica Cruz
+Simon Baz
+Kilowog
+Atrocitus
+Larfleeze
+Saint Walker
+Indigo-1
+Star Sapphire
+Parallax
+Mera
+Black Manta
+Ocean Master
+Aqualad
+Cheetah
+Ares
+Circe
+Giganta
+Steve Trevor
+Etta Candy
+Hippolyta
+Donna Troy|wonder girl
+Artemis
+Nubia
+Doctor Fate
+Spectre
+Phantom Stranger
+Deadman
+Etrigan|the demon
+Ragman
+Jonah Hex
+Sgt. Rock
+The Unknown Soldier
+Robotman
+Negative Man
+Elasti-Girl
+Crazy Jane
+Danny the Street
+Mr. Nobody
+Animal Man
+Sandman|dream|morpheus
+Death of the Endless|death
+Lucifer|lucifer morningstar
+Mister Miracle
+Big Barda
+Orion
+Metron
+Highfather
+Granny Goodness
+Desaad
+Kalibak
+Steppenwolf
+Lobo
+Vril Dox
+Captain Atom
+The Question
+Rorschach
+Doctor Manhattan
+Ozymandias
+Nite Owl
+Silk Spectre
+The Comedian
+Jesse Quick
+Johnny Quick
+Max Mercury
+Jay Garrick
+Alan Scott
+Wildcat
+Hourman
+Doctor Mid-Nite
+Mister Terrific
+Stargirl
+S.T.R.I.P.E.
+Black Lightning
+Thunder
+Lightning
+Vixen
+Ambush Bug
+Bat-Mite
+Detective Chimp
+Zan and Jayna|wonder twins
+Ultra the Multi-Alien
+Egg Fu
+Kite Man
+Condiment King
+Polka-Dot Man
+Crazy Quilt
+Doctor Psycho
+Chronos
+Ultra-Humanite
+Vandal Savage
+Felix Faust
+Despero
+Starro
+Amazo
+Prometheus
+Eclipso
+Anti-Monitor
+Monitor
+Nekron
+Trigon
+Brother Blood
+Cheshire
+Jericho
+Kid Eternity
+Captain Carrot
+Snapper Carr
+Ma Hunkel
+Arm-Fall-Off-Boy
+Matter-Eater Lad
+Bouncing Boy
+Color Kid
+Chlorophyll Kid
+Infectious Lass
+Dog Welder

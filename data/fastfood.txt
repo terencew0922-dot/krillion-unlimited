@@ -1,0 +1,192 @@
+name: Fast Food Chains
+blurb: Burgers, chicken, pizza and regional chains.
+group: Food & Drink
+---
+McDonald's|mcdonalds|mcd
+Burger King|bk
+Wendy's
+KFC|kentucky fried chicken
+Taco Bell
+Subway
+Chick-fil-A
+Pizza Hut
+Domino's
+Starbucks
+Dunkin'|dunkin donuts|dunkin
+Popeyes
+Five Guys
+In-N-Out|in n out
+Chipotle
+Arby's
+Sonic
+Dairy Queen|dq
+Jack in the Box
+Whataburger
+Little Caesars
+Papa John's
+Panda Express
+Shake Shack
+Wingstop
+Culver's
+Carl's Jr.
+Hardee's
+White Castle
+Jimmy John's
+Jersey Mike's
+Firehouse Subs
+Panera Bread|panera
+Raising Cane's|canes
+Zaxby's
+Bojangles
+Church's Chicken
+Del Taco
+El Pollo Loco
+Qdoba
+Moe's Southwest Grill|moes
+Long John Silver's
+Captain D's
+Checkers
+Rally's
+Krystal
+Steak 'n Shake
+Freddy's
+Smashburger
+Fatburger
+Jollibee
+Tim Hortons|timmies
+A&W
+Krispy Kreme
+Baskin-Robbins
+Cold Stone
+Auntie Anne's
+Cinnabon
+Wetzel's Pretzels
+Pret A Manger|pret
+Greggs
+Nando's
+Wimpy
+Hungry Jack's
+Red Rooster
+Harvey's
+Mary Brown's
+St-Hubert
+Quick
+Vapiano
+Nordsee
+Max Burgers|max
+Hesburger
+Mos Burger
+Lotteria
+Yoshinoya
+Sukiya
+Matsuya
+CoCo Ichibanya
+Freshness Burger
+Tenya
+Ootoya
+Marugame Seimen
+Mister Donut
+Kopi Kenangan
+Chowking
+Mang Inasal
+Greenwich Pizza
+Goldilocks
+Max's Restaurant
+Dicos
+Tasty
+Mixue
+Luckin Coffee
+Haidilao
+Bonchon
+Kyochon
+BBQ Chicken|bbq olive chicken
+Mom's Touch
+Paris Baguette
+Tous les Jours
+Chicken Republic
+Mr Bigg's
+Steers
+Debonairs Pizza
+Galito's
+Al Baik
+Kudu
+Herfy
+Shawarmer
+Pollo Campero
+Pollo Tropical
+Bembos
+Telepizza
+Habib's
+Giraffas
+Bob's
+Spoleto
+Sbarro
+Blaze Pizza
+MOD Pizza
+Marco's Pizza
+Hungry Howie's
+Jet's Pizza
+Godfather's Pizza
+Round Table Pizza
+Cicis
+Chuck E. Cheese
+Pizza Inn
+Fazoli's
+Noodles & Company
+Wingstreet
+Hooters
+Buffalo Wild Wings|bdubs
+Golden Chick
+Lee's Famous Recipe
+Hartz Chicken
+Mrs. Winner's
+Biscuitville
+Cook Out
+Hwy 55
+Back Yard Burgers
+Wayback Burgers
+Farmer Boys
+The Habit|habit burger
+Jack's
+Milo's
+Rax
+Burger Chef
+Sambo's
+Howard Johnson's
+Hot 'n Now
+Roy Rogers
+Druther's
+Wienerschnitzel
+Nathan's Famous|nathans
+Portillo's
+Skyline Chili
+Gold Star Chili
+Runza
+Taco John's
+Taco Bueno
+Taco Cabana
+Taco Time
+Taco Tico
+Naugles
+Zantigo
+Pancheros
+Baja Fresh
+Rubio's
+Wahoo's
+Sweetgreen
+Cava
+Dig
+Tender Greens
+Torchy's Tacos
+Velvet Taco
+Dutch Bros
+Scooter's Coffee
+Biggby
+Caribou Coffee
+Peet's
+Coffee Bean & Tea Leaf
+Second Cup
+Costa Coffee|costa
+Caffe Nero
+Tchibo
+Gloria Jean's

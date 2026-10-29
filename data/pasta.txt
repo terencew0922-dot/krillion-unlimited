@@ -1,0 +1,159 @@
+name: Pasta Shapes
+blurb: Boxed staples to regional handmade shapes.
+group: Food & Drink
+---
+Spaghetti
+Penne
+Macaroni
+Fettuccine
+Lasagna|lasagne
+Ravioli
+Linguine
+Rigatoni
+Farfalle|bowtie|bow tie
+Rotini
+Fusilli
+Tortellini
+Angel Hair|capellini
+Orzo
+Ziti
+Gnocchi
+Shells|conchiglie
+Manicotti
+Cannelloni
+Orecchiette
+Pappardelle
+Tagliatelle
+Bucatini
+Ditalini
+Vermicelli
+Rotelle|wagon wheels
+Cavatappi
+Gemelli
+Radiatori
+Campanelle
+Stelline
+Acini di Pepe
+Paccheri
+Cavatelli
+Agnolotti
+Tortelloni
+Strozzapreti
+Trofie
+Casarecce
+Mafaldine
+Lumache
+Fregola
+Pici
+Bigoli
+Garganelli
+Pizzoccheri
+Malloreddus
+Corzetti
+Anelli
+Calamarata
+Mezzelune
+Cappelletti
+Culurgiones
+Gigli
+Busiate
+Su Filindeu
+Lagane
+Scialatielli
+Tajarin
+Passatelli
+Egg Noodles
+Elbow Macaroni|elbows
+Spaghettini
+Spaghetti alla Chitarra|chitarra
+Tonnarelli
+Fusilli Lunghi
+Fusilli Bucati
+Mostaccioli
+Sedanini
+Tortiglioni
+Mezze Maniche
+Maccheroni
+Candele
+Zitoni
+Pipe Rigate|pipette
+Conchigliette
+Conchiglioni|jumbo shells
+Lumaconi
+Chifferi
+Ditali
+Tubetti
+Anellini
+Alfabeto|alphabet pasta
+Pastina
+Risoni
+Farfalline
+Farfalloni
+Quadretti
+Grattini
+Cuscussu
+Fileja
+Maccheroni al Ferro
+Strascinati
+Ricci
+Mafalde|reginette
+Lasagnette
+Trenette
+Bavette
+Linguettine
+Fettuccelle
+Tagliolini
+Taglierini
+Capelli d'Angelo
+Fedelini
+Maltagliati
+Stracci
+Fazzoletti
+Testaroli
+Mandilli di Seta|mandilli
+Croxetti
+Cappellacci
+Tortelli
+Anolini
+Pansotti
+Sacchetti
+Fagottini
+Caramelle
+Casoncelli
+Agnolotti del Plin|plin
+Gnudi
+Canederli
+Pisarei
+Strangolapreti
+Spatzle|spaetzle
+Pinci
+Umbricelli
+Strangozzi
+Ciriole
+Manfricoli
+Lombrichelli
+Cecamariti
+Sagne
+Sagnarelli
+Laganelle
+Andarinos
+Maccheroncini di Campofilone
+Gramigna
+Sorpresine
+Farfalle Tonde
+Fiori|fiorentine
+Gigli Toscani
+Riccioli
+Torchio
+Cascatelli
+Creste di Gallo
+Lumachine
+Ruote|rotelline
+Chiancarelle
+Pociacche
+Stroncatelli
+Mezzi Paccheri
+Schiaffoni
+Ziti Spezzati
+Pasta Mista
+Vesuvio

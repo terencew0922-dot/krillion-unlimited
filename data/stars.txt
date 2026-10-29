@@ -1,0 +1,211 @@
+name: Named Stars
+blurb: Individual stars with proper names. Constellations and planets don't count.
+group: Science & Nature
+nope: orion => Orion is a constellation. Name a star in it.
+---
+The Sun|sun|sol
+Polaris|north star|pole star
+Sirius|dog star
+Betelgeuse
+Rigel
+Vega
+Alpha Centauri|rigil kentaurus
+Proxima Centauri|proxima
+Arcturus
+Aldebaran
+Antares
+Canopus
+Capella
+Altair
+Deneb
+Spica
+Pollux
+Castor
+Regulus
+Procyon
+Fomalhaut
+Achernar
+Bellatrix
+Mintaka
+Alnilam
+Alnitak
+Saiph
+Algol
+Mira
+Alcyone
+Maia
+Electra
+Merope
+Taygeta
+Celaeno
+Asterope
+Pleione
+Atlas
+Mizar
+Alcor
+Dubhe
+Merak
+Phecda
+Megrez
+Alioth
+Alkaid
+Kochab
+Thuban
+Eltanin
+Rasalhague
+Rasalgethi
+Albireo
+Sadr
+Gienah
+Shaula
+Lesath
+Sargas
+Kaus Australis
+Nunki
+Ascella
+Hadar|agena
+Acrux
+Mimosa|becrux
+Gacrux
+Avior
+Miaplacidus
+Suhail
+Alphard
+Alphecca|gemma
+Izar
+Muphrid
+Zubenelgenubi
+Zubeneschamali
+Denebola
+Algieba
+Zosma
+Chertan
+Ras Elased
+Adhara
+Wezen
+Mirzam
+Aludra
+Gomeisa
+Menkalinan
+Elnath
+Hamal
+Sheratan
+Mesarthim
+Almach
+Mirach
+Alpheratz
+Scheat
+Markab
+Algenib
+Enif
+Sadalmelik
+Sadalsuud
+Skat
+Deneb Algedi
+Dabih
+Diphda
+Menkar
+Ankaa
+Peacock
+Alnair
+Atria
+Tarazed
+Alshain
+Sualocin
+Rotanev
+Unukalhai
+Yed Prior
+Sabik
+Kornephoros
+Sarin
+Cor Caroli
+Vindemiatrix
+Porrima
+Zaniah
+Heze
+Algorab
+Kraz
+Alkes
+Mebsuta
+Alhena
+Tejat
+Propus
+Wasat
+Mekbuda
+Alzirr
+Acubens
+Asellus Borealis
+Asellus Australis
+Segin
+Ruchbah
+Schedar
+Caph
+Achird
+Alderamin
+Errai
+Alfirk
+Garnet Star|mu cephei
+Barnard's Star
+Wolf 359
+Lalande 21185
+Luyten's Star
+Tau Ceti
+Epsilon Eridani|ran
+Kapteyn's Star
+Van Maanen's Star
+Gliese 581
+Kepler-452
+TRAPPIST-1
+Tabby's Star|boyajian's star
+Eta Carinae
+VY Canis Majoris
+UY Scuti
+Stephenson 2-18
+WOH G64
+R136a1
+Pistol Star
+Rho Cassiopeiae
+Sirius B|the pup
+Procyon B
+Methuselah Star
+Przybylski's Star
+Cygnus X-1
+Polaris Australis|sigma octantis
+Zeta Puppis|naos
+Regor
+Aspidiske
+Markeb
+Tureis
+Alsephina
+Sadalbari
+Fumalsamakah
+Biham
+Homam
+Matar
+Salm
+Kitalpha
+Tiaki
+Alnasl
+Kaus Media
+Kaus Borealis
+Albaldah
+Arkab
+Rukbat
+Terebellum
+Polis
+Algedi
+Nashira
+Albali
+Ancha
+Situla
+Lucida Anseris|anser
+Sham
+Bunda
+Okul
+Ain
+Prima Hyadum
+Secunda Hyadum
+Chamukuy
+Tianguan
+Menkent
+Ma Wei

@@ -1,0 +1,204 @@
+name: Insects
+blurb: True insects only: six legs, three body parts.
+group: Science & Nature
+nope: spider => Spiders are arachnids, not insects.
+---
+Ant
+Bee|honeybee
+Butterfly
+Mosquito
+Fly|housefly
+Ladybug|ladybird
+Grasshopper
+Cockroach|roach
+Dragonfly
+Beetle
+Wasp
+Moth
+Cricket
+Firefly|lightning bug
+Termite
+Flea
+Bumblebee
+Hornet
+Praying Mantis|mantis
+Stick Insect|walking stick
+Cicada
+Locust
+Louse|lice
+Aphid
+Gnat
+Fruit Fly
+Horsefly
+Yellowjacket
+Earwig
+Silverfish
+Bed Bug|bedbug
+Weevil
+Scarab
+Dung Beetle
+Stag Beetle
+Rhinoceros Beetle
+Hercules Beetle
+Goliath Beetle
+Monarch Butterfly|monarch
+Luna Moth
+Atlas Moth
+Swallowtail
+Damselfly
+Mayfly
+Stonefly
+Caddisfly
+Lacewing
+Antlion
+Dobsonfly
+Katydid
+Leafhopper
+Treehopper
+Planthopper
+Spittlebug
+Stink Bug
+Assassin Bug
+Water Strider
+Water Boatman
+Backswimmer
+Giant Water Bug
+Mealybug
+Scale Insect
+Whitefly
+Thrips
+Booklouse
+Webspinner
+Rock Crawler|grylloblattodea
+Gladiator Bug|mantophasmatodea
+Zorapteran|angel insect
+Scorpionfly
+Snakefly
+Alderfly
+Owlfly
+Mantisfly
+Sawfly
+Horntail
+Ichneumon Wasp
+Fig Wasp
+Gall Wasp
+Velvet Ant
+Tarantula Hawk
+Cicada Killer
+Mud Dauber
+Paper Wasp
+Potter Wasp
+Carpenter Bee
+Mason Bee
+Leafcutter Bee
+Sweat Bee
+Stingless Bee
+Orchid Bee
+Bullet Ant
+Army Ant
+Leafcutter Ant
+Fire Ant
+Carpenter Ant
+Honeypot Ant
+Weaver Ant
+Trap-Jaw Ant
+Bulldog Ant
+Jack Jumper Ant
+Driver Ant|siafu
+Harvester Ant
+Crazy Ant
+Pharaoh Ant
+Bark Beetle
+Longhorn Beetle
+Ground Beetle
+Tiger Beetle
+Bombardier Beetle
+Click Beetle
+Jewel Beetle
+Blister Beetle
+Darkling Beetle|mealworm
+Rove Beetle
+Carrion Beetle
+Water Beetle|diving beetle
+Whirligig Beetle
+Leaf Beetle
+Colorado Potato Beetle
+Japanese Beetle
+June Bug|may beetle
+Cockchafer
+Boll Weevil
+Hissing Cockroach
+Mole Cricket
+Camel Cricket
+Cave Weta|weta
+Giant Weta
+Leaf Insect
+Orchid Mantis
+Ghost Mantis
+Devil's Flower Mantis
+Lanternfly
+Spotted Lanternfly
+Peanut-Head Bug
+Thorn Bug
+Brazilian Treehopper
+Crane Fly|daddy longlegs
+Hoverfly
+Bee Fly
+Robber Fly
+Botfly
+Tsetse Fly
+Sandfly
+Blackfly
+Midge
+Deer Fly
+Stable Fly
+Blowfly
+Bluebottle
+Greenbottle
+Flesh Fly
+Stalk-Eyed Fly
+Snow Flea|springtail
+Bristletail
+Firebrat
+Hawk Moth|sphinx moth
+Hummingbird Hawk-Moth
+Death's-Head Hawkmoth
+Silk Moth|silkworm
+Gypsy Moth|spongy moth
+Clothes Moth
+Codling Moth
+Tiger Moth
+Rosy Maple Moth
+Io Moth
+Cecropia Moth
+Polyphemus Moth
+Comet Moth
+Madagascan Sunset Moth
+Owl Butterfly
+Morpho
+Glasswing Butterfly
+Birdwing
+Queen Alexandra's Birdwing
+Painted Lady
+Red Admiral
+Peacock Butterfly
+Mourning Cloak
+Fritillary
+Skipper
+Hairstreak
+Cabbage White
+Brimstone
+Sulphur Butterfly
+Zebra Longwing
+Postman Butterfly
+Viceroy
+Giant Swallowtail
+Twisted-Wing Parasite|strepsiptera
+Louse Fly
+Bat Fly
+Ensign Wasp
+Emerald Cockroach Wasp|jewel wasp
+Fairyfly
+Kissing Bug
+Cochineal
+Lac Insect

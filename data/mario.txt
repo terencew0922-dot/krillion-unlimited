@@ -1,0 +1,186 @@
+name: Mario Characters
+blurb: Heroes, villains and enemies from the Mushroom Kingdom and beyond.
+group: Pop Culture
+---
+Mario
+Luigi
+Princess Peach|peach
+Bowser|king koopa
+Yoshi
+Toad
+Donkey Kong|dk
+Wario
+Waluigi
+Princess Daisy|daisy
+Rosalina
+Bowser Jr.
+Diddy Kong
+Koopa Troopa
+Goomba
+Boo
+Shy Guy
+Toadette
+King Boo
+Lakitu
+Bullet Bill
+Piranha Plant
+Chain Chomp
+Blooper
+Hammer Bro
+Dry Bones
+Cheep Cheep
+Thwomp
+Bob-omb
+Birdo
+Kamek
+Koopalings
+Larry Koopa|larry
+Morton Koopa Jr.|morton
+Wendy O. Koopa|wendy
+Iggy Koopa|iggy
+Roy Koopa|roy
+Lemmy Koopa|lemmy
+Ludwig von Koopa|ludwig
+Petey Piranha
+Funky Kong
+Cranky Kong
+Dixie Kong
+Candy Kong
+Pauline
+Toadsworth
+Captain Toad
+Professor E. Gadd|e gadd
+Nabbit
+Spike
+Pokey
+Wiggler
+Monty Mole
+Buzzy Beetle
+Spiny
+Fuzzy
+Magikoopa
+Boom Boom
+Pom Pom
+King Bob-omb
+Whomp
+Big Bully
+Mips
+Lubba
+Luma
+Polari
+Tiara
+Cappy
+Pianta
+Noki
+Il Piantissimo
+Shadow Mario
+Fawful
+Cackletta
+Prince Peasley
+Starlow
+Count Bleck
+Dimentio
+Tippi
+Mimi
+O'Chunks
+Vivian
+Goombella
+Koops
+Bobbery|admiral bobbery
+Flurrie
+Ms. Mowz
+Kooper
+Goombario
+Bombette
+Parakarry
+Lady Bow|bow
+Watt
+Sushie
+Lakilester
+Geno
+Mallow
+Smithy
+Exor
+Croco
+Booster
+Valentina
+Kolorado
+Olivia
+Huey
+Kersti
+Tatanga
+King Totomesu
+Wart
+Mouser
+Tryclyde
+Fryguy
+Clawgrip
+Ninji
+Snifit
+Pidgit
+Phanto
+Bob-omb Buddy
+Swooper
+Klepto
+Ukiki
+Mr. I
+Bully
+Amp
+Chuckya
+Skeeter
+Unagi
+Eyerok
+Rex
+Dino Rhino
+Banzai Bill
+Torpedo Ted
+Urchin
+Porcupuffer
+Spike Top
+Para-Goomba|paragoomba
+Paratroopa
+Sledge Bro
+Fire Bro
+Boomerang Bro
+Ice Bro
+Lava Bubble|podoboo
+Fire Snake
+Angry Sun
+Stretch
+Big Boo
+Peepa
+Broozer
+Pink Gold Peach
+Metal Mario
+Baby Mario
+Baby Luigi
+Baby Peach
+Baby Daisy
+Baby Rosalina
+Dry Bowser
+Meowser
+Lumalee
+Prince Florian
+Captain Syrup
+Kaptain K. Rool|k rool|king k rool
+Klump
+Krusha
+Kritter
+Tiny Kong
+Lanky Kong
+Chunky Kong
+Swanky Kong
+Wrinkly Kong
+Kiddy Kong
+Rambi
+Squawks
+Enguarde
+Expresso
+Squitter
+Rattly
+Ellie
+Dr. Mario
+Mona
+Jimmy T.
+Ashley
+Red|ashley red

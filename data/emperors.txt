@@ -1,0 +1,140 @@
+name: Roman Emperors
+blurb: From Augustus to the last emperors of the West and East.
+group: Arts & History
+nope: juliuscaesar => Julius Caesar was a dictator, never emperor.
+nope: caesar => Julius Caesar was a dictator, never emperor.
+nope: pompey => Pompey was a general, never emperor.
+nope: spartacus => Spartacus led a slave revolt.
+---
+Augustus|octavian
+Nero
+Caligula
+Marcus Aurelius
+Constantine|constantine the great
+Hadrian
+Trajan
+Claudius
+Tiberius
+Commodus
+Vespasian
+Titus
+Domitian
+Diocletian
+Septimius Severus
+Caracalla
+Justinian
+Antoninus Pius
+Nerva
+Galba
+Otho
+Vitellius
+Lucius Verus
+Pertinax
+Didius Julianus
+Geta
+Macrinus
+Elagabalus|heliogabalus
+Severus Alexander
+Maximinus Thrax
+Gordian I
+Gordian II
+Gordian III
+Philip the Arab
+Decius
+Valerian
+Gallienus
+Claudius Gothicus
+Aurelian
+Tacitus
+Probus
+Carus
+Carinus
+Numerian
+Maximian
+Galerius
+Constantius Chlorus|constantius i
+Licinius
+Maxentius
+Constantine II
+Constantius II
+Constans
+Julian|julian the apostate
+Jovian
+Valentinian I
+Valens
+Gratian
+Theodosius|theodosius i
+Honorius
+Arcadius
+Theodosius II
+Valentinian III
+Romulus Augustulus
+Majorian
+Anthemius
+Petronius Maximus
+Avitus
+Libius Severus
+Olybrius
+Glycerius
+Julius Nepos
+Marcian
+Leo I
+Zeno
+Anastasius
+Justin I
+Justin II
+Tiberius II
+Maurice
+Phocas
+Heraclius
+Constans II
+Justinian II
+Leo III
+Constantine V
+Irene
+Basil I
+Leo VI
+Basil II
+Constantine VII
+Romanos
+Alexios Komnenos|alexios i
+Manuel Komnenos
+Constantine XI
+Pupienus
+Balbinus
+Aemilian
+Trebonianus Gallus
+Hostilian
+Volusian
+Quintillus
+Florian
+Severus II
+Maximinus Daia
+Vetranio
+Magnentius
+Nepotianus
+Procopius
+Magnus Maximus
+Eugenius
+Constantine III
+Priscus Attalus
+Jovinus
+Johannes
+Uranius Antoninus
+Postumus
+Tetricus
+Victorinus
+Laelianus
+Marius
+Carausius
+Allectus
+Vaballathus
+Quietus
+Macrianus
+Regalianus
+Ingenuus
+Aureolus
+Saloninus
+Valerian II
+Diadumenian
+Herennius Etruscus

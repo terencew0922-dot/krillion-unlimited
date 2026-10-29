@@ -1,0 +1,97 @@
+name: Constellations
+blurb: All 88 officially recognized by the IAU.
+group: Science & Nature
+nope: bigdipper => The Big Dipper is an asterism inside Ursa Major.
+nope: littledipper => The Little Dipper is an asterism inside Ursa Minor.
+nope: orionsbelt => Orion's Belt is an asterism.
+nope: pleiades => The Pleiades is a star cluster in Taurus.
+nope: argonavis => Argo Navis was split into Carina, Puppis and Vela.
+---
+Orion
+Ursa Major
+Ursa Minor
+Cassiopeia
+Scorpius|scorpio
+Leo
+Taurus
+Gemini
+Cancer
+Virgo
+Libra
+Sagittarius
+Capricornus|capricorn
+Aquarius
+Pisces
+Aries
+Cygnus
+Draco
+Pegasus
+Andromeda
+Perseus
+Hercules
+Lyra
+Aquila
+Canis Major
+Canis Minor
+Centaurus
+Crux|southern cross
+Cepheus
+Bootes
+Corona Borealis
+Auriga
+Ophiuchus
+Hydra
+Lupus
+Phoenix
+Pavo
+Carina
+Vela
+Puppis
+Eridanus
+Monoceros
+Lepus
+Columba
+Corvus
+Crater
+Sextans
+Serpens
+Delphinus
+Sagitta
+Vulpecula
+Lacerta
+Triangulum
+Camelopardalis
+Lynx
+Leo Minor
+Canes Venatici
+Coma Berenices
+Corona Australis
+Ara
+Norma
+Circinus
+Triangulum Australe
+Musca
+Chamaeleon
+Apus
+Octans
+Hydrus
+Tucana
+Indus
+Grus
+Microscopium
+Piscis Austrinus
+Sculptor
+Fornax
+Caelum
+Horologium
+Reticulum
+Dorado
+Pictor
+Volans
+Mensa
+Telescopium
+Antlia
+Pyxis
+Cetus
+Equuleus
+Scutum

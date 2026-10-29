@@ -1,0 +1,169 @@
+name: Fruits
+blurb: Grocery aisle to tropical market stall.
+group: Food & Drink
+---
+Apple
+Banana
+Orange
+Strawberry
+Grape
+Watermelon
+Pineapple
+Mango
+Pear
+Peach
+Cherry
+Blueberry
+Lemon
+Lime
+Raspberry
+Kiwi|kiwifruit
+Coconut
+Plum
+Cantaloupe
+Grapefruit
+Avocado
+Pomegranate
+Papaya
+Apricot
+Blackberry
+Cranberry
+Tomato
+Fig
+Honeydew
+Nectarine
+Tangerine
+Clementine
+Date
+Passion Fruit
+Dragon Fruit|pitaya
+Lychee|litchi
+Guava
+Persimmon
+Starfruit|carambola
+Gooseberry
+Mandarin
+Kumquat
+Jackfruit
+Durian
+Elderberry
+Mulberry
+Boysenberry
+Quince
+Rambutan
+Mangosteen
+Plantain
+Currant|blackcurrant|redcurrant
+Huckleberry
+Loquat
+Tamarind
+Yuzu
+Feijoa
+Ackee
+Cherimoya
+Soursop|guanabana
+Salak|snake fruit
+Longan
+Pawpaw
+Jabuticaba
+Buddha's Hand
+Ugli Fruit
+Medlar
+Cloudberry
+Lingonberry
+Sapodilla
+Miracle Fruit|miracle berry
+Kiwano|horned melon
+Rambai
+Langsat
+Marula
+Santol
+Jujube
+Physalis|ground cherry|cape gooseberry
+Pitanga|surinam cherry
+Bilberry
+Blood Orange
+Satsuma
+Pomelo
+Bergamot
+Finger Lime
+Calamansi
+Key Lime
+Meyer Lemon
+Tangelo
+Sudachi
+Kabosu
+Citron
+Damson
+Greengage
+Mirabelle
+Sloe
+Rowan Berry|rowanberry
+Hawthorn|haw
+Serviceberry|saskatoon
+Chokeberry|aronia
+Chokecherry
+Sea Buckthorn
+Goji Berry|goji|wolfberry
+Acai
+Camu Camu
+Acerola|barbados cherry
+Cupuacu
+Bacuri
+Pequi
+Buriti
+Lucuma
+Mamey Sapote|mamey
+Black Sapote
+White Sapote
+Canistel|eggfruit
+Abiu
+Star Apple|cainito
+Sugar Apple|sweetsop
+Atemoya
+Ilama
+Rollinia|biriba
+Breadfruit
+Marang
+Cempedak
+Bignay
+Duku
+Mangaba
+Pulasan
+Kepel
+Velvet Apple|mabolo
+Wood Apple
+Bael
+Jamun|java plum
+Rose Apple|wax apple|water apple
+Ice Cream Bean
+Monstera Deliciosa
+Horned Melon
+Naranjilla|lulo
+Tamarillo|tree tomato
+Pepino
+Muskmelon
+Galia Melon
+Canary Melon
+Casaba
+Crenshaw Melon
+Santa Claus Melon
+Bitter Melon
+Prickly Pear|cactus pear|tuna fruit
+Ugni|chilean guava
+Strawberry Guava
+Kei Apple
+Olive
+Juniper Berry
+Dewberry
+Loganberry
+Tayberry
+Marionberry
+Salmonberry
+Thimbleberry
+Wineberry
+Jostaberry
+Haskap|honeyberry
+Barberry
+Muscadine
+Concord Grape

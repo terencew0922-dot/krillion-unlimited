@@ -1,0 +1,331 @@
+name: Rivers
+blurb: Mighty, sacred, and obscure waterways of the world.
+group: Geography
+---
+Nile
+Amazon
+Mississippi
+Thames
+Seine
+Danube
+Rhine
+Ganges
+Yangtze
+Colorado
+Hudson
+Missouri
+Mekong
+Volga
+Jordan
+Tigris
+Euphrates
+Yellow River|huang he
+Indus
+Congo
+Niger
+Zambezi
+Rio Grande
+Ohio
+Columbia
+St. Lawrence|saint lawrence
+Potomac
+Delaware
+Tiber
+Po
+Loire
+Shannon
+Liffey
+Mersey
+Tyne
+Severn
+Clyde
+Elbe
+Oder
+Vistula
+Dnieper
+Don
+Ural
+Ob
+Yenisei
+Lena
+Amur
+Irrawaddy
+Brahmaputra
+Yamuna
+Godavari
+Krishna
+Kaveri|cauvery
+Narmada
+Orinoco
+Parana
+Uruguay
+Sao Francisco
+Magdalena
+Murray
+Darling
+Mackenzie
+Yukon
+Fraser
+Snake
+Arkansas
+Red River
+Tennessee
+Cumberland
+Platte
+Susquehanna
+Charles
+Chicago River
+Los Angeles River
+Sacramento
+San Joaquin
+Rhone
+Garonne
+Dordogne
+Meuse
+Scheldt
+Moselle
+Main
+Neckar
+Inn
+Drava
+Sava
+Tisza
+Prut
+Dniester
+Neva
+Daugava
+Neman
+Kama
+Oka
+Pechora
+Irtysh
+Syr Darya
+Amu Darya
+Helmand
+Kabul River
+Salween
+Chao Phraya
+Song Hong
+Pearl River|zhujiang
+Han River
+Tumen
+Yalu
+Shinano
+Tone
+Sepik
+Fly River
+Waikato
+Whanganui
+Orange River
+Limpopo
+Okavango
+Kafue
+Rufiji
+Juba River
+Shebelle
+Awash
+Blue Nile
+White Nile
+Atbara
+Senegal River
+Gambia River
+Volta
+Benue
+Ubangi
+Kasai
+Cuanza
+Kunene
+Purus
+Madeira
+Negro
+Xingu
+Tapajos
+Tocantins
+Araguaia
+Ucayali
+Maranon
+Japura
+Jurua
+Putumayo
+Pilcomayo
+Paraguay River
+Bermejo
+Salado
+Biobio
+Loa
+Essequibo
+Courantyne
+Usumacinta
+Grijalva
+Lerma
+Balsas
+Yaqui
+Gila
+Pecos
+Brazos
+Trinity
+Sabine
+Atchafalaya
+Wabash
+Illinois River
+Wisconsin River
+Minnesota River
+Kentucky River
+Shenandoah
+James
+Roanoke
+Savannah
+Chattahoochee
+Suwannee
+St. Johns
+Apalachicola
+Allegheny
+Monongahela
+Mohawk
+Connecticut River
+Merrimack
+Penobscot
+Kennebec
+Saguenay
+Ottawa River
+Churchill
+Nelson
+Saskatchewan
+Athabasca
+Peace
+Liard
+Back River
+Thelon
+Kobuk
+Noatak
+Kuskokwim
+Copper River
+Stikine
+Skeena
+Klamath
+Rogue
+Willamette
+Deschutes
+Owyhee
+Salmon River
+Clearwater
+Flathead
+Bighorn
+Yellowstone
+Powder
+Green River
+San Juan
+Little Colorado
+Virgin River
+Humboldt
+Truckee
+Carson
+Walker
+Owens
+Kern
+Tuolumne
+Merced
+American River
+Feather
+Pit River
+Eel River
+Russian River
+Napa River
+Salinas
+Santa Ana
+Tijuana
+Rio Chama
+Canadian
+Cimarron
+Verdigris
+Neosho
+Kaw|kansas river
+Republican
+Smoky Hill
+Niobrara
+Cheyenne
+Belle Fourche
+White River
+Sheyenne
+Souris
+Assiniboine
+Qu'Appelle
+Spree
+Havel
+Weser
+Ems
+Ruhr
+Saar
+Lahn
+Isar
+Lech
+Iller
+Altmuhl
+Regen
+Vltava|moldau
+Morava
+Vah
+Hron
+Mures
+Olt
+Siret
+Iskar
+Maritsa|evros
+Struma
+Vardar|axios
+Aliakmonas
+Acheloos
+Alpheios
+Eurotas
+Arno
+Adige
+Piave
+Tagliamento
+Isonzo|soca
+Ebro
+Tagus|tejo|tajo
+Douro|duero
+Guadalquivir
+Guadiana
+Minho|mino
+Mondego
+Jucar
+Segura
+Turia
+Llobregat
+Ter
+Rance
+Vilaine
+Charente
+Somme
+Marne
+Oise
+Saone
+Durance
+Isere
+Ardeche
+Tarn
+Lot
+Aveyron
+Avon
+Wye
+Usk
+Trent
+Ouse
+Tees
+Wear
+Tweed
+Spey
+Dee
+Tay
+Forth
+Ness
+Lagan
+Foyle
+Boyne
+Barrow
+Suir
+Lee
+Corrib
+Erne
+Bann

@@ -1,0 +1,345 @@
+name: Marvel Characters
+blurb: Heroes, villains and deep-cut oddballs.
+group: Pop Culture
+nope: batman => Batman is DC.
+nope: superman => Superman is DC.
+nope: wonderwoman => Wonder Woman is DC.
+nope: joker => The Joker is DC.
+nope: flash => The Flash is DC.
+nope: aquaman => Aquaman is DC.
+---
+Spider-Man|spiderman|peter parker
+Iron Man|tony stark
+Captain America|steve rogers
+Thor
+Hulk|bruce banner
+Black Widow|natasha romanoff
+Wolverine|logan
+Thanos
+Loki
+Deadpool
+Black Panther|tchalla
+Doctor Strange
+Hawkeye
+Groot
+Rocket Raccoon|rocket
+Star-Lord|starlord
+Gamora
+Scarlet Witch|wanda
+Vision
+Ant-Man|antman
+Captain Marvel|carol danvers
+Venom
+Magneto
+Professor X|charles xavier
+Storm
+Falcon
+Winter Soldier|bucky
+Nick Fury
+Daredevil
+Punisher
+Silver Surfer
+Drax
+Nebula
+Mystique
+Cyclops
+Jean Grey|phoenix
+Wasp
+Ultron
+Green Goblin
+Doctor Octopus|doc ock
+Galactus
+Red Skull
+Mantis
+Shang-Chi
+Moon Knight
+Ghost Rider
+Gambit
+Rogue
+Beast
+Iceman
+Nightcrawler
+Jessica Jones
+Luke Cage
+Iron Fist
+She-Hulk
+Ms. Marvel|kamala khan
+Kang|kang the conqueror
+Hela
+Valkyrie
+Mephisto
+Doctor Doom
+Mister Fantastic|reed richards
+Invisible Woman|sue storm
+Human Torch
+The Thing
+Namor
+Blade
+Carnage
+Kraven
+Mysterio
+Sandman
+Electro
+Vulture
+Rhino
+Lizard
+Juggernaut
+Colossus
+Psylocke
+Cable
+Domino
+Apocalypse
+Sabretooth
+Elektra
+Kingpin
+Bullseye
+Squirrel Girl
+Howard the Duck
+Taskmaster
+MODOK
+Nova
+Adam Warlock
+Hercules
+Morbius
+Moon Girl
+Devil Dinosaur
+Jubilee
+Dazzler
+Northstar
+Sentry
+Quasar
+Man-Thing
+Ego
+Beta Ray Bill
+Cosmo
+Arnim Zola
+Batroc
+Gwenpool
+Speedball
+Throg
+Jeff the Land Shark
+Doop
+Paste-Pot Pete
+Forbush Man
+Spider-Gwen|ghost-spider|gwen stacy
+Miles Morales
+Silk
+Spider-Woman
+Black Cat
+Scorpion
+Shocker
+Chameleon
+Hobgoblin
+Morlun
+Tombstone
+Hammerhead
+Mister Negative
+Absorbing Man
+Abomination
+Leader
+Wendigo
+Graviton
+Zemo|baron zemo
+Crossbones
+Sin
+Madame Hydra|viper
+Klaw
+Killmonger
+M'Baku
+Okoye
+Shuri
+White Wolf
+Ironheart|riri williams
+War Machine|rhodey
+Pepper Potts|rescue
+Whiplash
+Mandarin
+Justin Hammer
+Obadiah Stane|iron monger
+Titanium Man
+Crimson Dynamo
+Ghost
+Yelena Belova
+Red Guardian
+US Agent|john walker
+Patriot
+Wiccan
+Hulkling
+Speed
+Kate Bishop
+America Chavez
+Squirrel Girl
+Miss America
+Cloak
+Dagger
+Hellcat
+Tigra
+Black Knight
+Sersi
+Ikaris
+Thena
+Kingo
+Makkari
+Druig
+Ajak
+Gilgamesh
+Phastos
+Sprite
+Arishem
+Tiamut
+The Collector|collector
+The Grandmaster|grandmaster
+Ronan|ronan the accuser
+Korath
+Yondu
+Kraglin
+Ayesha
+Black Order
+Proxima Midnight
+Corvus Glaive
+Ebony Maw
+Cull Obsidian
+Supergiant
+Gorr
+Malekith
+Surtur
+Skurge
+Enchantress
+Executioner
+Lady Sif|sif
+Heimdall
+Odin
+Frigga
+Balder
+Volstagg
+Fandral
+Hogun
+Jane Foster
+Bishop
+Forge
+Havok
+Polaris
+Banshee
+Sunfire
+Emma Frost|white queen
+Mister Sinister
+Sebastian Shaw
+Selene
+Omega Red
+Lady Deathstrike
+Silver Samurai
+X-23|laura kinney
+Daken
+Fantomex
+Magik
+Cannonball
+Sunspot
+Wolfsbane
+Mirage|danielle moonstar
+Karma
+Warlock
+Cypher
+Multiple Man
+Strong Guy
+Shatterstar
+Longshot
+Mojo
+Spiral
+Arcade
+Toad
+Blob
+Pyro
+Avalanche
+Quicksilver
+Polaris
+Exodus
+Onslaught
+Stryfe
+Bastion
+Nimrod
+Sentinels|sentinel
+Black Bolt
+Medusa
+Crystal
+Karnak
+Gorgon
+Lockjaw
+Maximus
+Uatu|the watcher
+Eternity
+Death
+Living Tribunal
+Beyonder
+Molecule Man
+Annihilus
+Blastaar
+Mole Man
+Super-Skrull
+Frankie Raye
+Franklin Richards
+Valeria Richards
+H.E.R.B.I.E.|herbie
+Puppet Master
+Wizard
+Trapster
+Dragon Man
+Impossible Man
+Ulysses Klaue
+Count Nefaria
+Madame Masque
+Whirlwind
+Living Laser
+Grim Reaper
+Wonder Man
+Swordsman
+Mockingbird
+Moondragon
+Gilded Lily
+Brother Voodoo|doctor voodoo
+Baron Mordo
+Dormammu
+Nightmare
+Clea
+Wong
+Ancient One
+Shuma-Gorath
+Satana
+Son of Satan
+Werewolf by Night
+Elsa Bloodstone
+Frankenstein's Monster
+Dracula
+Hannibal King
+Frank Drake
+Deathlok
+Machine Man
+Jocasta
+Rocket Racer
+Prowler
+Jackal
+Kaine
+Ben Reilly|scarlet spider
+Shriek
+Toxin
+Anti-Venom
+Mania
+Agent Venom
+Knull
+Madame Web
+Ezekiel
+Puma
+Lady Octopus
+White Rabbit
+Big Wheel
+Stilt-Man
+Gibbon
+Kangaroo
+Grizzly
+Spot
+Typeface
+Armadillo
+Bushwacker
+Dr. Bong
+Brother Nature
+Dog-Man
+Tippy-Toe

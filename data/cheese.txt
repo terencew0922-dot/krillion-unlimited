@@ -1,0 +1,291 @@
+name: Cheeses
+blurb: Deli counter to cave-aged rarities.
+group: Food & Drink
+---
+Cheddar
+Mozzarella
+Parmesan|parmigiano reggiano
+Swiss
+Brie
+American
+Gouda
+Feta
+Provolone
+Blue Cheese|blue
+Monterey Jack|jack
+Pepper Jack
+Colby
+Ricotta
+Cream Cheese
+Cottage Cheese
+Camembert
+Goat Cheese|chevre
+Gruyere
+Havarti
+Muenster|munster
+Mascarpone
+Halloumi
+Roquefort
+Gorgonzola
+Stilton
+Manchego
+Pecorino|pecorino romano
+Asiago
+Emmental|emmentaler
+Edam
+Burrata
+Paneer
+Queso Fresco
+Jarlsberg
+Fontina
+Colby Jack
+Limburger
+Wensleydale
+Red Leicester
+Double Gloucester
+Comte
+Raclette
+Taleggio
+Port Salut
+Reblochon
+Grana Padano
+Cotija
+Oaxaca
+Epoisses
+Pont-l'Eveque
+Morbier
+Mimolette
+Beaufort
+Saint-Nectaire
+Cantal
+Brillat-Savarin
+Livarot
+Banon
+Valencay
+Caciocavallo
+Scamorza
+Stracchino
+Robiola
+Castelmagno
+Bel Paese
+Lancashire
+Caerphilly
+Cheshire
+Shropshire Blue
+Stinking Bishop
+Cornish Yarg
+Danish Blue
+Leerdammer
+Tilsit
+Butterkase
+Cambozola
+Kashkaval
+Bryndza
+Oscypek
+Graviera
+Kefalotyri
+Mizithra
+Casu Marzu
+Juustoleipa
+Brunost|gjetost
+Labneh
+Akkawi
+Vacherin Mont d'Or|vacherin
+Appenzeller
+Tete de Moine
+Sbrinz
+Idiazabal
+Cabrales
+Mahon
+Torta del Casar
+Serra da Estrela
+Pule
+String Cheese
+Velveeta
+Queso Chihuahua|chihuahua cheese
+Queso Panela|panela
+Queso Anejo
+Requeson
+Manouri
+Anthotyros
+Kasseri
+Ladotyri
+Metsovone
+Formaggio di Fossa
+Piave
+Montasio
+Bitto
+Bra
+Raschera
+Toma
+Fontal
+Puzzone di Moena
+Ubriaco
+Testun
+Murazzano
+Squacquerone
+Crescenza
+Quartirolo
+Provola
+Pecorino Sardo
+Fiore Sardo
+Pecorino Toscano
+Ricotta Salata
+Ricotta Forte
+Mozzarella di Bufala|buffalo mozzarella
+Stracciatella
+Bocconcini
+Ovolini
+Treccia
+Saint Agur
+Bleu d'Auvergne
+Fourme d'Ambert
+Bleu de Gex
+Brie de Melun
+Coulommiers
+Chaource
+Langres
+Maroilles
+Neufchatel
+Mont d'Or
+Abondance
+Tomme de Savoie
+Saint-Marcellin
+Picodon
+Crottin de Chavignol
+Sainte-Maure de Touraine
+Selles-sur-Cher
+Pouligny-Saint-Pierre
+Ossau-Iraty
+Etorki
+Salers
+Laguiole
+Bethmale
+Cancoillotte
+Tomme Crayeuse
+Explorateur
+Delice de Bourgogne
+Vacherin Fribourgeois
+Tilsiter
+Allgauer Bergkase
+Romadur
+Harzer
+Handkase
+Obatzda
+Quark
+Bierkase
+Weisslacker
+Gamalost
+Nokkelost
+Pultost
+Vasterbottensost
+Prastost
+Greve
+Herrgardsost
+Esrom
+Danbo
+Samso
+Maribo
+Old Amsterdam
+Beemster
+Boerenkaas
+Leyden|leidse kaas
+Kanterkaas
+Herve
+Remoudou
+Chimay
+Passendale
+Postel
+Wynendale
+Blarney
+Dubliner
+Cashel Blue
+Gubbeen
+Durrus
+Milleens
+Ardrahan
+Coolea
+Hegarty's Cheddar
+Lincolnshire Poacher
+Stichelton
+Beauvale
+Baron Bigod
+Tunworth
+Ogleshield
+Montgomery's Cheddar
+Keen's Cheddar
+Westcombe Cheddar
+Quickes Cheddar
+Cornish Blue
+Dorset Blue Vinny
+Yorkshire Blue
+Swaledale
+Coverdale
+Single Gloucester
+Sage Derby
+Teviotdale
+Isle of Mull
+Caboc
+Crowdie
+Dunlop
+Lanark Blue
+Penclawdd
+Y Fenni
+Kaskaval
+Sirene
+Telemea
+Urda
+Branza de Burduf
+Twarog
+Korbacik
+Parenica
+Liptauer
+Tvorog
+Suluguni
+Imeruli
+Chechil
+Lighvan
+Domiati
+Mish
+Ayib
+Wagashi
+Chhurpi
+Bandel
+Kalari
+Qurut|kurt
+Aaruul
+Rushan
+Rubing
+Nguri
+Kesong Puti
+Dadiah
+Quesillo
+Queso de Bola|edam ball
+Queso Llanero
+Queso de Mano
+Cuajada
+Catupiry
+Minas Cheese|queso minas
+Requeijao
+Coalho|queijo coalho
+Reggianito
+Sardo Argentino
+Quartirolo Lombardo
+Tetilla
+San Simon da Costa
+Mahon-Menorca
+Majorero
+Zamorano
+Roncal
+Tronchon
+Afuega'l Pitu
+Valdeon
+Picon Bejes-Tresviso
+Queso de Murcia al Vino|drunken goat
+Garrotxa
+Azeitao
+Nisa
+Evora
+Sao Jorge
+Rabacal
+Amarelo da Beira Baixa

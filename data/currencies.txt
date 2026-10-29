@@ -1,0 +1,179 @@
+name: Currencies
+blurb: Money of the world, current and retired.
+group: Geography
+nope: bitcoin => Cryptocurrencies don't count here.
+nope: ethereum => Cryptocurrencies don't count here.
+---
+Dollar|us dollar|usd
+Euro
+Pound|pound sterling|british pound
+Yen
+Peso
+Rupee
+Franc|swiss franc
+Ruble|rouble
+Yuan|renminbi|rmb
+Canadian Dollar
+Australian Dollar
+Won
+Real
+Lira|turkish lira
+Krona
+Krone
+Rand
+Dinar
+Dirham
+Riyal|rial
+Shekel|new shekel
+Baht
+Ringgit
+Rupiah
+Dong
+Zloty
+Forint
+Koruna
+Leu
+Lev
+Hryvnia
+Lari
+Dram
+Manat
+Tenge
+Som
+Somoni
+Tugrik
+Kyat
+Riel
+Kip
+Taka
+Afghani
+Naira
+Cedi
+Shilling
+Birr
+Kwacha
+Kwanza
+Metical
+Pula
+Loti
+Lilangeni
+Ariary
+Dalasi
+Leone
+Ouguiya
+Nakfa
+CFA Franc
+Guarani
+Boliviano
+Sol|nuevo sol
+Bolivar
+Colon
+Cordoba
+Lempira
+Quetzal
+Balboa
+Gourde
+Florin|aruban florin
+Guilder
+Ngultrum
+Rufiyaa
+Pa'anga
+Tala
+Vatu
+Kina
+Mark|deutsche mark|deutschmark
+Peseta
+Drachma
+Escudo
+Schilling
+Markka
+Punt|irish pound
+Ecu
+Sucre
+Austral
+Cruzeiro
+Cruzado
+Inti
+Ducat
+Doubloon
+Piece of Eight
+Thaler
+Guinea
+Crown
+Sovereign
+Farthing
+Groat
+Denarius
+Sestertius
+Aureus
+Solidus
+Drachm
+Obol
+Talent
+Bezant
+Fiorino
+Livre
+Louis d'Or
+Napoleon
+Kreuzer
+Heller
+Pfennig
+Groschen
+Kopek|kopeck
+Altyn
+Mon
+Ryo
+Koban
+Sen
+Rin
+Cash|chinese cash
+Tael
+Fen
+Jiao
+Paisa
+Anna
+Pice
+Mohur
+Pagoda
+Fanam
+Satang
+Att
+Hao
+Centavo
+Centimo
+Cent
+Penny|pence
+Halala
+Fils
+Baisa
+Qirsh
+Piastre
+Millieme
+Agora
+Kuruş|kurus
+Para
+Stotinka
+Ban
+Grosz
+Filler
+Haler
+Lipa
+Tetri
+Luma
+Tiyin
+Diram
+Mongo
+Pya
+Poisha
+Pul
+Kobo
+Pesewa
+Ngwee
+Thebe
+Toea
+Seniti
+Laari
+Chhertum
+Avo
+Iraimbilanja
+Khoums

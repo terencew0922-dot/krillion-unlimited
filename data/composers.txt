@@ -1,0 +1,241 @@
+name: Classical Composers
+blurb: Medieval chant to modern minimalism.
+group: Arts & History
+---
+Wolfgang Amadeus Mozart|mozart
+Ludwig van Beethoven|beethoven
+Johann Sebastian Bach|bach|js bach
+Frederic Chopin|chopin
+Pyotr Ilyich Tchaikovsky|tchaikovsky
+Antonio Vivaldi|vivaldi
+Johannes Brahms|brahms
+George Frideric Handel|handel
+Franz Schubert|schubert
+Joseph Haydn|haydn
+Claude Debussy|debussy
+Richard Wagner|wagner
+Giuseppe Verdi|verdi
+Franz Liszt|liszt
+Felix Mendelssohn|mendelssohn
+Antonin Dvorak|dvorak
+Sergei Rachmaninoff|rachmaninoff|rachmaninov
+Igor Stravinsky|stravinsky
+Gustav Mahler|mahler
+Robert Schumann|schumann
+Giacomo Puccini|puccini
+Maurice Ravel|ravel
+Edvard Grieg|grieg
+Erik Satie|satie
+Johann Strauss II|johann strauss|strauss
+Richard Strauss
+Camille Saint-Saens|saint-saens
+Gioachino Rossini|rossini
+Georges Bizet|bizet
+Hector Berlioz|berlioz
+Sergei Prokofiev|prokofiev
+Dmitri Shostakovich|shostakovich
+Nikolai Rimsky-Korsakov|rimsky-korsakov
+Modest Mussorgsky|mussorgsky
+Aaron Copland|copland
+George Gershwin|gershwin
+Leonard Bernstein|bernstein
+Samuel Barber|barber
+Philip Glass|glass
+John Williams
+Hans Zimmer|zimmer
+Ennio Morricone|morricone
+Gustav Holst|holst
+Edward Elgar|elgar
+Ralph Vaughan Williams|vaughan williams
+Benjamin Britten|britten
+Henry Purcell|purcell
+Jean Sibelius|sibelius
+Carl Orff|orff
+Arnold Schoenberg|schoenberg|schonberg
+Alban Berg
+Anton Webern|webern
+Bela Bartok|bartok
+Zoltan Kodaly|kodaly
+Bedrich Smetana|smetana
+Leos Janacek|janacek
+Gabriel Faure|faure
+Jules Massenet|massenet
+Charles Gounod|gounod
+Jacques Offenbach|offenbach
+Cesar Franck|franck
+Vincenzo Bellini|bellini
+Gaetano Donizetti|donizetti
+Claudio Monteverdi|monteverdi
+Giovanni Pierluigi da Palestrina|palestrina
+Hildegard of Bingen|hildegard von bingen
+Guillaume de Machaut|machaut
+Josquin des Prez|josquin
+Thomas Tallis|tallis
+William Byrd|byrd
+John Dowland|dowland
+Arcangelo Corelli|corelli
+Domenico Scarlatti|scarlatti
+Alessandro Scarlatti
+Georg Philipp Telemann|telemann
+Jean-Philippe Rameau|rameau
+Francois Couperin|couperin
+Jean-Baptiste Lully|lully
+Christoph Willibald Gluck|gluck
+Carl Philipp Emanuel Bach|cpe bach
+Johann Pachelbel|pachelbel
+Tomaso Albinoni|albinoni
+Giovanni Battista Pergolesi|pergolesi
+Luigi Boccherini|boccherini
+Muzio Clementi|clementi
+Antonio Salieri|salieri
+Niccolo Paganini|paganini
+Carl Maria von Weber|weber
+Anton Bruckner|bruckner
+Hugo Wolf
+Max Reger|reger
+Engelbert Humperdinck|humperdinck
+Ruggero Leoncavallo|leoncavallo
+Pietro Mascagni|mascagni
+Umberto Giordano|giordano
+Ottorino Respighi|respighi
+Alexander Borodin|borodin
+Mily Balakirev|balakirev
+Cesar Cui|cui
+Mikhail Glinka|glinka
+Alexander Scriabin|scriabin
+Alexander Glazunov|glazunov
+Anatoly Lyadov|lyadov
+Sergei Taneyev
+Nikolai Medtner|medtner
+Aram Khachaturian|khachaturian
+Alfred Schnittke|schnittke
+Sofia Gubaidulina|gubaidulina
+Arvo Part|part
+Henryk Gorecki|gorecki
+Krzysztof Penderecki|penderecki
+Witold Lutoslawski|lutoslawski
+Karol Szymanowski|szymanowski
+Gyorgy Ligeti|ligeti
+Gyorgy Kurtag|kurtag
+Olivier Messiaen|messiaen
+Pierre Boulez|boulez
+Karlheinz Stockhausen|stockhausen
+Luciano Berio|berio
+Luigi Nono|nono
+Iannis Xenakis|xenakis
+John Cage|cage
+Morton Feldman|feldman
+Steve Reich|reich
+Terry Riley
+La Monte Young
+John Adams
+Charles Ives|ives
+Henry Cowell|cowell
+Edgard Varese|varese
+Elliott Carter
+Milton Babbitt|babbitt
+George Crumb|crumb
+Scott Joplin|joplin
+Duke Ellington
+William Grant Still
+Florence Price|price
+Amy Beach|beach
+Clara Schumann
+Fanny Mendelssohn|fanny hensel
+Lili Boulanger|boulanger
+Nadia Boulanger
+Cecile Chaminade|chaminade
+Ethel Smyth|smyth
+Rebecca Clarke
+Germaine Tailleferre|tailleferre
+Francis Poulenc|poulenc
+Darius Milhaud|milhaud
+Arthur Honegger|honegger
+Albert Roussel|roussel
+Paul Dukas|dukas
+Emmanuel Chabrier|chabrier
+Ernest Chausson|chausson
+Vincent d'Indy|d'indy
+Henri Duparc|duparc
+Reynaldo Hahn|hahn
+Isaac Albeniz|albeniz
+Enrique Granados|granados
+Manuel de Falla|de falla|falla
+Joaquin Rodrigo|rodrigo
+Joaquin Turina|turina
+Heitor Villa-Lobos|villa-lobos
+Alberto Ginastera|ginastera
+Astor Piazzolla|piazzolla
+Carlos Chavez|chavez
+Silvestre Revueltas|revueltas
+Toru Takemitsu|takemitsu
+Joe Hisaishi|hisaishi
+Ryuichi Sakamoto|sakamoto
+Tan Dun
+Unsuk Chin
+Isang Yun
+Carl Nielsen|nielsen
+Niels Gade
+Franz Berwald|berwald
+Wilhelm Stenhammar
+Hugo Alfven|alfven
+Einojuhani Rautavaara|rautavaara
+Kaija Saariaho|saariaho
+Magnus Lindberg
+Esa-Pekka Salonen|salonen
+Jean Francaix
+Andre Jolivet
+Henri Dutilleux|dutilleux
+Michael Tippett|tippett
+William Walton|walton
+Frederick Delius|delius
+Arthur Sullivan|sullivan
+Hubert Parry|parry
+Charles Villiers Stanford|stanford
+Gerald Finzi|finzi
+Herbert Howells|howells
+Peter Maxwell Davies
+Harrison Birtwistle|birtwistle
+Thomas Ades|ades
+John Tavener|tavener
+John Rutter|rutter
+Karl Jenkins|jenkins
+Michael Nyman|nyman
+Max Richter
+Johann Johannsson|johannsson
+Ludovico Einaudi|einaudi
+Ferruccio Busoni|busoni
+Erich Wolfgang Korngold|korngold
+Kurt Weill|weill
+Hanns Eisler|eisler
+Paul Hindemith|hindemith
+Ernst Krenek|krenek
+Alexander Zemlinsky|zemlinsky
+Franz Schreker|schreker
+Erwin Schulhoff|schulhoff
+Viktor Ullmann|ullmann
+Bohuslav Martinu|martinu
+Josef Suk
+Zdenek Fibich|fibich
+Jan Dismas Zelenka|zelenka
+Heinrich Biber|biber
+Dieterich Buxtehude|buxtehude
+Heinrich Schutz|schutz
+Michael Praetorius|praetorius
+Johann Hermann Schein
+Samuel Scheidt
+Jan Pieterszoon Sweelinck|sweelinck
+Girolamo Frescobaldi|frescobaldi
+Barbara Strozzi|strozzi
+Francesca Caccini
+Carlo Gesualdo|gesualdo
+Orlando di Lasso|lassus
+Tomas Luis de Victoria|victoria
+Cristobal de Morales
+Guillaume Dufay|dufay
+Johannes Ockeghem|ockeghem
+John Dunstable|dunstable
+Perotin
+Leonin
+Francesco Landini|landini
+Philippe de Vitry

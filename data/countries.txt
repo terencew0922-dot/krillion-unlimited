@@ -1,0 +1,207 @@
+name: Countries
+blurb: Sovereign states of the world.
+group: Geography
+nope: england => England is part of the United Kingdom — try that.
+nope: scotland => Scotland is part of the United Kingdom.
+nope: wales => Wales is part of the United Kingdom.
+nope: greenland => Greenland belongs to the Kingdom of Denmark.
+nope: puertorico => Puerto Rico is a U.S. territory.
+nope: hongkong => Hong Kong is part of China.
+nope: palestine => Palestine isn't counted on this list (UN observer state).
+---
+United States|usa|us|america|united states of america
+China
+Canada
+Mexico
+Brazil
+United Kingdom|uk|britain|great britain
+France
+Germany
+Japan
+Italy
+Spain
+India
+Russia
+Australia
+Egypt
+Argentina
+South Africa
+Ireland
+Portugal
+Greece
+Sweden
+Norway
+Netherlands|holland
+Switzerland
+Poland
+Turkey|turkiye
+South Korea|korea
+North Korea
+Israel
+Iran
+Iraq
+Saudi Arabia
+Nigeria
+Kenya
+Peru
+Chile
+Colombia
+Cuba
+Jamaica
+Vietnam
+Thailand
+Philippines
+Indonesia
+New Zealand
+Ukraine
+Belgium
+Austria
+Denmark
+Finland
+Pakistan
+Afghanistan
+Venezuela
+Morocco
+Ethiopia
+Iceland
+Hungary
+Czechia|czech republic
+Romania
+Ghana
+Syria
+Ecuador
+Bolivia
+Uruguay
+Paraguay
+Bangladesh
+Nepal
+Malaysia
+Singapore
+Sri Lanka
+Croatia
+Serbia
+Bulgaria
+Haiti
+Dominican Republic
+Qatar
+United Arab Emirates|uae
+Kuwait
+Jordan
+Lebanon
+Libya
+Algeria
+Tunisia
+Sudan
+Somalia
+Uganda
+Tanzania
+Rwanda
+Zimbabwe
+Zambia
+Madagascar
+Mongolia
+Kazakhstan
+Uzbekistan
+Myanmar|burma
+Cambodia
+Laos
+Taiwan
+Costa Rica
+Panama
+Guatemala
+Honduras
+Nicaragua
+El Salvador
+Belize
+Bahamas
+Barbados
+Trinidad and Tobago
+Luxembourg
+Monaco
+Liechtenstein
+San Marino
+Vatican City|vatican|holy see
+Andorra
+Malta
+Cyprus
+Estonia
+Latvia
+Lithuania
+Belarus
+Moldova
+Slovakia
+Slovenia
+Bosnia and Herzegovina|bosnia
+Montenegro
+North Macedonia|macedonia
+Albania
+Kosovo
+Georgia
+Armenia
+Azerbaijan
+Turkmenistan
+Kyrgyzstan
+Tajikistan
+Oman
+Yemen
+Bahrain
+Bhutan
+Maldives
+Brunei
+East Timor|timor-leste
+Papua New Guinea
+Fiji
+Samoa
+Tonga
+Vanuatu
+Solomon Islands
+Kiribati
+Tuvalu
+Nauru
+Palau
+Marshall Islands
+Micronesia
+Senegal
+Mali
+Niger
+Chad
+Cameroon
+Ivory Coast|cote d'ivoire
+Angola
+Mozambique
+Namibia
+Botswana
+Lesotho
+Eswatini|swaziland
+Malawi
+DR Congo|democratic republic of the congo|drc|congo-kinshasa
+Republic of the Congo|congo|congo-brazzaville
+Gabon
+Equatorial Guinea
+Central African Republic
+South Sudan
+Eritrea
+Djibouti
+Burundi
+Liberia
+Sierra Leone
+Guinea
+Guinea-Bissau
+Gambia
+Mauritania
+Burkina Faso
+Togo
+Benin
+Cape Verde|cabo verde
+Comoros
+Mauritius
+Seychelles
+Sao Tome and Principe
+Guyana
+Suriname
+Grenada
+Saint Lucia
+Saint Vincent and the Grenadines
+Saint Kitts and Nevis
+Antigua and Barbuda
+Dominica

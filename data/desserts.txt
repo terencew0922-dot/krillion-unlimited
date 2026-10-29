@@ -1,0 +1,249 @@
+name: Desserts
+blurb: Cakes, pastries, puddings and sweets from everywhere.
+group: Food & Drink
+---
+Ice Cream
+Chocolate Cake
+Cheesecake
+Apple Pie
+Brownie|brownies
+Cookie|cookies|chocolate chip cookie
+Cupcake
+Donut|doughnut
+Pudding
+Tiramisu
+Pancakes
+Waffles
+Pumpkin Pie
+Banana Split
+Sundae
+Milkshake
+Creme Brulee
+Macaron|macarons
+Cannoli
+Churros
+Baklava
+Mousse|chocolate mousse
+Pecan Pie
+Key Lime Pie
+Carrot Cake
+Red Velvet Cake
+Strawberry Shortcake
+Gelato
+Sorbet
+Fudge
+Popsicle|ice pop
+Jello|jelly
+Cobbler|peach cobbler
+Crumble|apple crumble
+Eclair
+Cream Puff|profiterole|profiteroles
+Croissant
+Cinnamon Roll
+Muffin
+Pound Cake
+Angel Food Cake
+Black Forest Cake|black forest gateau
+Tres Leches
+Flan
+Panna Cotta
+Bread Pudding
+Rice Pudding
+Trifle
+Pavlova
+Lemon Meringue Pie
+Boston Cream Pie
+Smores
+Funnel Cake
+Beignet
+Mochi
+Baked Alaska
+Souffle
+Clafoutis
+Tarte Tatin
+Mille-Feuille|napoleon
+Opera Cake
+Madeleine
+Financier
+Canele
+Paris-Brest
+Croquembouche
+Kouign-Amann
+Galette des Rois|king cake
+Crepes Suzette|crepe
+Sachertorte
+Strudel|apple strudel
+Linzer Torte
+Kaiserschmarrn
+Germknodel
+Dobos Torte
+Esterhazy Torte
+Kremsnita
+Kardinalschnitte
+Bienenstich
+Stollen
+Lebkuchen
+Spekulatius
+Baumkuchen
+Berliner
+Pastel de Nata|pastel de belem|egg tart
+Gulab Jamun
+Jalebi
+Rasgulla
+Rasmalai
+Kheer
+Barfi
+Ladoo|laddu
+Kulfi
+Halwa
+Gajar Halwa
+Mysore Pak
+Sandesh
+Payasam
+Shrikhand
+Peda
+Kaju Katli
+Soan Papdi
+Basbousa
+Kunafa|knafeh
+Umm Ali
+Halva
+Turkish Delight|lokum
+Lokma|luqaimat
+Muhallebi
+Ashure
+Sutlac
+Kazandibi
+Tavuk Gogsu
+Revani
+Galaktoboureko
+Loukoumades
+Melomakarona
+Kourabiedes
+Bougatsa
+Portokalopita
+Panettone
+Pandoro
+Zeppole
+Sfogliatella
+Struffoli
+Cassata
+Semifreddo
+Zabaglione
+Zuppa Inglese
+Affogato
+Granita
+Torrone
+Panforte
+Bomboloni
+Maritozzi
+Amaretti
+Biscotti|cantucci
+Pizzelle
+Babka
+Rugelach
+Hamantaschen
+Sufganiyah
+Black and White Cookie
+Whoopie Pie
+Moon Pie
+Twinkie
+Blondie|blondies
+Rice Krispie Treat
+Snickerdoodle
+Banana Pudding
+Peach Melba
+Eton Mess
+Sticky Toffee Pudding
+Spotted Dick
+Jam Roly-Poly
+Treacle Tart
+Bakewell Tart
+Victoria Sponge
+Battenberg
+Banoffee Pie
+Eccles Cake
+Bread and Butter Pudding
+Cranachan
+Lamington
+Anzac Biscuit
+Tim Tam
+Fairy Bread
+Hokey Pokey
+Afghan Biscuit
+Nanaimo Bar
+Butter Tart
+Beavertail
+Pouding Chomeur
+Sugar Pie|tarte au sucre
+Brigadeiro
+Quindim
+Pudim
+Alfajor
+Dulce de Leche
+Arroz con Leche
+Sopapilla
+Bunuelo
+Capirotada
+Cocada
+Marquesote
+Picarones
+Suspiro Limeno
+Dango
+Daifuku
+Dorayaki
+Taiyaki
+Yokan
+Warabi Mochi
+Castella
+Anmitsu
+Kakigori
+Bingsu|patbingsu
+Hotteok
+Tteok
+Yakgwa
+Mooncake
+Tangyuan
+Egg Waffle|bubble waffle
+Mango Sticky Rice
+Khanom Krok
+Bubur Cha Cha
+Kuih
+Onde-Onde
+Halo-Halo
+Leche Flan
+Bibingka
+Puto
+Ube Halaya
+Che
+Banh Bo
+Malva Pudding
+Koeksister
+Melktert|milk tart
+Puff-Puff
+Chin Chin
+Mandazi
+Medovik
+Ptichye Moloko
+Syrniki
+Pashka
+Kulich
+Paczki
+Sernik
+Makowiec
+Trdelnik
+Kremes
+Prekmurska Gibanica|gibanica
+Tufahija
+Tulumba
+Krempita
+Rozata
+Kanelbulle|cinnamon bun
+Semla
+Princess Cake|prinsesstarta
+Kladdkaka
+Kringle
+Aebleskiver
+Lefse
+Krumkake
+Pepparkakor

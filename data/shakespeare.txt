@@ -1,0 +1,43 @@
+name: Shakespeare Plays
+blurb: The canon, histories and collaborations included.
+group: Arts & History
+---
+Romeo and Juliet
+Hamlet
+Macbeth
+Othello
+King Lear|lear
+A Midsummer Night's Dream|midsummer
+Julius Caesar
+The Tempest
+Much Ado About Nothing
+Twelfth Night
+The Merchant of Venice
+The Taming of the Shrew
+As You Like It
+Richard III
+Henry V
+Antony and Cleopatra
+The Comedy of Errors
+Titus Andronicus
+The Winter's Tale
+Coriolanus
+Measure for Measure
+The Merry Wives of Windsor
+All's Well That Ends Well
+Henry IV Part 1|henry iv part one|1 henry iv|henry iv
+Henry IV Part 2|henry iv part two|2 henry iv
+Richard II
+King John
+Henry VIII
+Henry VI Part 1|henry vi part one|1 henry vi|henry vi
+Henry VI Part 2|henry vi part two|2 henry vi
+Henry VI Part 3|henry vi part three|3 henry vi
+The Two Gentlemen of Verona
+Love's Labour's Lost
+Troilus and Cressida
+Timon of Athens
+Pericles|pericles prince of tyre
+Cymbeline
+The Two Noble Kinsmen
+Edward III

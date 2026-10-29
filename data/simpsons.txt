@@ -1,0 +1,142 @@
+name: Simpsons Characters
+blurb: Springfield's residents, from the family to one-joke cameos.
+group: Pop Culture
+---
+Homer Simpson|homer
+Bart Simpson|bart
+Marge Simpson|marge
+Lisa Simpson|lisa
+Maggie Simpson|maggie
+Mr. Burns|montgomery burns|monty burns
+Ned Flanders|flanders
+Krusty the Clown|krusty
+Apu|apu nahasapeemapetilon
+Moe Szyslak|moe
+Milhouse Van Houten|milhouse
+Barney Gumble|barney
+Chief Wiggum|clancy wiggum|wiggum
+Ralph Wiggum|ralph
+Smithers|waylon smithers
+Principal Skinner|skinner|seymour skinner
+Sideshow Bob|bob
+Grampa Simpson|abe simpson|grampa
+Patty Bouvier|patty
+Selma Bouvier|selma
+Nelson Muntz|nelson
+Comic Book Guy
+Groundskeeper Willie|willie
+Otto Mann|otto
+Edna Krabappel|krabappel|mrs krabappel
+Lenny Leonard|lenny
+Carl Carlson|carl
+Santa's Little Helper
+Snowball II|snowball
+Itchy
+Scratchy
+Mayor Quimby|quimby
+Dr. Hibbert|hibbert
+Dr. Nick|dr nick riviera
+Troy McClure
+Lionel Hutz
+Kent Brockman
+Professor Frink|frink
+Cletus
+Hans Moleman|moleman
+Fat Tony
+Gil|gil gunderson
+Disco Stu
+Bumblebee Man
+Sideshow Mel
+Martin Prince|martin
+Jimbo Jones|jimbo
+Kearney
+Dolph
+Sherri and Terri|sherri|terri
+Rod Flanders|rod
+Todd Flanders|todd
+Maude Flanders|maude
+Reverend Lovejoy|lovejoy
+Helen Lovejoy
+Superintendent Chalmers|chalmers
+Agnes Skinner
+Lunchlady Doris
+Database
+Uter
+Wendell
+Lewis
+Janey Powell
+Allison Taylor
+Jessica Lovejoy
+Lou
+Eddie
+Duffman
+Rainier Wolfcastle|mcbain
+Bleeding Gums Murphy
+Jasper|jasper beardly
+Old Jewish Man
+Crazy Cat Lady|cat lady
+Captain McCallister|sea captain
+Brandine
+Kirk Van Houten
+Luann Van Houten
+Artie Ziff
+Mindy Simmons
+Frank Grimes|grimey
+Herb Powell|herb
+Mona Simpson
+Ling Bouvier
+Jacqueline Bouvier
+Lurleen Lumpkin
+Plopper|spider-pig|spider pig
+Blinky
+Kang
+Kodos
+Hugo
+Snake|snake jailbird
+Legs
+Louie
+Johnny Tightlips
+Akira
+Squeaky Voiced Teen
+Dr. Marvin Monroe
+Judge Snyder
+Blue-Haired Lawyer
+Arnie Pye
+Scott Christian
+Bill and Marty
+Booberella
+Sarah Wiggum
+Cookie Kwan
+Lindsey Naegle
+Manjula
+Sanjay
+Jub-Jub
+Mr. Teeny
+Princess Kashmir
+Roger Meyers Jr.
+Poochie
+Shelbyville Manley
+Fallout Boy
+Radioactive Man
+Lugash
+Coach Krupt
+Miss Hoover
+Mrs. Glick
+Jebediah Springfield
+Hank Scorpio
+Larry Burns
+Ms. Albright
+Mrs. Muntz
+Gunter and Ernst
+Dr. Velimirovic
+Baby Gerald
+Ugolin
+Sophie Krustofsky
+Herschel Krustofsky
+Lyle Lanley
+Brother Faith
+Mr. Largo|dewey largo
+Leopold
+Funzo
+Stretch Dude
+Clobber Girl

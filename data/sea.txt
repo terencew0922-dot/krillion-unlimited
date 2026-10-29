@@ -1,0 +1,346 @@
+name: Sea Creatures
+blurb: Reef regulars down to the hadal weirdos. Krill included.
+group: Science & Nature
+---
+Shark
+Whale
+Dolphin
+Octopus
+Jellyfish
+Starfish|sea star
+Crab
+Lobster
+Shrimp
+Seal
+Sea Turtle|turtle
+Clownfish
+Squid
+Stingray
+Seahorse
+Orca|killer whale
+Blue Whale
+Great White Shark|great white
+Sea Lion
+Walrus
+Eel
+Manatee
+Coral
+Sea Urchin
+Pufferfish
+Swordfish
+Tuna
+Salmon
+Hammerhead Shark|hammerhead
+Narwhal
+Beluga
+Humpback Whale|humpback
+Manta Ray
+Clam
+Oyster
+Mussel
+Krill
+Plankton
+Sea Otter|otter
+Anglerfish
+Barracuda
+Marlin
+Sea Anemone|anemone
+Sea Cucumber
+Cuttlefish
+Nautilus
+Barnacle
+Sea Sponge|sponge
+Moray Eel
+Whale Shark
+Sperm Whale
+Lionfish
+Sardine
+Cod
+Halibut
+Flounder
+Mackerel
+Herring
+Anchovy
+Dugong
+Giant Squid
+Hermit Crab
+King Crab
+Horseshoe Crab
+Nudibranch|sea slug
+Blobfish
+Goblin Shark
+Frilled Shark
+Vampire Squid
+Gulper Eel
+Viperfish
+Dragonfish
+Siphonophore
+Portuguese Man o' War|man o war
+Sea Pig
+Yeti Crab
+Giant Isopod
+Barreleye
+Ocean Sunfish|mola mola|sunfish
+Oarfish
+Coelacanth
+Greenland Shark
+Leafy Sea Dragon
+Mantis Shrimp
+Pistol Shrimp
+Box Jellyfish
+Comb Jelly|ctenophore
+Sea Butterfly|pteropod
+Salp
+Pyrosome
+Hagfish
+Lamprey
+Dumbo Octopus
+Mimic Octopus
+Blue-Ringed Octopus
+Firefly Squid
+Cookiecutter Shark
+Megamouth Shark
+Bowhead Whale
+Vaquita
+Sea Spider
+Christmas Tree Worm
+Bobbit Worm
+Feather Star|crinoid
+Brittle Star
+Basket Star
+Fangtooth
+Hatchetfish
+Stoplight Loosejaw
+Pelican Eel
+Black Swallower
+Tripod Fish
+Sea Angel
+Blue Dragon|glaucus
+Sea Snake
+Leatherback Turtle
+Loggerhead Turtle
+Hawksbill Turtle
+Green Sea Turtle
+Olive Ridley Turtle
+Kemp's Ridley Turtle
+Flatback Turtle
+Marine Iguana
+Saltwater Crocodile
+Elephant Seal
+Leopard Seal
+Weddell Seal
+Harp Seal
+Hooded Seal
+Monk Seal
+Fur Seal
+Steller Sea Lion
+Penguin
+Emperor Penguin
+Puffin
+Albatross
+Pelican
+Gannet
+Cormorant
+Frigatebird
+Fin Whale
+Sei Whale
+Minke Whale
+Gray Whale|grey whale
+Right Whale
+Bryde's Whale
+Pilot Whale
+Beaked Whale
+Cuvier's Beaked Whale
+Pygmy Sperm Whale
+Dwarf Sperm Whale
+False Killer Whale
+Risso's Dolphin
+Spinner Dolphin
+Bottlenose Dolphin
+Hector's Dolphin
+Dall's Porpoise
+Harbor Porpoise|porpoise
+Tiger Shark
+Bull Shark
+Mako Shark|shortfin mako
+Blue Shark
+Nurse Shark
+Lemon Shark
+Thresher Shark
+Basking Shark
+Wobbegong
+Angel Shark
+Sawfish
+Guitarfish
+Electric Ray|torpedo ray
+Eagle Ray
+Devil Ray|mobula
+Skate
+Chimaera|ratfish|ghost shark
+Grouper
+Snapper
+Sea Bass
+Wrasse
+Parrotfish
+Surgeonfish|tang
+Blue Tang
+Yellow Tang
+Butterflyfish
+Angelfish
+Damselfish
+Triggerfish
+Boxfish
+Cowfish
+Porcupinefish
+Filefish
+Trumpetfish
+Pipefish
+Flying Fish
+Needlefish
+Remora
+Pilot Fish
+Mahi-Mahi|dorado|dolphinfish
+Wahoo
+Bonito
+Sailfish
+Opah|moonfish
+Stonefish
+Scorpionfish
+Frogfish
+Batfish
+Toadfish
+Goby
+Blenny
+Mudskipper
+Garden Eel
+Ribbon Eel
+Conger Eel
+Wolf Eel
+Wolffish
+Lumpfish
+Monkfish
+John Dory
+Turbot
+Sole
+Plaice
+Pollock
+Haddock
+Hake
+Whiting
+Sprat
+Pilchard
+Menhaden
+Capelin
+Sand Lance
+Sea Squirt|tunicate
+Sea Pen
+Sea Fan|gorgonian
+Sea Whip
+Soft Coral
+Brain Coral
+Staghorn Coral
+Fire Coral
+Zoanthid
+Hydroid
+Moon Jelly
+Lion's Mane Jellyfish
+Irukandji
+Upside-Down Jellyfish|cassiopea
+Immortal Jellyfish|turritopsis
+By-the-Wind Sailor|velella
+Porpita|blue button
+Abalone
+Conch
+Cowrie
+Cone Snail
+Murex
+Whelk
+Periwinkle
+Limpet
+Chiton
+Scallop
+Cockle
+Geoduck
+Giant Clam
+Shipworm
+Sea Hare
+Paper Nautilus|argonaut
+Bobtail Squid
+Humboldt Squid
+Colossal Squid
+Glass Squid
+Flamboyant Cuttlefish
+Coconut Octopus
+Glass Octopus
+Blanket Octopus
+Giant Pacific Octopus
+Spider Crab
+Japanese Spider Crab
+Coconut Crab
+Fiddler Crab
+Pom-Pom Crab|boxer crab
+Decorator Crab
+Sally Lightfoot Crab
+Spiny Lobster
+Slipper Lobster
+Squat Lobster
+Langoustine|norway lobster
+Copepod
+Amphipod
+Sea Louse
+Cleaner Shrimp
+Harlequin Shrimp
+Skeleton Shrimp
+Tongue-Eating Louse
+Sand Dollar
+Sea Lily
+Crown-of-Thorns Starfish
+Sunflower Sea Star
+Pencil Urchin
+Fire Urchin
+Acorn Worm
+Peanut Worm
+Fireworm
+Feather Duster Worm
+Pompeii Worm
+Giant Tube Worm|riftia
+Zombie Worm|osedax
+Ribbon Worm
+Arrow Worm
+Lancelet|amphioxus
+Larvacean
+Dinoflagellate
+Diatom
+Foraminifera
+Radiolarian
+Coccolithophore
+Sea Sparkle|noctiluca
+Bristlemouth
+Lanternfish
+Sixgill Shark
+Sleeper Shark
+Bramble Shark
+Ninja Lanternshark
+Spookfish
+Snailfish
+Mariana Snailfish
+Cusk Eel
+Rattail|grenadier
+Orange Roughy
+Deep-Sea Lizardfish
+Telescope Octopus
+Cirrate Octopus
+Bloodybelly Comb Jelly
+Giant Siphonophore
+Deep-Sea Anglerfish|black seadevil
+Triplewart Seadevil
+Headless Chicken Monster|swimming sea cucumber
+Dandelion Siphonophore
+Big Red Jellyfish
+Stygiomedusa
+Atolla Jellyfish
+Halitrephes
+Promachoteuthis
+Bigfin Squid|magnapinna
+Whalefish
+Bearded Seadevil

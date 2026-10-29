@@ -1,0 +1,207 @@
+name: Beatles Songs
+blurb: Singles, album tracks and B-sides.
+group: Pop Culture
+nope: imagine => Imagine is a John Lennon solo song.
+nope: mysweetlord => My Sweet Lord is a George Harrison solo song.
+nope: liveandletdie => Live and Let Die is Paul McCartney and Wings.
+---
+Hey Jude
+Let It Be
+Yesterday
+Come Together
+Here Comes the Sun
+Yellow Submarine
+Help!
+A Hard Day's Night
+I Want to Hold Your Hand
+Twist and Shout
+All You Need Is Love
+Strawberry Fields Forever
+Penny Lane
+Eleanor Rigby
+Lucy in the Sky with Diamonds
+Blackbird
+Something
+Get Back
+Can't Buy Me Love
+She Loves You
+Love Me Do
+Ob-La-Di, Ob-La-Da
+While My Guitar Gently Weeps
+In My Life
+The Long and Winding Road
+Norwegian Wood
+Revolution
+Day Tripper
+Paperback Writer
+Michelle
+Octopus's Garden
+Ticket to Ride
+Eight Days a Week
+A Day in the Life
+With a Little Help from My Friends
+Sgt. Pepper's Lonely Hearts Club Band|sgt pepper
+Hello, Goodbye
+Nowhere Man
+All My Loving
+Drive My Car
+Across the Universe
+I Am the Walrus
+Magical Mystery Tour
+Back in the U.S.S.R.
+Helter Skelter
+Golden Slumbers
+Carry That Weight
+The End
+Here, There and Everywhere
+Taxman
+Tomorrow Never Knows
+Rain
+Dear Prudence
+Happiness Is a Warm Gun
+Julia
+Martha My Dear
+Rocky Raccoon
+When I'm Sixty-Four|when im 64
+Lovely Rita
+Getting Better
+She's Leaving Home
+Fixing a Hole
+Being for the Benefit of Mr. Kite!|mr kite
+Within You Without You
+Good Morning Good Morning
+Oh! Darling
+Maxwell's Silver Hammer
+I Want You (She's So Heavy)
+Because
+You Never Give Me Your Money
+Sun King
+Mean Mr. Mustard
+Polythene Pam
+She Came In Through the Bathroom Window
+Her Majesty
+Two of Us
+Dig a Pony
+I've Got a Feeling
+One After 909
+For You Blue
+I Me Mine
+Dig It
+Maggie Mae
+Glass Onion
+Piggies
+Revolution 9
+Honey Pie
+Good Night
+Mother Nature's Son
+Sexy Sadie
+Birthday
+Yer Blues
+Cry Baby Cry
+I Will
+Long, Long, Long
+Wild Honey Pie
+The Continuing Story of Bungalow Bill|bungalow bill
+Savoy Truffle
+Why Don't We Do It in the Road?
+Everybody's Got Something to Hide Except Me and My Monkey
+Lady Madonna
+Hey Bulldog
+All Together Now
+It's All Too Much
+Only a Northern Song
+The Inner Light
+Baby, You're a Rich Man
+Blue Jay Way
+Flying
+Your Mother Should Know
+The Ballad of John and Yoko
+Old Brown Shoe
+Love You To
+I'm Only Sleeping
+And Your Bird Can Sing
+For No One
+Doctor Robert
+Got to Get You into My Life
+Good Day Sunshine
+I Want to Tell You
+She Said She Said
+The Word
+Think for Yourself
+What Goes On
+Wait
+If I Needed Someone
+Run for Your Life
+Girl
+I'm Looking Through You
+You Won't See Me
+I Feel Fine
+She's a Woman
+No Reply
+I'm a Loser
+Baby's in Black
+Rock and Roll Music
+Mr. Moonlight
+Every Little Thing
+I Don't Want to Spoil the Party
+What You're Doing
+Words of Love
+Honey Don't
+You've Got to Hide Your Love Away
+I Need You
+Another Girl
+The Night Before
+You're Going to Lose That Girl
+It's Only Love
+Dizzy Miss Lizzy
+Act Naturally
+Yes It Is
+I'm Down
+Things We Said Today
+And I Love Her
+If I Fell
+I Should Have Known Better
+Tell Me Why
+Any Time at All
+I'll Cry Instead
+When I Get Home
+You Can't Do That
+I'll Be Back
+From Me to You
+Please Please Me
+P.S. I Love You
+I Saw Her Standing There
+Misery
+Anna (Go to Him)
+Chains
+Boys
+Ask Me Why
+Baby It's You
+Do You Want to Know a Secret
+A Taste of Honey
+There's a Place
+This Boy
+Thank You Girl
+It Won't Be Long
+All I've Got to Do
+Don't Bother Me
+Little Child
+Till There Was You
+Please Mister Postman
+Roll Over Beethoven
+Hold Me Tight
+Money (That's What I Want)
+Not a Second Time
+Devil in Her Heart
+You Really Got a Hold on Me
+I Wanna Be Your Man
+Free as a Bird
+Real Love
+Now and Then
+You Know My Name (Look Up the Number)
+Bad Boy
+Matchbox
+Slow Down
+Long Tall Sally
+Kansas City
+Everybody's Trying to Be My Baby

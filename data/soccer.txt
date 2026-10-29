@@ -1,0 +1,252 @@
+name: Soccer Clubs
+blurb: Football clubs from the giants of Europe to lower-league cult favorites.
+group: Sports & Games
+---
+Real Madrid
+Barcelona|fc barcelona|barca
+Manchester United|man united|man utd
+Liverpool
+Bayern Munich|bayern|fc bayern
+Chelsea
+Arsenal
+Manchester City|man city
+Juventus|juve
+Paris Saint-Germain|psg
+AC Milan|milan
+Inter Milan|inter|internazionale
+Tottenham Hotspur|tottenham|spurs
+Borussia Dortmund|dortmund|bvb
+Ajax
+Atletico Madrid|atletico
+Inter Miami
+LA Galaxy|galaxy
+Celtic
+Rangers
+Benfica
+Porto|fc porto
+Napoli
+Roma|as roma
+Boca Juniors|boca
+River Plate
+Flamengo
+Santos
+Al Nassr
+Al Hilal
+Newcastle United|newcastle
+Aston Villa|villa
+Everton
+West Ham United|west ham
+Leicester City|leicester
+Leeds United|leeds
+Bayer Leverkusen|leverkusen
+RB Leipzig|leipzig
+Sevilla
+Valencia
+Villarreal
+Real Sociedad
+Athletic Bilbao|athletic club
+Lazio
+Fiorentina
+Atalanta
+Marseille|olympique de marseille|om
+Lyon|olympique lyonnais
+Monaco|as monaco
+Sporting CP|sporting lisbon|sporting
+PSV Eindhoven|psv
+Feyenoord
+Galatasaray
+Fenerbahce
+Besiktas
+Olympiacos
+Panathinaikos
+Shakhtar Donetsk|shakhtar
+Dynamo Kyiv
+Zenit Saint Petersburg|zenit
+Spartak Moscow
+Red Star Belgrade|crvena zvezda
+Dinamo Zagreb
+Club Brugge
+Anderlecht
+Salzburg|red bull salzburg
+Rapid Vienna
+Young Boys
+Basel
+Copenhagen|fc copenhagen
+Malmo
+Rosenborg
+Brighton & Hove Albion|brighton
+Wolverhampton Wanderers|wolves
+Crystal Palace
+Fulham
+Brentford
+Nottingham Forest|forest
+Bournemouth
+Southampton
+Burnley
+Sunderland
+Sheffield United
+Sheffield Wednesday
+Middlesbrough
+Blackburn Rovers|blackburn
+Bolton Wanderers|bolton
+Wigan Athletic|wigan
+Stoke City|stoke
+West Bromwich Albion|west brom
+Norwich City|norwich
+Ipswich Town|ipswich
+Watford
+Derby County|derby
+Coventry City|coventry
+Birmingham City
+Hull City
+Swansea City|swansea
+Cardiff City
+QPR|queens park rangers
+Millwall
+Charlton Athletic|charlton
+Portsmouth
+Reading
+Wrexham
+Luton Town|luton
+Bristol City
+Plymouth Argyle
+Preston North End|preston
+Huddersfield Town
+Barnsley
+Rotherham United
+Oxford United
+Cambridge United
+Peterborough United
+Stockport County
+Notts County
+Port Vale
+Tranmere Rovers
+Accrington Stanley
+Forest Green Rovers
+Grimsby Town
+Hartlepool United
+Dagenham & Redbridge
+AFC Wimbledon
+Hearts|heart of midlothian
+Hibernian|hibs
+Aberdeen
+Dundee United
+Motherwell
+Kilmarnock
+St Mirren
+Livingston
+Queen's Park
+Partick Thistle
+Shamrock Rovers
+Bohemians
+Linfield
+Stuttgart|vfb stuttgart
+Eintracht Frankfurt
+Borussia Monchengladbach|gladbach
+Schalke 04|schalke
+Werder Bremen|bremen
+Wolfsburg
+Hamburger SV|hamburg
+Hertha Berlin|hertha
+Union Berlin
+Koln|cologne|fc koln
+Freiburg
+Hoffenheim
+Mainz
+St. Pauli
+Kaiserslautern
+Nurnberg
+Fortuna Dusseldorf
+Real Betis|betis
+Celta Vigo
+Espanyol
+Getafe
+Osasuna
+Rayo Vallecano
+Deportivo La Coruna|deportivo
+Real Zaragoza
+Mallorca
+Las Palmas
+Girona
+Torino
+Genoa
+Sampdoria
+Bologna
+Udinese
+Parma
+Cagliari
+Sassuolo
+Hellas Verona|verona
+Empoli
+Palermo
+Bari
+Como
+Venezia
+Lille
+Lens
+Nice|ogc nice
+Rennes
+Nantes
+Bordeaux
+Saint-Etienne
+Montpellier
+Strasbourg
+Toulouse
+Reims
+AZ Alkmaar|az
+Twente
+Utrecht
+Braga
+Vitoria Guimaraes
+Corinthians
+Palmeiras
+Sao Paulo
+Gremio
+Internacional
+Fluminense
+Vasco da Gama
+Botafogo
+Cruzeiro
+Atletico Mineiro
+Independiente
+Racing Club
+San Lorenzo
+Estudiantes
+Velez Sarsfield
+Penarol
+Nacional
+Colo-Colo
+Universidad de Chile
+Club America|america
+Chivas|guadalajara
+Cruz Azul
+Pumas UNAM|pumas
+Tigres
+Monterrey
+Seattle Sounders|sounders
+LAFC
+Portland Timbers|timbers
+Atlanta United
+New York Red Bulls|red bulls
+NYCFC|new york city fc
+Toronto FC
+Columbus Crew
+Al Ahly
+Zamalek
+Esperance
+Raja Casablanca
+Wydad Casablanca
+Kaizer Chiefs
+Orlando Pirates
+Mamelodi Sundowns
+TP Mazembe
+Al Ittihad
+Al Ain
+Urawa Red Diamonds|urawa reds
+Kashima Antlers
+Jeonbuk Hyundai Motors|jeonbuk
+Guangzhou Evergrande|guangzhou
+Melbourne Victory
+Sydney FC
+Mohun Bagan
+East Bengal

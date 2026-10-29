@@ -1,0 +1,205 @@
+name: Card Games
+blurb: Played with a standard deck, a special deck, or collectible cards.
+group: Sports & Games
+nope: monopoly => Monopoly is a board game.
+nope: chess => Chess is a board game.
+---
+Poker
+Blackjack|twenty-one|21
+Solitaire|klondike
+Uno
+Go Fish
+Rummy
+Gin Rummy
+Hearts
+Spades
+Bridge|contract bridge
+Crazy Eights
+War
+Old Maid
+Slapjack
+Speed
+Spit
+Egyptian Ratscrew|egyptian rat screw
+Texas Hold'em|holdem|texas holdem
+Baccarat
+Euchre
+Cribbage
+Canasta
+Pinochle
+Snap
+Cheat|bs|i doubt it
+President|scum|asshole
+Magic: The Gathering|magic|mtg
+Pokemon Trading Card Game|pokemon tcg
+Yu-Gi-Oh!|yugioh
+Hearthstone
+Exploding Kittens
+Cards Against Humanity
+Apples to Apples
+Phase 10
+Skip-Bo
+Dutch Blitz
+Spoons
+Kings Cup|ring of fire
+Bullshit
+Mao
+Nertz
+Spider Solitaire
+FreeCell
+Pyramid Solitaire|pyramid
+Golf Solitaire
+Tri Peaks|tripeaks
+Omaha
+Seven Card Stud|stud
+Five Card Draw
+Three Card Poker
+Pai Gow Poker
+Caribbean Stud
+Let It Ride
+Faro
+Chemin de Fer
+Whist
+Oh Hell|oh heck
+Knock Out Whist
+German Whist
+Bid Whist
+Sheepshead|schafkopf
+Skat
+Doppelkopf
+Jass
+Belote
+Tarot|french tarot
+Piquet
+Bezique
+Ecarte
+Briscola
+Scopa
+Tressette
+Scopone
+Mus
+Truco
+Brisca
+Chinchon
+Sueca
+Durak
+Preference
+Kaluki
+Bastra
+Tichu
+Big Two|deuces
+Zheng Shangyou
+Dou Dizhu|fight the landlord
+Hanafuda
+Koi-Koi
+Karuta
+Daifugo
+Go-Stop
+Tong-its
+Pusoy Dos
+Teen Patti
+Bluff
+Klaverjas
+Pesten
+Toepen
+Ninety-Nine
+Casino
+Hand and Foot
+Samba
+Bolivia
+Shanghai Rummy
+Contract Rummy
+Five Hundred|500
+Five Hundred Rum|500 rum
+Michigan Rummy
+Kalooki
+Tonk
+Conquian
+Panguingue|pan
+Cuarenta
+Pitch|setback
+Auction Pitch
+All Fours
+Cinch
+Pedro
+Rook
+Forty-Five|45s
+Spoil Five
+Twenty-Five
+Napoleon|nap
+Loo
+Brag
+Commerce
+Ombre
+Quadrille
+Primero
+Gleek
+Basset
+Lansquenet
+Pope Joan
+Newmarket
+Michigan
+Rummoli
+Speculation
+Beggar-My-Neighbour|beggar my neighbor
+Sevens|fan tan|domino
+Cuckoo
+Racing Demon
+Pounce
+Russian Bank
+Spite and Malice
+Kings in the Corner
+Clock Solitaire|clock patience
+Accordion
+Canfield
+Yukon
+Scorpion
+Forty Thieves
+Baker's Dozen
+Calculation
+La Belle Lucie
+Monte Carlo
+Idiot's Delight|aces up
+Dominion
+Sushi Go
+Love Letter
+Coup
+The Mind
+Hanabi
+The Crew
+Skull
+6 Nimmt!|take 5
+Bohnanza
+Lost Cities
+Jaipur
+Race for the Galaxy
+San Juan
+Innovation
+Star Realms
+Netrunner|android netrunner
+Lorcana|disney lorcana
+Flesh and Blood
+One Piece Card Game
+Digimon Card Game
+Star Wars Unlimited
+Keyforge
+Legend of the Five Rings
+Vampire: The Eternal Struggle|vtes
+Shadowfist
+Wyvern
+Duel Masters
+Cardfight!! Vanguard|vanguard
+Weiss Schwarz
+Force of Will
+Gwent
+Marvel Snap
+Legends of Runeterra
+Shadowverse
+Eternal
+Mau-Mau
+Dos
+Fluxx
+Munchkin
+Bang!
+Citadels
+Saboteur

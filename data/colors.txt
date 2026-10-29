@@ -1,0 +1,228 @@
+name: Colors
+blurb: Named colors and shades, from the crayon box to the paint chip.
+group: Arts & History
+---
+Red
+Blue
+Green
+Yellow
+Orange
+Purple
+Pink
+Black
+White
+Brown
+Gray|grey
+Violet
+Indigo
+Turquoise
+Teal
+Maroon
+Navy|navy blue
+Gold
+Silver
+Beige
+Cyan
+Magenta
+Lavender
+Lime
+Olive
+Peach
+Coral
+Crimson
+Scarlet
+Tan
+Cream
+Ivory
+Burgundy
+Mint
+Aqua
+Fuchsia
+Lilac
+Mauve
+Salmon
+Khaki
+Charcoal
+Amber
+Emerald
+Ruby
+Sapphire
+Jade
+Sky Blue
+Royal Blue
+Baby Blue
+Hot Pink
+Rose
+Plum
+Mustard
+Rust
+Copper
+Bronze
+Chartreuse
+Periwinkle
+Cerulean
+Azure
+Cobalt
+Ultramarine
+Vermilion
+Ochre
+Sienna|burnt sienna|raw sienna
+Umber|burnt umber|raw umber
+Sepia
+Taupe
+Ecru
+Champagne
+Mahogany
+Chestnut
+Chocolate
+Caramel
+Cinnamon
+Terracotta
+Brick Red
+Cherry
+Raspberry
+Blush
+Fawn
+Buff
+Sand
+Wheat
+Lemon
+Canary
+Saffron
+Marigold
+Tangerine
+Apricot
+Melon
+Pistachio
+Sage
+Moss
+Forest Green
+Hunter Green
+Kelly Green
+Sea Green
+Seafoam
+Celadon
+Viridian
+Malachite
+Spring Green
+Pear
+Avocado
+Powder Blue
+Steel Blue
+Slate|slate gray
+Gunmetal
+Pewter
+Ash
+Smoke
+Platinum
+Pearl
+Eggshell
+Alabaster
+Snow
+Bone
+Linen
+Oyster
+Ebony
+Onyx
+Jet
+Midnight Blue
+Prussian Blue
+Payne's Grey
+Davy's Grey
+Oxford Blue
+Cambridge Blue
+Tiffany Blue
+Robin Egg Blue
+Electric Blue
+Neon Green
+Day-Glo|dayglo
+International Klein Blue|klein blue|ikb
+Persian Blue
+Egyptian Blue
+Han Purple
+Tyrian Purple
+Byzantium
+Amethyst
+Orchid
+Heliotrope
+Thistle
+Wisteria
+Eggplant|aubergine
+Puce
+Cerise
+Carmine
+Cardinal
+Oxblood
+Cordovan
+Carnelian
+Cinnabar
+Persimmon
+Pumpkin
+Flame
+Coquelicot
+Falu Red
+Rufous
+Russet
+Auburn
+Titian
+Bistre
+Bole
+Fulvous
+Gamboge
+Aureolin
+Jonquil
+Citrine
+Flax
+Straw
+Isabelline
+Gainsboro
+Glaucous
+Smalt
+Zaffre
+Woad
+Verdigris
+Eau de Nil
+Fern
+Reseda
+Feldgrau
+Field Drab
+Olive Drab
+Coyote Brown
+Drab
+Greige
+Mushroom
+Liver
+Cafe au Lait
+Mocha
+Sinopia
+Caput Mortuum
+Mummy Brown
+Dragon's Blood
+Lapis
+Maya Blue
+Vantablack
+Mountbatten Pink
+Amaranth
+Razzmatazz
+Atomic Tangerine
+Wild Watermelon
+Inchworm
+Macaroni and Cheese
+Mango Tango
+Outer Space
+Purple Mountain's Majesty|purple mountains majesty
+Fuzzy Wuzzy
+Unmellow Yellow
+Laser Lemon
+Screamin' Green
+Granny Smith Apple
+Tickle Me Pink
+Timberwolf
+Banana Mania
+Denim
+Bittersweet
+Jazzberry Jam
+Blizzard Blue
+Shadow
+Manatee
+Cotton Candy

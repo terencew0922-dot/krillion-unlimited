@@ -1,0 +1,38 @@
+name: MLB Teams
+blurb: All 30 ballclubs. City optional.
+group: Sports & Games
+suffix: true
+nope: expos => The Expos became the Washington Nationals.
+nope: indians => Now the Cleveland Guardians.
+nope: devilrays => Now just the Rays.
+---
+Yankees
+Red Sox
+Dodgers
+Cubs
+Giants
+Cardinals
+Mets
+Braves
+Astros
+Phillies
+White Sox
+Tigers
+Angels
+Mariners
+Blue Jays
+Orioles
+Padres
+Rangers
+Twins
+Reds
+Pirates
+Brewers
+Guardians
+Royals
+Rockies
+Diamondbacks|dbacks|d-backs
+Marlins
+Rays
+Nationals|nats
+Athletics|as|a's

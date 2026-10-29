@@ -1,0 +1,320 @@
+name: Birds
+blurb: Backyard regulars to rarities only a twitcher would know.
+group: Science & Nature
+nope: bat => Bats are mammals.
+nope: pterodactyl => Pterosaurs aren't birds.
+---
+Eagle|bald eagle
+Robin
+Penguin
+Owl
+Parrot
+Flamingo
+Pigeon
+Crow
+Hummingbird
+Peacock|peafowl
+Ostrich
+Duck
+Chicken
+Swan
+Seagull|gull
+Blue Jay
+Cardinal
+Sparrow
+Hawk
+Falcon
+Turkey
+Goose
+Woodpecker
+Pelican
+Toucan
+Vulture
+Emu
+Kiwi
+Dove
+Raven
+Stork
+Heron
+Crane
+Canary
+Macaw
+Cockatoo
+Parakeet|budgie|budgerigar
+Puffin
+Albatross
+Kingfisher
+Magpie
+Starling
+Finch
+Bluebird
+Swallow
+Mockingbird
+Oriole
+Wren
+Chickadee
+Nightingale
+Lark
+Kookaburra
+Roadrunner
+Condor
+Osprey
+Kestrel
+Peregrine Falcon
+Barn Owl
+Snowy Owl
+Great Horned Owl
+Pheasant
+Quail
+Partridge
+Grouse
+Ptarmigan
+Cassowary
+Rhea
+Dodo
+Emperor Penguin
+Ibis
+Spoonbill
+Egret
+Bittern
+Cormorant
+Gannet
+Booby|blue-footed booby
+Frigatebird
+Tern
+Skua
+Loon|common loon|great northern diver
+Grebe
+Coot
+Moorhen
+Rail
+Sandpiper
+Plover
+Killdeer
+Curlew
+Avocet
+Oystercatcher
+Snipe
+Woodcock
+Lapwing
+Jacana
+Hornbill
+Hoopoe
+Bee-eater
+Roller
+Trogon
+Quetzal
+Motmot
+Jacamar
+Puffbird
+Barbet
+Honeyguide
+Tanager
+Grosbeak
+Bunting
+Junco
+Towhee
+Meadowlark
+Bobolink
+Grackle
+Cowbird
+Blackbird
+Thrush
+Warbler
+Vireo
+Kinglet
+Nuthatch
+Creeper|brown creeper
+Titmouse
+Waxwing|cedar waxwing
+Shrike
+Flycatcher
+Phoebe
+Kingbird
+Swift
+Nightjar
+Whip-poor-will
+Nighthawk
+Frogmouth
+Potoo
+Oilbird
+Lyrebird
+Bowerbird
+Bird-of-Paradise
+Honeyeater
+Fairywren
+Pardalote
+Lorikeet
+Rosella
+Galah
+Corella
+Cockatiel
+Lovebird
+Kakapo
+Kea
+Kaka
+Takahe
+Weka
+Tui
+Fantail
+Pukeko
+Moa
+Elephant Bird
+Great Auk
+Passenger Pigeon
+Carolina Parakeet
+Ivory-Billed Woodpecker
+Shoebill
+Secretary Bird
+Hamerkop
+Lammergeier|bearded vulture
+Harpy Eagle
+Philippine Eagle
+Steller's Sea Eagle
+Golden Eagle
+Martial Eagle
+Crowned Eagle
+Kite
+Harrier
+Goshawk
+Sparrowhawk
+Buzzard
+Caracara
+Gyrfalcon
+Merlin
+Hobby
+Turaco
+Go-Away-Bird
+Mousebird
+Coucal
+Cuckoo
+Ani
+Hoatzin
+Seriema
+Sunbittern
+Kagu
+Trumpeter
+Limpkin
+Finfoot
+Sungrebe
+Bustard
+Sandgrouse
+Pratincole
+Courser
+Thick-knee|stone-curlew
+Sheathbill
+Phalarope
+Turnstone
+Dunlin
+Knot
+Godwit
+Whimbrel
+Tattler
+Dowitcher
+Yellowlegs
+Stilt
+Ibisbill
+Crab-Plover
+Prion
+Petrel
+Shearwater
+Fulmar
+Storm Petrel
+Diving Petrel
+Tropicbird
+Anhinga|snakebird
+Darter
+Screamer
+Magpie Goose
+Whistling Duck
+Mandarin Duck
+Wood Duck
+Merganser
+Goldeneye
+Bufflehead
+Eider
+Scoter
+Teal
+Wigeon
+Pintail
+Shoveler
+Mallard
+Canvasback
+Pochard
+Brant
+Nene
+Megapode|malleefowl
+Guineafowl
+Curassow
+Guan
+Chachalaca
+Tinamou
+Sunbird
+Spiderhunter
+Flowerpecker
+White-eye
+Bulbul
+Babbler
+Laughingthrush
+Leafbird
+Fairy-Bluebird
+Pitta
+Broadbill
+Asity
+Manakin
+Cotinga
+Bellbird
+Umbrellabird
+Cock-of-the-Rock
+Ovenbird
+Woodcreeper
+Antbird
+Tapaculo
+Gnatcatcher
+Dipper
+Accentor|dunnock
+Pipit
+Wagtail
+Longspur
+Weaver
+Whydah
+Waxbill
+Munia
+Bishop
+Widowbird
+Wallcreeper
+Treecreeper
+Bearded Reedling
+Penduline Tit
+Long-Tailed Tit
+Firecrest
+Goldcrest
+Chiffchaff
+Blackcap
+Whitethroat
+Redstart
+Wheatear
+Stonechat
+Whinchat
+Chough
+Jackdaw
+Rook
+Nutcracker
+Jay
+Treepie
+Drongo
+Figbird
+Cuckooshrike
+Minivet
+Woodswallow
+Butcherbird
+Currawong
+Apostlebird
+Rockfowl|picathartes
+Rockjumper
+Sugarbird
+Bananaquit
+Dickcissel
+Palmchat
+Silky-Flycatcher
+Olive Warbler

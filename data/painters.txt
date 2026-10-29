@@ -1,0 +1,248 @@
+name: Painters
+blurb: Artists known mainly for painting, old masters to contemporary.
+group: Arts & History
+---
+Leonardo da Vinci|da vinci|leonardo
+Vincent van Gogh|van gogh
+Pablo Picasso|picasso
+Claude Monet|monet
+Michelangelo
+Salvador Dali|dali
+Rembrandt
+Frida Kahlo|kahlo|frida
+Andy Warhol|warhol
+Raphael
+Edvard Munch|munch
+Johannes Vermeer|vermeer
+Henri Matisse|matisse
+Georgia O'Keeffe|o'keeffe|okeeffe
+Jackson Pollock|pollock
+Gustav Klimt|klimt
+Paul Cezanne|cezanne
+Pierre-Auguste Renoir|renoir
+Edgar Degas|degas
+Bob Ross
+Sandro Botticelli|botticelli
+Caravaggio
+Francisco Goya|goya
+Rene Magritte|magritte
+Wassily Kandinsky|kandinsky
+Paul Gauguin|gauguin
+Edward Hopper|hopper
+Norman Rockwell|rockwell
+Jean-Michel Basquiat|basquiat
+Roy Lichtenstein|lichtenstein
+Mark Rothko|rothko
+Piet Mondrian|mondrian
+Diego Velazquez|velazquez
+El Greco
+Titian
+Hieronymus Bosch|bosch
+Pieter Bruegel|bruegel|brueghel
+Jan van Eyck|van eyck
+Albrecht Durer|durer
+Peter Paul Rubens|rubens
+J. M. W. Turner|turner
+John Constable|constable
+Eugene Delacroix|delacroix
+Edouard Manet|manet
+Georges Seurat|seurat
+Henri de Toulouse-Lautrec|toulouse-lautrec
+Marc Chagall|chagall
+Joan Miro|miro
+Paul Klee|klee
+Diego Rivera|rivera
+Egon Schiele|schiele
+Amedeo Modigliani|modigliani
+Grant Wood
+James McNeill Whistler|whistler
+John Singer Sargent|sargent
+Mary Cassatt|cassatt
+Winslow Homer
+Andrew Wyeth|wyeth
+Keith Haring|haring
+David Hockney|hockney
+Francis Bacon
+Lucian Freud
+Banksy
+Yayoi Kusama|kusama
+Katsushika Hokusai|hokusai
+Utagawa Hiroshige|hiroshige
+Giotto
+Fra Angelico
+Masaccio
+Piero della Francesca
+Andrea Mantegna|mantegna
+Giovanni Bellini|bellini
+Giorgione
+Tintoretto
+Paolo Veronese|veronese
+Correggio
+Parmigianino
+Artemisia Gentileschi|gentileschi
+Guido Reni
+Annibale Carracci|carracci
+Canaletto
+Giovanni Battista Tiepolo|tiepolo
+Anthony van Dyck|van dyck
+Frans Hals|hals
+Jan Steen
+Pieter de Hooch|de hooch
+Jacob van Ruisdael|ruisdael
+Hans Holbein|holbein
+Lucas Cranach|cranach
+Nicolas Poussin|poussin
+Claude Lorrain
+Jean-Antoine Watteau|watteau
+Jean-Honore Fragonard|fragonard
+Francois Boucher|boucher
+Jacques-Louis David
+Jean-Auguste-Dominique Ingres|ingres
+Theodore Gericault|gericault
+Gustave Courbet|courbet
+Jean-Francois Millet|millet
+Camille Corot|corot
+Camille Pissarro|pissarro
+Alfred Sisley|sisley
+Berthe Morisot|morisot
+Gustave Caillebotte|caillebotte
+Paul Signac|signac
+Henri Rousseau|rousseau
+Odilon Redon|redon
+Pierre Bonnard|bonnard
+Edouard Vuillard|vuillard
+Andre Derain|derain
+Maurice de Vlaminck|vlaminck
+Georges Braque|braque
+Fernand Leger|leger
+Juan Gris
+Kazimir Malevich|malevich
+El Lissitzky|lissitzky
+Franz Marc
+August Macke|macke
+Ernst Ludwig Kirchner|kirchner
+Emil Nolde|nolde
+Max Beckmann|beckmann
+Otto Dix
+George Grosz|grosz
+Max Ernst|ernst
+Giorgio de Chirico|de chirico
+Yves Tanguy|tanguy
+Leonora Carrington|carrington
+Remedios Varo|varo
+Tamara de Lempicka|lempicka
+Alphonse Mucha|mucha
+Caspar David Friedrich|friedrich
+William Blake|blake
+Dante Gabriel Rossetti|rossetti
+John Everett Millais|millais
+Edward Burne-Jones|burne-jones
+John William Waterhouse|waterhouse
+Thomas Gainsborough|gainsborough
+Joshua Reynolds|reynolds
+George Stubbs|stubbs
+William Hogarth|hogarth
+Thomas Cole|cole
+Albert Bierstadt|bierstadt
+Frederic Edwin Church
+Thomas Eakins|eakins
+Willem de Kooning|de kooning
+Franz Kline|kline
+Robert Motherwell|motherwell
+Helen Frankenthaler|frankenthaler
+Joan Mitchell
+Lee Krasner|krasner
+Clyfford Still
+Barnett Newman
+Cy Twombly|twombly
+Jasper Johns|johns
+Robert Rauschenberg|rauschenberg
+Gerhard Richter|richter
+Anselm Kiefer|kiefer
+Jean Dubuffet|dubuffet
+Frank Stella|stella
+Agnes Martin
+Bridget Riley
+Alice Neel|neel
+Kerry James Marshall
+Kehinde Wiley|wiley
+Amy Sherald|sherald
+Jacob Lawrence
+Romare Bearden|bearden
+Jean-Baptiste-Simeon Chardin|chardin
+Elisabeth Vigee Le Brun|vigee le brun
+Rosa Bonheur|bonheur
+Hilma af Klint|af klint
+Paula Modersohn-Becker
+Kathe Kollwitz|kollwitz
+Sonia Delaunay
+Robert Delaunay
+Natalia Goncharova|goncharova
+Ilya Repin|repin
+Ivan Aivazovsky|aivazovsky
+Ivan Shishkin|shishkin
+Isaac Levitan|levitan
+Arkhip Kuindzhi|kuindzhi
+Vasily Vereshchagin
+Nicholas Roerich|roerich
+Zinaida Serebriakova
+Akseli Gallen-Kallela
+Peder Severin Kroyer|kroyer
+Vilhelm Hammershoi|hammershoi
+Anders Zorn|zorn
+Carl Larsson
+Joaquin Sorolla|sorolla
+Ignacio Zuloaga
+Jose de Ribera|ribera
+Francisco de Zurbaran|zurbaran
+Bartolome Esteban Murillo|murillo
+Rufino Tamayo|tamayo
+Jose Clemente Orozco|orozco
+David Alfaro Siqueiros|siqueiros
+Fernando Botero|botero
+Oswaldo Guayasamin
+Tarsila do Amaral
+Candido Portinari
+Wifredo Lam
+Roberto Matta|matta
+Xu Beihong
+Qi Baishi
+Zhang Daqian
+Wu Guanzhong
+Fan Kuan
+Guo Xi
+Ma Yuan
+Shitao
+Sesshu
+Ogata Korin|korin
+Ito Jakuchu|jakuchu
+Kitagawa Utamaro|utamaro
+Tawaraya Sotatsu|sotatsu
+Raja Ravi Varma|ravi varma
+Amrita Sher-Gil
+M. F. Husain|husain
+S. H. Raza|raza
+Abanindranath Tagore
+Albert Namatjira|namatjira
+Emily Kame Kngwarreye
+Sidney Nolan|nolan
+Arthur Streeton
+Tom Roberts
+Colin McCahon|mccahon
+Frances Hodgkins
+Tom Thomson
+Lawren Harris
+Emily Carr
+Jean-Paul Riopelle|riopelle
+Zdzislaw Beksinski|beksinski
+Jan Matejko|matejko
+Mihaly Munkacsy|munkacsy
+Arnold Bocklin|bocklin
+Ferdinand Hodler|hodler
+Giovanni Segantini|segantini
+Umberto Boccioni|boccioni
+Giacomo Balla|balla
+Gino Severini|severini
+Giorgio Morandi|morandi
+Lucio Fontana|fontana
+Alberto Burri|burri

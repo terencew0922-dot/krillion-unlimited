@@ -1,0 +1,103 @@
+name: Cat Breeds
+blurb: Recognized domestic cat breeds.
+group: Science & Nature
+nope: tabby => Tabby is a coat pattern, not a breed.
+nope: calico => Calico is a coat color, not a breed.
+nope: tortoiseshell => Tortoiseshell is a coat color, not a breed.
+nope: lion => Lions aren't a domestic breed.
+---
+Persian
+Siamese
+Maine Coon
+Sphynx|sphinx
+Bengal
+Ragdoll
+British Shorthair
+Scottish Fold
+Russian Blue
+Abyssinian
+American Shorthair
+Exotic Shorthair
+Birman
+Norwegian Forest Cat|norwegian forest
+Siberian
+Savannah
+Himalayan
+Burmese
+Devon Rex
+Cornish Rex
+Oriental Shorthair|oriental
+Tonkinese
+Turkish Angora
+Turkish Van
+Manx
+Bombay
+Egyptian Mau
+Ocicat
+Somali
+Balinese
+Chartreux
+Munchkin
+Ragamuffin
+Selkirk Rex
+American Curl
+Japanese Bobtail
+Korat
+Singapura
+Havana Brown
+LaPerm
+Nebelung
+Pixiebob
+Toyger
+Snowshoe
+Bambino
+Lykoi|werewolf cat
+Peterbald
+Donskoy|don sphynx
+Kurilian Bobtail
+American Bobtail
+Chausie
+Serengeti
+Cheetoh
+Highlander
+Khao Manee
+Sokoke
+Burmilla
+Australian Mist
+Asian
+Tiffanie
+Ojos Azules
+Minskin
+Dwelf
+Elf Cat
+Ukrainian Levkoy
+German Rex
+Ural Rex
+Tennessee Rex
+Thai|wichien maat
+Suphalak
+Arabian Mau
+Aegean
+Cyprus
+Brazilian Shorthair
+European Shorthair
+Colorpoint Shorthair
+Javanese
+Seychellois
+York Chocolate
+Mekong Bobtail
+Raas
+Sam Sawet
+Napoleon|minuet
+Skookum
+Kinkalow
+Genetta
+Foldex
+Scottish Straight
+British Longhair
+Highland Fold
+Lambkin
+California Spangled
+Toybob
+Oregon Rex
+Mandalay

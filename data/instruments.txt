@@ -1,0 +1,238 @@
+name: Musical Instruments
+blurb: Orchestra pit to folk festival to museum case.
+group: Arts & History
+---
+Piano
+Guitar
+Drums|drum kit
+Violin|fiddle
+Flute
+Trumpet
+Saxophone|sax
+Cello
+Clarinet
+Bass Guitar|bass
+Harp
+Trombone
+Ukulele
+Harmonica
+Tuba
+Accordion
+Banjo
+Xylophone
+Oboe
+Keyboard
+Viola
+Double Bass|upright bass|contrabass
+French Horn|horn
+Bassoon
+Tambourine
+Triangle
+Recorder
+Organ|pipe organ
+Bagpipes
+Mandolin
+Sitar
+Synthesizer|synth
+Cymbals
+Bongos
+Maracas
+Glockenspiel
+Timpani
+Harpsichord
+Piccolo
+Marimba
+Cowbell
+Kazoo
+Didgeridoo
+Steel Drum|steelpan
+Castanets
+Lute
+Lyre
+Harmonium
+Djembe
+Tabla
+Theremin
+Bugle
+Cornet
+Euphonium
+Sousaphone
+Ocarina
+Pan Flute|panpipes
+Zither
+Dulcimer
+Celesta
+Vibraphone
+Koto
+Shamisen
+Erhu
+Pipa
+Guzheng
+Balalaika
+Bouzouki
+Oud
+Kalimba|thumb piano
+Handpan|hang
+Washboard
+Jaw Harp|jew's harp|mouth harp
+Melodica
+Flugelhorn
+Contrabassoon
+Mellotron
+Ondes Martenot
+Hurdy-Gurdy
+Nyckelharpa
+Sarangi
+Sarod
+Shakuhachi
+Duduk
+Kora
+Mbira
+Cuica
+Berimbau
+Cajon
+Guiro
+Charango
+Crwth
+Serpent
+Ophicleide
+Sackbut
+Crumhorn
+Theorbo
+Glass Harmonica
+Tromba Marina
+Heckelphone
+Waterphone
+Stylophone
+Rebab
+Electric Guitar
+Acoustic Guitar
+Classical Guitar
+Twelve-String Guitar|12 string guitar
+Pedal Steel Guitar|pedal steel
+Lap Steel Guitar
+Dobro|resonator guitar
+Baritone Saxophone|bari sax
+Alto Saxophone
+Tenor Saxophone
+Soprano Saxophone
+Bass Clarinet
+English Horn|cor anglais
+Alto Flute
+Bass Flute
+Tin Whistle|penny whistle
+Fife
+Bodhran
+Snare Drum
+Bass Drum
+Tom-Tom
+Hi-Hat
+Gong
+Tam-Tam
+Tubular Bells|chimes
+Crotales
+Wood Block
+Temple Blocks
+Claves
+Shaker
+Cabasa
+Agogo Bells|agogo
+Timbales
+Congas|conga
+Surdo
+Pandeiro
+Tambura|tanpura
+Veena
+Santoor
+Shehnai
+Bansuri
+Mridangam
+Ghatam
+Kanjira
+Dhol
+Dholak
+Gamelan
+Angklung
+Gendang
+Taiko
+Biwa
+Shō|sho
+Hichiriki
+Gayageum
+Haegeum
+Janggu
+Morin Khuur|horsehead fiddle
+Dombra
+Komuz
+Kemenche
+Saz|baglama
+Ney
+Darbuka|doumbek|goblet drum
+Riq
+Qanun
+Santur
+Tar
+Setar
+Kamancheh
+Zurna
+Balaban
+Kaval
+Gadulka
+Cimbalom
+Tárogató
+Kantele
+Hardanger Fiddle
+Langeleik
+Uilleann Pipes
+Bombarde
+Musette
+Concertina
+Bandoneon
+Melodeon
+Button Accordion
+Autoharp
+Psaltery
+Hammered Dulcimer
+Appalachian Dulcimer|mountain dulcimer
+Diddley Bow
+Cigar Box Guitar
+Washtub Bass
+Jug
+Spoons
+Bones
+Musical Saw|singing saw
+Slide Whistle
+Vuvuzela
+Talkbox
+Keytar
+Vocoder
+Moog
+Clavinet
+Rhodes|electric piano
+Wurlitzer
+Hammond Organ|hammond
+Calliope
+Barrel Organ
+Player Piano|pianola
+Orchestrion
+Aeolian Harp
+Hapi Drum|tongue drum|steel tongue drum
+Udu
+Balafon
+Ngoni
+Valiha
+Akonting
+Shekere
+Talking Drum
+Sabar
+Bougarabou
+Ashiko
+Marimbula
+Rainstick
+Bullroarer
+Ondioline
+Trautonium
+Optigan
+Omnichord
+Eigenharp
+Laser Harp

@@ -1,0 +1,265 @@
+name: Spoken Languages
+blurb: Living, dead, and endangered human languages. Not programming languages.
+group: Geography
+nope: python => That's a programming language.
+nope: java => That's a programming language.
+nope: elvish => Fictional languages don't count.
+nope: klingon => Fictional languages don't count.
+nope: dothraki => Fictional languages don't count.
+nope: chinese => "Chinese" is a family. Try Mandarin or Cantonese.
+---
+English
+Spanish
+French
+German
+Mandarin|mandarin chinese
+Japanese
+Italian
+Russian
+Portuguese
+Arabic
+Korean
+Hindi
+Latin
+Greek
+Dutch
+Swedish
+Hebrew
+Turkish
+Polish
+Cantonese
+Norwegian
+Danish
+Finnish
+Irish|gaelic|irish gaelic
+Welsh
+Swahili
+Vietnamese
+Thai
+Bengali|bangla
+Urdu
+Punjabi
+Persian|farsi
+Ukrainian
+Czech
+Hungarian
+Romanian
+Tagalog|filipino
+Indonesian|bahasa indonesia
+Malay
+Hawaiian
+Sign Language|american sign language|asl
+Esperanto
+Icelandic
+Scottish Gaelic
+Catalan
+Basque|euskara
+Tamil
+Telugu
+Marathi
+Gujarati
+Kannada
+Malayalam
+Sanskrit
+Navajo|dine
+Cherokee
+Yiddish
+Afrikaans
+Zulu
+Xhosa
+Yoruba
+Igbo
+Hausa
+Amharic
+Somali
+Croatian
+Serbian
+Bosnian
+Slovak
+Slovenian
+Bulgarian
+Macedonian
+Albanian
+Lithuanian
+Latvian
+Estonian
+Belarusian
+Georgian
+Armenian
+Azerbaijani|azeri
+Kazakh
+Uzbek
+Mongolian
+Tibetan
+Nepali
+Sinhala|sinhalese
+Burmese
+Khmer|cambodian
+Lao
+Maori
+Samoan
+Tongan
+Fijian
+Quechua
+Guarani
+Aymara
+Nahuatl
+Maya|yucatec maya
+Inuktitut
+Greenlandic|kalaallisut
+Sami
+Faroese
+Luxembourgish
+Romansh
+Breton
+Cornish
+Manx
+Frisian
+Occitan
+Galician
+Corsican
+Sardinian
+Sicilian
+Neapolitan
+Venetian
+Maltese
+Aramaic
+Coptic
+Ancient Egyptian|egyptian
+Sumerian
+Akkadian
+Hittite
+Old English|anglo-saxon
+Old Norse
+Gothic
+Old Church Slavonic
+Pali
+Prakrit
+Tocharian
+Etruscan
+Phoenician
+Ugaritic
+Elamite
+Linear B|mycenaean greek
+Hmong
+Javanese
+Sundanese
+Balinese
+Cebuano
+Ilocano
+Tetum
+Malagasy
+Kinyarwanda
+Kirundi
+Luganda
+Shona
+Sesotho|sotho
+Setswana|tswana
+Wolof
+Fula|fulani|fulfulde
+Twi|akan
+Ewe
+Lingala
+Kikongo
+Tigrinya
+Oromo
+Berber|tamazight
+Kurdish
+Pashto
+Dari
+Tajik
+Turkmen
+Kyrgyz
+Uyghur
+Tatar
+Chechen
+Ossetian
+Abkhaz
+Chuvash
+Yakut|sakha
+Buryat
+Ainu
+Okinawan|ryukyuan
+Hakka
+Hokkien|min nan
+Shanghainese|wu
+Zhuang
+Dzongkha
+Assamese
+Odia|oriya
+Sindhi
+Konkani
+Tulu
+Santali
+Maithili
+Bhojpuri
+Rohingya
+Shan
+Karen
+Mon
+Chamorro
+Palauan
+Marshallese
+Tok Pisin
+Bislama
+Hiri Motu
+Pitjantjatjara
+Warlpiri
+Yolngu Matha
+Kriol
+Hawaiian Pidgin
+Haitian Creole|kreyol
+Papiamento
+Gullah
+Louisiana Creole
+Michif
+Cree
+Ojibwe|anishinaabemowin
+Lakota
+Mohawk
+Hopi
+Zuni
+Yupik
+Tlingit
+Haida
+Salish
+Mapudungun|mapuche
+Shipibo
+Kichwa
+Wayuu
+Garifuna
+K'iche'|kiche
+Kaqchikel
+Mixtec
+Zapotec
+Otomi
+Purepecha
+Tarahumara|raramuri
+Pirahã|piraha
+Silbo Gomero
+Ubykh
+Livonian
+Votic
+Manchu
+Ket
+Burushaski
+Kusunda
+Nivkh
+Yaghan
+Ayapaneco
+Njerep
+Taushiro
+Dumi
+Pawnee
+Wichita
+Kaurna
+Damin
+Rotokas
+Xoo|taa|!xoo
+Hadza
+Sandawe
+Ongota
+Jalaa
+Laal
+Bangime
+Shabo

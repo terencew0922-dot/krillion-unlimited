@@ -1,0 +1,220 @@
+name: Harry Potter Characters
+blurb: Students, staff, creatures and minor wizards from the books and films.
+group: Pop Culture
+---
+Harry Potter|harry
+Hermione Granger|hermione
+Ron Weasley|ron
+Albus Dumbledore|dumbledore
+Lord Voldemort|voldemort|tom riddle|you-know-who
+Severus Snape|snape
+Rubeus Hagrid|hagrid
+Draco Malfoy|draco
+Sirius Black|sirius
+Dobby
+Neville Longbottom|neville
+Luna Lovegood|luna
+Ginny Weasley|ginny
+Minerva McGonagall|mcgonagall
+Bellatrix Lestrange|bellatrix
+Fred Weasley|fred
+George Weasley|george
+Hedwig
+Dolores Umbridge|umbridge
+Remus Lupin|lupin
+Cedric Diggory|cedric
+Lucius Malfoy|lucius
+Molly Weasley
+Arthur Weasley
+Peter Pettigrew|wormtail|scabbers
+Nymphadora Tonks|tonks
+Cho Chang
+Gilderoy Lockhart|lockhart
+Mad-Eye Moody|alastor moody|moody
+Percy Weasley|percy
+Bill Weasley|bill
+Charlie Weasley|charlie
+Dudley Dursley|dudley
+Vernon Dursley|vernon
+Petunia Dursley|petunia
+James Potter
+Lily Potter
+Kreacher
+Fawkes
+Buckbeak
+Crookshanks
+Nagini
+Argus Filch|filch
+Mrs. Norris
+Moaning Myrtle|myrtle
+Nearly Headless Nick
+Peeves
+The Fat Lady
+Horace Slughorn|slughorn
+Quirinus Quirrell|quirrell
+Sybill Trelawney|trelawney
+Filius Flitwick|flitwick
+Pomona Sprout|sprout
+Madam Pomfrey|pomfrey
+Madam Hooch|hooch
+Cornelius Fudge|fudge
+Rufus Scrimgeour|scrimgeour
+Kingsley Shacklebolt|kingsley
+Barty Crouch Jr.
+Barty Crouch Sr.|barty crouch
+Viktor Krum|krum
+Fleur Delacour|fleur
+Gabrielle Delacour
+Olympe Maxime|madame maxime
+Igor Karkaroff|karkaroff
+Seamus Finnigan|seamus
+Dean Thomas
+Lavender Brown|lavender
+Parvati Patil|parvati
+Padma Patil|padma
+Oliver Wood|wood
+Lee Jordan
+Katie Bell
+Angelina Johnson
+Alicia Spinnet
+Colin Creevey
+Dennis Creevey
+Ernie Macmillan
+Hannah Abbott
+Justin Finch-Fletchley
+Zacharias Smith
+Susan Bones
+Terry Boot
+Michael Corner
+Marietta Edgecombe
+Romilda Vane
+Cormac McLaggen
+Vincent Crabbe|crabbe
+Gregory Goyle|goyle
+Pansy Parkinson|pansy
+Blaise Zabini|zabini
+Theodore Nott
+Millicent Bulstrode
+Marcus Flint
+Narcissa Malfoy|narcissa
+Andromeda Tonks
+Ted Tonks
+Teddy Lupin
+Regulus Black|regulus
+Walburga Black
+Phineas Nigellus Black
+Aberforth Dumbledore|aberforth
+Ariana Dumbledore
+Kendra Dumbledore
+Gellert Grindelwald|grindelwald
+Bathilda Bagshot
+Rita Skeeter|rita skeeter
+Xenophilius Lovegood|xenophilius
+Mundungus Fletcher|dung
+Arabella Figg|mrs figg
+Elphias Doge
+Dedalus Diggle
+Hestia Jones
+Emmeline Vance
+Sturgis Podmore
+Frank Longbottom
+Alice Longbottom
+Augusta Longbottom
+Fenrir Greyback|greyback
+Antonin Dolohov|dolohov
+Rodolphus Lestrange
+Rabastan Lestrange
+Walden Macnair|macnair
+Augustus Rookwood
+Yaxley
+Amycus Carrow
+Alecto Carrow
+Thorfinn Rowle
+Travers
+Scabior
+Pius Thicknesse
+Albert Runcorn
+Reg Cattermole
+Mafalda Hopkirk
+Ludo Bagman|bagman
+Bertha Jorkins
+Amos Diggory
+Arnold Peasegood
+Griphook
+Ollivander|garrick ollivander
+Mr. Borgin|borgin
+Tom the Barkeep
+Madam Rosmerta|rosmerta
+Madam Malkin
+Madam Pince
+Stan Shunpike
+Ernie Prang
+Firenze
+Bane
+Ronan
+Magorian
+Aragog
+Mosag
+Grawp
+Fluffy
+Norbert|norberta
+Trevor
+Pigwidgeon|pig
+Errol
+Hermes
+Arnold the Pygmy Puff
+Winky
+Hokey
+The Bloody Baron
+The Fat Friar
+The Grey Lady|helena ravenclaw
+Sir Cadogan
+Professor Binns|binns
+Wilhelmina Grubbly-Plank|grubbly-plank
+Silvanus Kettleburn
+Charity Burbage
+Aurora Sinistra|sinistra
+Septima Vector
+Bathsheda Babbling
+Godric Gryffindor|gryffindor
+Helga Hufflepuff|hufflepuff
+Rowena Ravenclaw|ravenclaw
+Salazar Slytherin|slytherin
+Nicolas Flamel|flamel
+Perenelle Flamel
+Ignotus Peverell
+Antioch Peverell
+Cadmus Peverell
+Marvolo Gaunt
+Morfin Gaunt
+Merope Gaunt
+Tom Riddle Sr.
+Hepzibah Smith
+Dilys Derwent
+Armando Dippet
+Newt Scamander|newt
+Porpentina Goldstein|tina
+Queenie Goldstein
+Jacob Kowalski
+Credence Barebone
+Leta Lestrange
+Theseus Scamander
+Albus Severus Potter
+Scorpius Malfoy
+Rose Granger-Weasley
+Delphi
+Bogrod
+Ragnok
+Gornuk
+Dirk Cresswell
+Bob Ogden
+Kennilworthy Whisp
+Gilbert Wimple
+Broderick Bode
+Croaker
+Eric Munch
+Dawlish
+Proudfoot
+Savage
+Williamson
+Hengist of Woodcroft

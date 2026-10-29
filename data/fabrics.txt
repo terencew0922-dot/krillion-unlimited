@@ -1,0 +1,206 @@
+name: Fabrics & Textiles
+blurb: Fibers, weaves and materials in your closet and beyond.
+group: Arts & History
+---
+Cotton
+Denim
+Silk
+Wool
+Polyester
+Leather
+Linen
+Nylon
+Velvet
+Satin
+Spandex|lycra|elastane
+Fleece
+Flannel
+Cashmere
+Corduroy
+Suede
+Lace
+Chiffon
+Jersey
+Tweed
+Rayon|viscose
+Acrylic
+Canvas
+Felt
+Mesh
+Tulle
+Chenille
+Muslin
+Gauze
+Organza
+Taffeta
+Crepe
+Georgette
+Voile
+Poplin
+Chambray
+Oxford|oxford cloth
+Seersucker
+Gingham
+Madras
+Plaid|tartan
+Houndstooth
+Herringbone
+Twill
+Gabardine
+Serge
+Chino|chino cloth
+Duck|duck canvas
+Burlap|hessian
+Jute
+Hemp
+Ramie
+Bamboo
+Modal
+Lyocell|tencel
+Cupro
+Acetate
+Microfiber
+Neoprene
+Gore-Tex
+Kevlar
+Nomex
+Ripstop
+Cordura
+Tyvek
+Vinyl
+Pleather|faux leather
+Patent Leather
+Nubuck
+Shearling
+Sheepskin
+Mohair
+Angora
+Alpaca
+Vicuna
+Camel Hair
+Merino
+Lambswool
+Qiviut
+Yak|yak wool
+Pashmina
+Shahtoosh
+Byssus|sea silk
+Spider Silk
+Tussah|tussar
+Dupioni
+Shantung
+Charmeuse
+Habotai
+Pongee
+Crepe de Chine
+Brocade
+Damask
+Jacquard
+Matelasse
+Toile
+Chintz
+Calico
+Percale
+Sateen
+Batiste
+Lawn
+Cambric
+Organdy
+Dimity
+Swiss Dot
+Eyelet
+Broderie Anglaise
+Terry Cloth|terrycloth
+Velour
+Velveteen
+Moleskin
+Plush
+Minky
+Sherpa
+Boucle
+Loden
+Melton
+Boiled Wool
+Harris Tweed
+Donegal Tweed
+Barathea
+Grosgrain
+Faille
+Ottoman
+Bengaline
+Moire
+Lamé|lame
+Pique
+Waffle Knit|waffle
+Rib Knit
+Interlock
+Ponte
+Scuba
+Power Mesh
+Tricot
+Raschel
+Point d'Esprit
+Chantilly Lace
+Alencon Lace
+Guipure
+Batik
+Ikat
+Kente
+Kitenge
+Ankara|dutch wax print
+Bogolan|mudcloth
+Adire
+Kanga
+Shweshwe
+Aso Oke
+Barkcloth|tapa
+Khadi
+Chanderi
+Banarasi
+Kanjeevaram
+Pochampally
+Bandhani
+Kalamkari
+Patola
+Jamdani
+Phulkari
+Kantha
+Muga
+Eri
+Paithani
+Shibori
+Kasuri
+Sashiko
+Chirimen
+Tsumugi
+Nishijin-ori
+Bingata
+Songket
+Ulos
+Tais
+Piña
+Abaca
+Sinamay
+Aguayo
+Arpillera
+Cretonne
+Ticking
+Drill
+Sailcloth
+Oilcloth
+Buckram
+Crinoline
+Interfacing
+Haircloth
+Horsehair
+Wadmal
+Frieze
+Fustian
+Dowlas
+Holland
+Lisle
+Nankeen
+Sarsenet
+Samite
+Sendal
+Baldachin

@@ -1,0 +1,54 @@
+name: U.S. Presidents
+blurb: Every person who has held the office. Last names are enough.
+group: Arts & History
+nope: hillaryclinton => Hillary Clinton was never president. Bill Clinton was.
+nope: franklin => Benjamin Franklin was never president.
+nope: benjaminfranklin => Benjamin Franklin was never president.
+nope: hamilton => Alexander Hamilton was never president.
+nope: alexanderhamilton => Alexander Hamilton was never president.
+---
+Abraham Lincoln|lincoln
+George Washington|washington
+Donald Trump|trump
+Barack Obama|obama
+John F. Kennedy|kennedy|jfk|john kennedy
+Joe Biden|biden
+Franklin D. Roosevelt|fdr|franklin roosevelt
+Thomas Jefferson|jefferson
+Theodore Roosevelt|teddy roosevelt|roosevelt
+Ronald Reagan|reagan
+George W. Bush|bush|george bush|w bush
+Bill Clinton|clinton
+Richard Nixon|nixon
+Jimmy Carter|carter
+George H. W. Bush|bush senior|george hw bush
+John Adams|adams
+Ulysses S. Grant|grant
+Dwight D. Eisenhower|eisenhower|ike
+Harry S. Truman|truman
+Lyndon B. Johnson|lbj|lyndon johnson
+Andrew Jackson|jackson
+James Madison|madison
+Gerald Ford|ford
+Woodrow Wilson|wilson
+James Monroe|monroe
+John Quincy Adams
+Herbert Hoover|hoover
+William Howard Taft|taft
+Andrew Johnson
+James K. Polk|polk
+Calvin Coolidge|coolidge
+William McKinley|mckinley
+Warren G. Harding|harding
+Grover Cleveland|cleveland
+Martin Van Buren|van buren
+William Henry Harrison
+Zachary Taylor|taylor
+John Tyler|tyler
+Rutherford B. Hayes|hayes
+James Garfield|garfield
+Chester A. Arthur|arthur
+Benjamin Harrison
+Franklin Pierce|pierce
+James Buchanan|buchanan
+Millard Fillmore|fillmore

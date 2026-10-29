@@ -1,0 +1,192 @@
+name: Cocktails
+blurb: Classics, tiki, modern and forgotten mixed drinks.
+group: Food & Drink
+---
+Margarita
+Mojito
+Martini
+Pina Colada
+Cosmopolitan|cosmo
+Old Fashioned
+Manhattan
+Long Island Iced Tea
+Bloody Mary
+Daiquiri
+Mai Tai
+Whiskey Sour
+Moscow Mule
+Gin and Tonic|g&t
+Screwdriver
+Sex on the Beach
+Tequila Sunrise
+Negroni
+Aperol Spritz|spritz
+Espresso Martini
+Mimosa
+Bellini
+White Russian
+Black Russian
+Cuba Libre|rum and coke
+Paloma
+Caipirinha
+Tom Collins
+Mint Julep
+Sangria
+Hurricane
+Blue Lagoon
+Bahama Mama
+Zombie
+Painkiller
+Dark 'n' Stormy|dark and stormy
+Sidecar
+French 75
+Sazerac
+Gimlet
+Kamikaze
+Lemon Drop
+Appletini
+Mudslide
+Grasshopper
+Irish Coffee
+Hot Toddy
+Eggnog
+Pisco Sour
+Michelada
+Salty Dog
+Greyhound
+Sea Breeze
+Bay Breeze
+Cape Codder|vodka cranberry
+Fuzzy Navel
+Woo Woo
+Harvey Wallbanger
+Godfather
+Godmother
+Rusty Nail
+Rob Roy
+Boulevardier
+Americano
+Bramble
+Clover Club
+Aviation
+Corpse Reviver
+Last Word
+Paper Plane
+Penicillin
+Gold Rush
+Bee's Knees
+Southside
+Pegu Club
+Ramos Gin Fizz
+Singapore Sling
+Vesper
+Gibson
+Dirty Martini
+Vieux Carre
+Brooklyn
+Hanky Panky
+Martinez
+Tuxedo
+Bijou
+Jack Rose
+Ward Eight
+Mary Pickford
+El Presidente
+Hemingway Daiquiri|papa doble
+Jungle Bird
+Navy Grog
+Fog Cutter
+Scorpion
+Missionary's Downfall
+Three Dots and a Dash
+Suffering Bastard
+Planter's Punch
+Rum Runner
+Blue Hawaii
+Chi-Chi
+Lava Flow
+Bushwacker
+Canchanchara
+Batida
+Tom and Jerry
+Stinger
+Brandy Alexander
+Pink Lady
+White Lady
+Between the Sheets
+French Connection
+Kir
+Kir Royale
+Hugo
+Garibaldi
+Negroni Sbagliato|sbagliato
+Bicicletta
+Rossini
+Tinto de Verano
+Kalimotxo|calimocho
+Agua de Valencia
+Queimada
+Sherry Cobbler
+Brandy Crusta
+Fish House Punch
+Pimm's Cup|pimms
+Snakebite
+Black Velvet
+Boilermaker
+Shandy
+Radler
+Sake Bomb
+Soju Bomb|somaek
+Chuhai
+Highball|japanese highball
+Lychee Martini
+Pornstar Martini
+Breakfast Martini
+Tommy's Margarita
+Naked and Famous
+Oaxaca Old Fashioned
+Mezcal Mule
+Jalisco Mule
+Ranch Water
+Batanga
+Charro Negro
+Vampiro
+Bloody Maria
+Caesar|bloody caesar
+Red Snapper
+Corn 'n' Oil
+Ti' Punch
+Rum Swizzle
+Queen's Park Swizzle
+Daisy
+Fix
+Smash|whiskey smash
+Flip
+Toronto
+Blood and Sand
+Bobby Burns
+Monkey Gland
+Satan's Whiskers
+Twentieth Century
+Widow's Kiss
+Alaska
+Bronx
+Hotel Nacional
+Algonquin
+Diamondback
+Champs-Elysees
+Japanese Cocktail
+Improved Whiskey Cocktail
+Remember the Maine
+Chrysanthemum
+Adonis
+Bamboo
+Trinidad Sour
+Saturn
+Test Pilot
+Port Light
+Pearl Diver
+Nui Nui
+Cobra's Fang
+Tradewinds
+Halekulani
