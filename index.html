@@ -158,6 +158,30 @@ details.all summary { cursor: pointer; font: 700 15px var(--font-display); }
 .zonelist { margin-top: 12px; display: flex; flex-direction: column; gap: 14px; }
 .zonelist h5 { margin: 0 0 6px; font: 500 11px var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
 
+/* quick fire */
+.qfcard { display: flex; align-items: center; justify-content: space-between; gap: 16px 24px; flex-wrap: wrap; margin-top: 22px; padding: 18px 20px; border-radius: 14px; border: 1px solid var(--krill); background: color-mix(in srgb, var(--krill) 10%, var(--panel)); }
+.qfcard > div:first-child { flex: 1 1 320px; min-width: 0; }
+.qfcard b { font: 800 26px/1.1 var(--font-display); }
+.qfcard p { margin: 4px 0 0; color: var(--muted); max-width: 60ch; }
+.qfgo { display: flex; align-items: center; gap: 14px; }
+.qfgo span { font: 400 13px var(--font-mono); color: var(--glow); }
+.qtop { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.lives { display: flex; gap: 6px; }
+.lives i { width: 12px; height: 12px; border-radius: 50%; background: var(--krill); }
+.lives i.gone { background: transparent; border: 1.5px solid var(--line); }
+.timer { height: 10px; border-radius: 999px; background: var(--line); overflow: hidden; margin: 16px 0 0; }
+.timer div { height: 100%; width: 100%; background: var(--glow); border-radius: 999px; }
+.timer.low div { background: var(--bad); }
+.reveal { margin-top: 14px; padding: 16px 18px; border-radius: 12px; border: 1px solid var(--line); background: color-mix(in srgb, var(--panel) 85%, transparent); border-left: 4px solid var(--zc, var(--line)); animation: drop .35s ease-out; }
+.reveal .ans { font: 800 28px/1.1 var(--font-display); overflow-wrap: anywhere; }
+.reveal .dz { font: 500 14px var(--font-mono); color: var(--muted); margin-top: 4px; }
+.reveal .dz b { color: var(--krill); }
+.reveal p { margin: 10px 0 0; color: var(--muted); font-size: 14px; }
+.reveal p b { color: var(--ink); font-weight: 700; }
+.runlist { list-style: none; padding: 0; margin: 18px 0 0; display: flex; flex-direction: column; gap: 6px; }
+.runlist li { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 12px; align-items: baseline; padding: 8px 12px; border-radius: 8px; background: color-mix(in srgb, var(--panel) 75%, transparent); border-left: 4px solid var(--zc, var(--line)); }
+.runlist li small { display: block; color: var(--muted); font-size: 12px; }
+
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
 </style>
 </head>
@@ -242,6 +266,7 @@ const CATS = [
 
 /* ---------- helpers ---------- */
 const MAX_DEPTH = 10935; // Challenger Deep, metres
+const QF_SECS = 25;
 const ZONES = [
   { name:"Sunlight", to:200 }, { name:"Twilight", to:1000 }, { name:"Midnight", to:4000 },
   { name:"Abyssal", to:6000 }, { name:"Hadal", to:MAX_DEPTH },
@@ -331,26 +356,31 @@ const esc = s => s.replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;
 
 /* ---------- state ---------- */
 let mode = store.get("krill:mode") ?? 120;
-let game = null, tick = null;
+let game = null, tick = null, qf = null, screen = "home";
 const view = document.getElementById("view");
 
 function setMode(m) {
   mode = m; store.set("krill:mode", m);
   document.querySelectorAll(".modes button").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.mode === m)));
-  if (!game) renderHome();
+  if (screen === "home") renderHome();
 }
-document.querySelectorAll(".modes button").forEach(b => b.onclick = () => { if (!game || game.over) setMode(+b.dataset.mode); });
+document.querySelectorAll(".modes button").forEach(b => b.onclick = () => { if (screen !== "play") setMode(+b.dataset.mode); });
 document.getElementById("home").onclick = () => { stop(); renderHome(); };
 
 const bestKey = id => `krill:best:${id}:${mode}`;
 
 /* ---------- home ---------- */
 function renderHome() {
-  game = null;
+  game = null; qf = null; screen = "home";
   const totalItems = CATS.reduce((s, c) => s + build(c)._items.length, 0);
+  const qfBest = store.get("krill:qfbest");
   view.innerHTML = `
-    <p class="lede">Pick a category and name as many as you can. Every answer sinks to a depth based on how rarely people think of it.
+    <p class="lede">Every answer sinks to a depth based on how rarely people think of it.
       <b>Obvious answers stay near the surface. Niche answers go to the trench</b> and score far more. ${CATS.length} categories, ${fmt(totalItems)} answers, no daily limit.</p>
+    <div class="qfcard">
+      <div><b>Quick fire</b><p>A random category. ${QF_SECS} seconds to name one thing in it, as obscure as you dare. Run out of time three times and the run ends.</p></div>
+      <div class="qfgo">${qfBest ? `<span>best ${fmt(qfBest)}</span>` : ""}<button class="btn" id="qfstart">Start quick fire</button></div>
+    </div>
     <div class="zones" aria-label="Depth zones">
       <div class="z0"><b>Sunlight</b><small>0–200 m</small></div>
       <div class="z1"><b>Twilight</b><small>200–1,000 m</small></div>
@@ -358,7 +388,7 @@ function renderHome() {
       <div class="z3"><b>Abyssal</b><small>4,000–6,000 m</small></div>
       <div class="z4"><b>Hadal</b><small>6,000–10,935 m</small></div>
     </div>
-    <div class="gridhead"><h2>Choose your water</h2><button class="btn" id="rand">Random category</button></div>
+    <div class="gridhead"><h2>Marathon: name as many as you can</h2><button class="btn ghost" id="rand">Random category</button></div>
     <div class="cats">${CATS.map(c => {
       const best = store.get(bestKey(c.id));
       return `<button class="cat" data-id="${c.id}"><b>${esc(c.name)}</b><p>${esc(c.blurb)}</p>
@@ -366,6 +396,7 @@ function renderHome() {
     }).join("")}</div>`;
   view.querySelectorAll(".cat").forEach(b => b.onclick = () => start(CATS.find(c => c.id === b.dataset.id)));
   document.getElementById("rand").onclick = () => start(randomCat());
+  document.getElementById("qfstart").onclick = startQuick;
 }
 function randomCat(except) {
   const pool = CATS.filter(c => c.id !== except);
@@ -376,7 +407,7 @@ function randomCat(except) {
 function stop() { clearInterval(tick); tick = null; }
 
 function start(cat) {
-  stop(); build(cat);
+  stop(); build(cat); screen = "play"; qf = null;
   game = { cat, found: [], score: 0, left: mode, timed: mode > 0, over: false };
   view.innerHTML = `
     <section class="game">
@@ -497,7 +528,7 @@ function placeMarker(it, fresh, el = document.getElementById("gauge"), missed = 
 /* ---------- results ---------- */
 function finish() {
   if (!game || game.over) return;
-  game.over = true; stop();
+  game.over = true; stop(); screen = "results";
   const { cat, found, score } = game;
   const got = found.map(i => cat._items[i]);
   const avg = got.length ? got.reduce((s, it) => s + it.depth, 0) / got.length : 0;
@@ -549,6 +580,163 @@ function finish() {
   got.forEach(it => placeMarker(it, false, g));
   document.getElementById("again").onclick = () => start(cat);
   document.getElementById("next").onclick = () => start(randomCat(cat.id));
+  document.getElementById("back").onclick = renderHome;
+}
+
+/* ---------- quick fire: one random category, one answer, 25 seconds ---------- */
+function startQuick() {
+  stop(); game = null;
+  qf = { score: 0, lives: 3, n: 0, answers: [], last: null };
+  nextQ();
+}
+const livesHtml = () => `<span class="lives" aria-label="${qf.lives} lives left">${[0, 1, 2].map(k => `<i class="${k < qf.lives ? "" : "gone"}"></i>`).join("")}</span>`;
+
+function nextQ() {
+  stop(); screen = "play";
+  const cat = build(randomCat(qf.last));
+  Object.assign(qf, { cat, last: cat.id, done: false });
+  qf.n++;
+  const deadline = Date.now() + QF_SECS * 1000;
+  view.innerHTML = `
+    <section class="game">
+      <div>
+        <div class="qtop"><span class="prompt">Quick fire · question ${qf.n}</span>${livesHtml()}</div>
+        <div class="prompt" style="margin-top:14px">Name one</div>
+        <h2 class="catname">${esc(cat.name)}</h2>
+        <p class="lede" style="margin:0">${esc(cat.blurb)} The more obscure, the deeper it sinks.</p>
+        <div class="timer" id="timer"><div id="fill"></div></div>
+        <div class="hud">
+          <div id="hTime"><small>Time</small><strong id="time">${QF_SECS}</strong></div>
+          <div><small>Run score</small><strong id="qscore">${fmt(qf.score)}</strong></div>
+          <div><small>Answered</small><strong id="qcount">${qf.answers.length}</strong></div>
+        </div>
+        <form class="entry" id="form" autocomplete="off">
+          <label class="prompt" for="guess" style="display:block;margin-bottom:6px">Your answer</label>
+          <input id="guess" placeholder="Type and press Enter" spellcheck="false" autocapitalize="off" autocorrect="off">
+        </form>
+        <div class="toast" id="toast" aria-live="polite">Wrong guesses are free. Keep trying until the clock runs out.</div>
+        <div id="reveal"></div>
+        <div class="row" id="qrow"><button class="btn ghost" id="endrun">End run</button></div>
+      </div>
+      <div class="gauge" id="gauge" aria-label="Depth of this run's answers"></div>
+    </section>`;
+  const g = document.getElementById("gauge");
+  drawGaugeZones(g);
+  qf.answers.forEach(a => placeMarker(a.it, false, g));
+  const input = document.getElementById("guess");
+  input.focus();
+  input.addEventListener("input", () => {
+    const r = lookup(cat, input.value, false);
+    if (r && !isPrefixOf(cat, norm(input.value))) resolveQ(r.i);
+  });
+  document.getElementById("form").addEventListener("submit", e => {
+    e.preventDefault();
+    const v = input.value;
+    if (!v.trim() || qf.done) return;
+    const r = lookup(cat, v, true);
+    if (!r) return reject(`"${v}" isn't on the list.`);
+    if (r.nope) return reject(r.nope);
+    resolveQ(r.i, r.fuzzy);
+  });
+  document.getElementById("endrun").onclick = endRun;
+  tick = setInterval(() => {
+    const left = Math.max(0, deadline - Date.now());
+    document.getElementById("fill").style.width = (100 * left / (QF_SECS * 1000)) + "%";
+    document.getElementById("time").textContent = Math.ceil(left / 1000);
+    const low = left <= 5000;
+    document.getElementById("timer").classList.toggle("low", low);
+    document.getElementById("hTime").classList.toggle("low", low);
+    if (!left) resolveQ(null);
+  }, 100);
+}
+
+// in quick fire nothing is "found" yet, so hold off while the text could still become a longer answer
+function isPrefixOf(cat, k) {
+  for (const key of cat._keys.keys()) if (key !== k && key.startsWith(k)) return true;
+  return false;
+}
+
+function resolveQ(i, fuzzy) {
+  if (qf.done) return;
+  qf.done = true; stop();
+  const cat = qf.cat, items = cat._items;
+  const input = document.getElementById("guess");
+  input.disabled = true;
+  document.getElementById("toast").textContent = "";
+  const common = items.slice(0, 3).map(it => it.name).join(", ");
+  const deepPool = items.filter(it => zoneOf(it.depth) === 4 && it.rank !== i);
+  const deep = deepPool[Math.floor(Math.random() * deepPool.length)];
+  const rv = document.getElementById("reveal");
+  rv.className = "reveal";
+  if (i == null) {
+    qf.lives--;
+    rv.style.setProperty("--zc", "var(--bad)");
+    rv.innerHTML = `<div class="ans">Time's up</div>
+      <div class="dz">${qf.lives ? `${qf.lives} ${qf.lives === 1 ? "life" : "lives"} left` : "No lives left"}</div>
+      <p>Easy ones: <b>${esc(common)}</b>${deep ? `. A trench-level answer: <b>${esc(deep.name)}</b>` : ""}.</p>`;
+  } else {
+    const it = items[i];
+    qf.score += it.pts;
+    qf.answers.push({ cat, it });
+    const z = zoneOf(it.depth);
+    rv.style.setProperty("--zc", zoneColor[z]);
+    const beat = items.length - 1 - it.rank;
+    rv.innerHTML = `<div class="ans">${esc(it.name)}${fuzzy ? " <small style='font-size:14px;color:var(--muted)'>(close enough)</small>" : ""}</div>
+      <div class="dz">${fmt(it.depth)} m · ${ZONES[z].name} zone · <b>+${it.pts}</b></div>
+      <p>${it.rank < 3 ? "One of the first answers anyone gives." : `More obscure than ${fmt(it.rank)} of the ${fmt(items.length)} answers.`}
+        ${deep && it.depth < deep.depth ? `Deeper option: <b>${esc(deep.name)}</b>.` : beat === 0 ? "That's the deepest answer on the list." : ""}</p>`;
+    placeMarker(it, true);
+  }
+  document.querySelector(".lives").outerHTML = livesHtml();
+  document.getElementById("qscore").textContent = fmt(qf.score);
+  document.getElementById("qcount").textContent = qf.answers.length;
+  const over = qf.lives <= 0;
+  document.getElementById("qrow").innerHTML = over
+    ? `<button class="btn" id="qnext">See results</button>`
+    : `<button class="btn" id="qnext">Next question</button><button class="btn ghost" id="endrun">End run</button>`;
+  const next = document.getElementById("qnext");
+  // an Enter meant for the answer box shouldn't skip straight past the reveal
+  const shown = Date.now();
+  next.onclick = () => { if (Date.now() - shown > 700) (over ? endRun : nextQ)(); };
+  next.focus();
+  const er = document.getElementById("endrun");
+  if (er) er.onclick = endRun;
+}
+
+function endRun() {
+  stop(); screen = "results";
+  const { score, answers } = qf;
+  const prev = store.get("krill:qfbest") || 0;
+  const isBest = score > prev;
+  if (isBest) store.set("krill:qfbest", score);
+  const avg = answers.length ? answers.reduce((s, a) => s + a.it.depth, 0) / answers.length : 0;
+  const rank = RANKS.find(r => avg <= r.to);
+  view.innerHTML = `
+    <section class="game">
+      <div>
+        <div class="prompt">Quick fire · run over</div>
+        <div class="verdict">
+          <div class="big">${fmt(score)}<small>${isBest && score ? "New best" : prev ? "Best " + fmt(prev) : "Points"}</small></div>
+          <div><h3>${answers.length ? rank.t : "Never got wet"}</h3>
+            <p>${answers.length ? rank.d : "No answers this run. The water's fine, jump back in."}</p>
+            <p style="margin-top:8px">Answered <b>${answers.length}</b> of ${qf.n} · average depth <b>${fmt(Math.round(avg))} m</b></p>
+          </div>
+        </div>
+        <div class="row">
+          <button class="btn" id="again">New run</button>
+          <button class="btn ghost" id="back">All categories</button>
+        </div>
+        <ul class="runlist">${answers.map(a => `<li style="--zc:${zoneColor[zoneOf(a.it.depth)]}">
+          <span><b>${esc(a.it.name)}</b><small>${esc(a.cat.name)}</small></span>
+          <span class="d" style="font:400 13px var(--font-mono);color:var(--muted)">${fmt(a.it.depth)} m</span>
+          <span style="font:500 13px var(--font-mono);color:var(--krill)">+${a.it.pts}</span></li>`).join("")}</ul>
+      </div>
+      <div class="gauge" id="gauge" aria-label="Depth of this run's answers"></div>
+    </section>`;
+  const g = document.getElementById("gauge");
+  drawGaugeZones(g);
+  answers.forEach(a => placeMarker(a.it, false, g));
+  document.getElementById("again").onclick = startQuick;
   document.getElementById("back").onclick = renderHome;
 }
 
